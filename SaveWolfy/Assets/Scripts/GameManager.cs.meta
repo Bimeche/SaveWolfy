@@ -1,0 +1,20 @@
+fileFormatVersion: 2
+guid: 27eed778dfb3ec54e871f448dbd1c101
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - cow: {fileID: 4855846170765632, guid: 0149b384a4f85334eac66f23b7c8e2f2, type: 2}
+  - scoreSheet: {instanceID: 0}
+  - pausePanel: {instanceID: 0}
+  - pauseButtonPanel: {instanceID: 0}
+  - currentScorePanel: {instanceID: 0}
+  - scoreText: {instanceID: 0}
+  - bestScore: {instanceID: 0}
+  - finalScore: {instanceID: 0}
+  - scoreToBeat: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
