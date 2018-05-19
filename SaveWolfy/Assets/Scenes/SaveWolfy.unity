@@ -298,7 +298,8 @@ Prefab:
       propertyPath: m_Name
       value: CowSpawner 6
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 114562209176588266, guid: 0accbcc6ee8e20c4aad2e8b80b743acb, type: 2}
   m_ParentPrefab: {fileID: 100100000, guid: 0accbcc6ee8e20c4aad2e8b80b743acb, type: 2}
   m_IsPrefabParent: 0
 --- !u!1001 &394760301
@@ -486,7 +487,8 @@ Prefab:
       propertyPath: m_Name
       value: CowSpawner 3
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 114562209176588266, guid: 0accbcc6ee8e20c4aad2e8b80b743acb, type: 2}
   m_ParentPrefab: {fileID: 100100000, guid: 0accbcc6ee8e20c4aad2e8b80b743acb, type: 2}
   m_IsPrefabParent: 0
 --- !u!1001 &785001798
@@ -532,7 +534,8 @@ Prefab:
       propertyPath: m_Name
       value: CowSpawner 7
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 114562209176588266, guid: 0accbcc6ee8e20c4aad2e8b80b743acb, type: 2}
   m_ParentPrefab: {fileID: 100100000, guid: 0accbcc6ee8e20c4aad2e8b80b743acb, type: 2}
   m_IsPrefabParent: 0
 --- !u!1001 &1001347768
@@ -578,7 +581,8 @@ Prefab:
       propertyPath: m_Name
       value: CowSpawner 2
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 114562209176588266, guid: 0accbcc6ee8e20c4aad2e8b80b743acb, type: 2}
   m_ParentPrefab: {fileID: 100100000, guid: 0accbcc6ee8e20c4aad2e8b80b743acb, type: 2}
   m_IsPrefabParent: 0
 --- !u!1 &1374935321
@@ -724,7 +728,8 @@ Prefab:
       propertyPath: m_Name
       value: CowSpawner 4
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 114562209176588266, guid: 0accbcc6ee8e20c4aad2e8b80b743acb, type: 2}
   m_ParentPrefab: {fileID: 100100000, guid: 0accbcc6ee8e20c4aad2e8b80b743acb, type: 2}
   m_IsPrefabParent: 0
 --- !u!1001 &1498105382
@@ -812,7 +817,8 @@ Prefab:
       propertyPath: m_Name
       value: CowSpawner 5
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 114562209176588266, guid: 0accbcc6ee8e20c4aad2e8b80b743acb, type: 2}
   m_ParentPrefab: {fileID: 100100000, guid: 0accbcc6ee8e20c4aad2e8b80b743acb, type: 2}
   m_IsPrefabParent: 0
 --- !u!1 &1917707992
@@ -826,6 +832,7 @@ GameObject:
   - component: {fileID: 1917707995}
   - component: {fileID: 1917707994}
   - component: {fileID: 1917707993}
+  - component: {fileID: 1917707997}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -896,6 +903,27 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1917707997
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1917707992}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 27eed778dfb3ec54e871f448dbd1c101, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cow: {fileID: 4855846170765632, guid: 0149b384a4f85334eac66f23b7c8e2f2, type: 2}
+  pausePanel: {fileID: 0}
+  pauseButtonPanel: {fileID: 0}
+  currentScorePanel: {fileID: 0}
+  spawnForce: 100
+  scoreText: {fileID: 0}
+  bestScore: {fileID: 0}
+  finalScore: {fileID: 0}
+  scoreToBeat: {fileID: 0}
+  spawnTime: 2
 --- !u!1001 &2016425178
 Prefab:
   m_ObjectHideFlags: 0
@@ -939,6 +967,7 @@ Prefab:
       propertyPath: m_Name
       value: CowSpawner 1
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 114562209176588266, guid: 0accbcc6ee8e20c4aad2e8b80b743acb, type: 2}
   m_ParentPrefab: {fileID: 100100000, guid: 0accbcc6ee8e20c4aad2e8b80b743acb, type: 2}
   m_IsPrefabParent: 0

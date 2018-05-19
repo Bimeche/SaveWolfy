@@ -9,6 +9,10 @@ public class WolfyManager : AIManager {
 	Rigidbody2D myRB;
 	bool bumpPossible;
 
+	//Cooldown du Dash
+	float dashRate = 0.2f;
+	private float nextDash;
+
 	// Use this for initialization
 	void Start () {
 		myRB = this.GetComponent<Rigidbody2D> ();
@@ -26,12 +30,12 @@ public class WolfyManager : AIManager {
 			//A mettre en commentaire si on veux garder les effets de la cinétique
 
 			//Si on veut utiliser le delta du stick:
-			myRB.AddForce (Vector2.up * (Input.GetAxis ("Vertical") - lastVertical) * 1000);
-			myRB.AddForce (Vector2.right * (Input.GetAxis ("Horizontal") - lastHorizontal) * 1000);
+			/*myRB.AddForce (Vector2.up * (Input.GetAxis ("Vertical") - lastVertical) * 1000);
+			myRB.AddForce (Vector2.right * (Input.GetAxis ("Horizontal") - lastHorizontal) * 1000);*/
 
 			//Si on veut utiliser la valeur instantanée du stick
-			/*myRB.AddForce (Vector2.up * (Input.GetAxis ("Vertical") * 1000));
-				myRB.AddForce (Vector2.right * (Input.GetAxis ("Horizontal") * 1000));*/
+			myRB.AddForce (Vector2.up * (Input.GetAxis ("Vertical") * 2000));
+			myRB.AddForce (Vector2.right * (Input.GetAxis ("Horizontal") * 2000));
 
 			bumpPossible = false;
 		}
@@ -40,8 +44,15 @@ public class WolfyManager : AIManager {
 			bumpPossible = true;
 		}
 
-		lastVertical = Input.GetAxis ("Vertical");
-		lastHorizontal = Input.GetAxis ("Horizontal");
+		//lastVertical = Input.GetAxis ("Vertical");
+		//lastHorizontal = Input.GetAxis ("Horizontal");
+
+		if (Input.GetButtonUp("Dash") && Time.time > nextDash) {
+			nextDash = Time.time + dashRate;
+			Debug.Log ("Test");
+			myRB.AddForce (Vector2.up * (Input.GetAxis ("Vertical") * 3000));
+			myRB.AddForce (Vector2.right * (Input.GetAxis ("Horizontal") * 3000));
+		}
 	}
 		
 }

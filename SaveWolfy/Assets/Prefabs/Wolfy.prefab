@@ -55,7 +55,7 @@ Rigidbody2D:
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
-  m_LinearDrag: 0
+  m_LinearDrag: 5
   m_AngularDrag: 0.05
   m_GravityScale: 1
   m_Material: {fileID: 0}
@@ -89,6 +89,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 061ff689f0f899843940ddc69132fbc1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  playerForce: 100
+  cowForce: 100
+  maxMagnitude: 30
+  minMagnitude: 50
 --- !u!212 &212183607695207876
 SpriteRenderer:
   m_ObjectHideFlags: 1
