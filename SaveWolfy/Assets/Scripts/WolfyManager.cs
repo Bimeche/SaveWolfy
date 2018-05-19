@@ -15,7 +15,7 @@ public class WolfyManager : AIManager {
 
 	// Use this for initialization
 	void Start () {
-		myRB = this.GetComponent<Rigidbody2D> ();
+		myRB = GetComponent<Rigidbody2D> ();
 		bumpPossible = true;
 	}
 	
