@@ -93,7 +93,7 @@ MonoBehaviour:
   cowForce: 200
   maxMagnitude: 50
   minMagnitude: 400
-  player: {fileID: 0}
+  player: {fileID: 1892611751071694, guid: 9d1e1652e415fb64eb3da9bc02b36743, type: 2}
   isWolfVisible: 0
   wolfForce: 200
 --- !u!212 &212183607695207876
