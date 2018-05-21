@@ -9,7 +9,6 @@ public class DeathScript : MonoBehaviour {
 	private void OnTriggerEnter2D (Collider2D collision) {
 		if (collision.gameObject.tag == "Cow")
 		{
-			Debug.Log ("Yoho");
 			if(collision.gameObject.GetComponent<CowScript>().isCowVisible)
 				gMan.DestroyCow(collision.gameObject);
 		}
