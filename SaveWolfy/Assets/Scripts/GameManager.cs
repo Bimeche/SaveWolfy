@@ -23,6 +23,7 @@ public class GameManager : MonoBehaviour {
 	int palier = 5;
 	private bool gameEnded;
 
+
 	// Use this for initialization
 	void Start () {
 		Cursor.visible = true;
@@ -93,7 +94,7 @@ public class GameManager : MonoBehaviour {
 
 	public void DestroyCow (GameObject go) {
 		cowsSpawned.Remove(go.transform);
-		playerScore += 10;
+		playerScore += 5;
 		Destroy(go);
 		Debug.Log("Cow destroyed");
 	}

@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class CowScript : AIManager {
 	[HideInInspector] public bool isCowVisible;
+	private int strikeMeter = 0;
+	private bool comboTouch = false;
 
 	// Use this for initialization
 	void Start () {
@@ -22,6 +24,7 @@ public class CowScript : AIManager {
 	private void OnCollisionEnter2D (Collision2D collision) {
 		if (collision.gameObject.tag == "Player") {
 			if (collision.contacts.Length > 0) {
+				strikeMeter++;
 				Vector2 impactPoint = new Vector2 (collision.contacts [0].point.x - transform.position.x, collision.contacts [0].point.y - transform.position.y);
 				Vector2 impactSpeed = new Vector2 (collision.contacts [0].relativeVelocity.x - rb.velocity.x, collision.contacts [0].relativeVelocity.y - rb.velocity.y);
 
@@ -32,9 +35,11 @@ public class CowScript : AIManager {
 					magnitude = minMagnitude;
 
 				rb.AddForce (impactPoint * magnitude);
+				comboTouch = true;
 			}
 		} else if (collision.gameObject.tag == "Cow") {
 			if (collision.contacts.Length > 0) {
+				strikeMeter++;
 				Vector2 impactPoint = new Vector2 (collision.contacts [0].point.x - transform.position.x, collision.contacts [0].point.y - transform.position.y);
 
 				impactPoint = -impactPoint.normalized;
@@ -51,5 +56,9 @@ public class CowScript : AIManager {
 	}
 
 	void OnDestroy(){
+		Debug.Log (strikeMeter);
+		if (comboTouch == true) {
+			SetCombo ();
+		} 
 	}
 }
