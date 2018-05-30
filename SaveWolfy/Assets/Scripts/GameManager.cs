@@ -8,6 +8,7 @@ public class GameManager : MonoBehaviour {
 	public RectTransform pausePanel;
 	public RectTransform pauseButtonPanel;
 	public RectTransform currentScorePanel;
+	public RectTransform endGamePanel;
 	public float spawnForce = 100f;
 	public Text scoreText;
 	public Text bestScore;
@@ -31,6 +32,8 @@ public class GameManager : MonoBehaviour {
 		gameEnded = false;
 		cowsSpawned = new List<Transform>();
 		spawns = GameObject.FindGameObjectsWithTag("CowSpawn");
+		endGamePanel.GetComponent<CanvasGroup>().alpha = 0;
+		endGamePanel.GetComponent<CanvasGroup>().blocksRaycasts = false;
 		Invoke("SpawnCow", spawnTime);
 	}
 
@@ -131,12 +134,15 @@ public class GameManager : MonoBehaviour {
 			Destroy(toDestroy.gameObject);
 		}
 
-		pauseButtonPanel.GetComponent<CanvasGroup>().alpha = 0;
-		pauseButtonPanel.GetComponent<CanvasGroup>().blocksRaycasts = false;
+		endGamePanel.GetComponent<CanvasGroup>().alpha = 1;
+		endGamePanel.GetComponent<CanvasGroup>().blocksRaycasts = true;
 
-		currentScorePanel.GetComponent<CanvasGroup>().alpha = 0;
-		currentScorePanel.GetComponent<CanvasGroup>().blocksRaycasts = false;
+		//pauseButtonPanel.GetComponent<CanvasGroup>().alpha = 0;
+		//pauseButtonPanel.GetComponent<CanvasGroup>().blocksRaycasts = false;
 
-		finalScore.text = "" + playerScore;
+		//currentScorePanel.GetComponent<CanvasGroup>().alpha = 0;
+		//currentScorePanel.GetComponent<CanvasGroup>().blocksRaycasts = false;
+
+		//finalScore.text = "" + playerScore;
 	}
 }
