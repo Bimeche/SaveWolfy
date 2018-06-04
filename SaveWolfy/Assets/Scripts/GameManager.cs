@@ -95,11 +95,12 @@ public class GameManager : MonoBehaviour {
 		Invoke("SpawnCow", spawnTime);
 	}
 
-	public void DestroyCow (GameObject go) {
+	public void DestroyCow (GameObject go, int strikeMeter) {
 		cowsSpawned.Remove(go.transform);
 		playerScore += 5;
+		playerScore += strikeMeter;
 		Destroy(go);
-		Debug.Log("Cow destroyed");
+		Debug.Log(playerScore);
 	}
 
 	public void PauseGame () {

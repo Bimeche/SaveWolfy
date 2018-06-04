@@ -10,7 +10,7 @@ public class DeathScript : MonoBehaviour {
 		if (collision.gameObject.tag == "Cow")
 		{
 			if(collision.gameObject.GetComponent<CowScript>().isCowVisible)
-				gMan.DestroyCow(collision.gameObject);
+				gMan.DestroyCow(collision.gameObject, collision.gameObject.GetComponent<CowScript>().strikeMeter);
 		}
 		else if (collision.gameObject.tag == "Wolf")
 		{

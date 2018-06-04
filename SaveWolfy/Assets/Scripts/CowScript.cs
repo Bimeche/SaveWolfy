@@ -4,8 +4,9 @@ using UnityEngine;
 
 public class CowScript : AIManager {
 	[HideInInspector] public bool isCowVisible;
-	private int strikeMeter = 0;
+	public int strikeMeter = 0;
 	private bool comboTouch = false;
+	public GameManager gMan;
 
 	// Use this for initialization
 	void Start () {
@@ -55,7 +56,7 @@ public class CowScript : AIManager {
 		isCowVisible = true;
 	}
 
-	void OnDestroy(){
+	public void OnDestroy(){
 		Debug.Log (strikeMeter);
 		if (comboTouch == true) {
 			SetCombo ();
