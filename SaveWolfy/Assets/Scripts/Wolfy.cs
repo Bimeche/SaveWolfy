@@ -50,7 +50,6 @@ public class Wolfy : AIManager
 				if (magnitude < minMagnitude)
 					magnitude = minMagnitude;
 				rb.AddForce(impactPoint * magnitude);
-				ResetCombo();
 			}
 		}
 		else if (collision.gameObject.tag == "Cow")
@@ -64,7 +63,7 @@ public class Wolfy : AIManager
 
 				rb.AddForce(impactPoint * wolfForce);
 				collision.gameObject.GetComponent<Rigidbody2D>().AddForce(impactPoint * cowForce);
-				ResetCombo();
+				ResetCombo ();
 			}
 		}
 	}

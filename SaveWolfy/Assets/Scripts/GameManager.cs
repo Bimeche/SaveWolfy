@@ -22,6 +22,7 @@ public class GameManager : MonoBehaviour {
 	private List<Transform> cowsSpawned;
 	private bool paused = false;
 	int palier = 5;
+	int comboCount = 0;
 	private bool gameEnded;
 
 
@@ -97,10 +98,18 @@ public class GameManager : MonoBehaviour {
 
 	public void DestroyCow (GameObject go, int strikeMeter) {
 		cowsSpawned.Remove(go.transform);
+		comboCount++;
 		playerScore += 5;
 		playerScore += strikeMeter;
+		playerScore += comboCount;
 		Destroy(go);
 		Debug.Log(playerScore);
+		Debug.Log(comboCount);
+	}
+
+	public void ResetCombo () {
+		comboCount = 0;
+		Debug.Log ("Reset combo");
 	}
 
 	public void PauseGame () {

@@ -8,7 +8,7 @@ public class AIManager : MonoBehaviour {
 	public float cowForce = 100;
 	public float maxMagnitude = 30;
 	public float minMagnitude = 50f;
-	public int comboCount = 0;
+	public GameManager gMan;
 
 	// Use this for initialization
 	void Start () {
@@ -18,13 +18,7 @@ public class AIManager : MonoBehaviour {
 	void Update () {
 	}
 
-	public void SetCombo(){
-		comboCount++;
-		Debug.Log (comboCount);
-	}
-
-	public void ResetCombo(){
-		Debug.Log ("reset combo");
-		comboCount = 0;
+	public void ResetCombo () {
+		gMan.ResetCombo ();
 	}
 }

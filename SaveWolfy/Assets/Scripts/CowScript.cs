@@ -5,7 +5,7 @@ using UnityEngine;
 public class CowScript : AIManager {
 	[HideInInspector] public bool isCowVisible;
 	public int strikeMeter = 0;
-	private bool comboTouch = false;
+	public bool comboTouch = false;
 	public GameManager gMan;
 
 	// Use this for initialization
@@ -36,7 +36,6 @@ public class CowScript : AIManager {
 					magnitude = minMagnitude;
 
 				rb.AddForce (impactPoint * magnitude);
-				comboTouch = true;
 			}
 		} else if (collision.gameObject.tag == "Cow") {
 			if (collision.contacts.Length > 0) {
@@ -57,9 +56,5 @@ public class CowScript : AIManager {
 	}
 
 	public void OnDestroy(){
-		Debug.Log (strikeMeter);
-		if (comboTouch == true) {
-			SetCombo ();
-		} 
 	}
 }
