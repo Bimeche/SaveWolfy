@@ -6,7 +6,6 @@ public class CowScript : AIManager {
 	[HideInInspector] public bool isCowVisible;
 	public int strikeMeter = 0;
 	public bool comboTouch = false;
-	public GameManager gMan;
 
 	// Use this for initialization
 	void Start () {

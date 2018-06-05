@@ -63,7 +63,7 @@ public class Wolfy : AIManager
 
 				rb.AddForce(impactPoint * wolfForce);
 				collision.gameObject.GetComponent<Rigidbody2D>().AddForce(impactPoint * cowForce);
-				ResetCombo ();
+				gMan.ResetCombo ();
 			}
 		}
 	}

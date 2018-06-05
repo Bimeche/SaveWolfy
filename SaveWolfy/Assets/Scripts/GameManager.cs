@@ -33,13 +33,17 @@ public class GameManager : MonoBehaviour {
 		gameEnded = false;
 		cowsSpawned = new List<Transform>();
 		spawns = GameObject.FindGameObjectsWithTag("CowSpawn");
+		pausePanel.GetComponent<CanvasGroup>().alpha = 0;
+		pausePanel.GetComponent<CanvasGroup>().blocksRaycasts = false;
 		endGamePanel.GetComponent<CanvasGroup>().alpha = 0;
 		endGamePanel.GetComponent<CanvasGroup>().blocksRaycasts = false;
 		Invoke("SpawnCow", spawnTime);
 	}
 
 	// Update is called once per frame
-	void FixedUpdate () {
+	void Update () {
+		if (Input.GetKeyDown(KeyCode.P))
+			PauseGame();
 	}
 
 	private void SpawnCow () {
@@ -104,6 +108,7 @@ public class GameManager : MonoBehaviour {
 		playerScore += comboCount;
 		Destroy(go);
 		Debug.Log(playerScore);
+		scoreText.text = "Score : " + playerScore;
 		Debug.Log(comboCount);
 	}
 
@@ -150,9 +155,9 @@ public class GameManager : MonoBehaviour {
 		//pauseButtonPanel.GetComponent<CanvasGroup>().alpha = 0;
 		//pauseButtonPanel.GetComponent<CanvasGroup>().blocksRaycasts = false;
 
-		//currentScorePanel.GetComponent<CanvasGroup>().alpha = 0;
-		//currentScorePanel.GetComponent<CanvasGroup>().blocksRaycasts = false;
+		currentScorePanel.GetComponent<CanvasGroup>().alpha = 0;
+		currentScorePanel.GetComponent<CanvasGroup>().blocksRaycasts = false;
 
-		//finalScore.text = "" + playerScore;
+		finalScore.text = "" + playerScore;
 	}
 }
