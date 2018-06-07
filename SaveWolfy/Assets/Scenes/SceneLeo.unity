@@ -1824,15 +1824,15 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4209935134749696, guid: 9d1e1652e415fb64eb3da9bc02b36743, type: 2}
       propertyPath: m_LocalPosition.x
-      value: -3.33
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4209935134749696, guid: 9d1e1652e415fb64eb3da9bc02b36743, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 1.981
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4209935134749696, guid: 9d1e1652e415fb64eb3da9bc02b36743, type: 2}
       propertyPath: m_LocalPosition.z
-      value: -5
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4209935134749696, guid: 9d1e1652e415fb64eb3da9bc02b36743, type: 2}
       propertyPath: m_LocalRotation.x
@@ -1853,6 +1853,22 @@ Prefab:
     - target: {fileID: 4209935134749696, guid: 9d1e1652e415fb64eb3da9bc02b36743, type: 2}
       propertyPath: m_RootOrder
       value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 58616390539783768, guid: 9d1e1652e415fb64eb3da9bc02b36743,
+        type: 2}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114189403103021568, guid: 9d1e1652e415fb64eb3da9bc02b36743,
+        type: 2}
+      propertyPath: footTrailPrefab
+      value: 
+      objectReference: {fileID: 1731078568737346, guid: f4baa8a125910974fb47bc9bcfb51207,
+        type: 2}
+    - target: {fileID: 58616390539783768, guid: 9d1e1652e415fb64eb3da9bc02b36743,
+        type: 2}
+      propertyPath: m_IsTrigger
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9d1e1652e415fb64eb3da9bc02b36743, type: 2}
