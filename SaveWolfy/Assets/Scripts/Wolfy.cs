@@ -7,7 +7,7 @@ public class Wolfy : AIManager
 	public GameObject player;
 	[HideInInspector]
 	public bool isWolfVisible;
-	public float wolfForce = 100;
+	public float wolfForce;
 	bool panic = false;
 
 

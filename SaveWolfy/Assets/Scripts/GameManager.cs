@@ -42,7 +42,7 @@ public class GameManager : MonoBehaviour {
 	public void DestroyCow (GameObject go, int strikeMeter) {
 		cowsSpawned.Remove(go.transform);
 		comboCount++;
-		playerScore += 5;
+		playerScore += 1;
 		playerScore += strikeMeter;
 		playerScore += comboCount;
 		Destroy(go);

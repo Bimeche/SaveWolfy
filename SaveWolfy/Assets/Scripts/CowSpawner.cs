@@ -7,10 +7,11 @@ public class CowSpawner : MonoBehaviour {
 	public GameObject cow;
 	public Rect spawnZone;
 	public float minSpawnForce = 1f;
-	public float maxSpawnForce = 1000f;
+	public float maxSpawnForce = 800f;
 	public float baseSpawnTime = 3f;
 	public float regularTimeReduction = 0.01f;
 	public float minimalSpawnTime = 0.5f;
+	public int waveCount = 0;
 
 	private GameManager gMan;
 
@@ -21,19 +22,13 @@ public class CowSpawner : MonoBehaviour {
 		Debug.Log(spawnZone.xMin + "  " + spawnZone.xMax + "  " + spawnZone.yMin + "  " + spawnZone.yMax);
 	}
 
-	void RegularCowSpawn () {
+	void CowSpawn (){
 		Vector2 spawnPosition = new Vector2(Random.Range(spawnZone.xMin,spawnZone.xMax), Random.Range(spawnZone.yMin, spawnZone.yMax));
-
-		if(!IsSpawnPossible(spawnPosition, cow.GetComponent<CircleCollider2D>().radius))
-		{
-			Debug.Log("cow collided at spawn, not spawned");
-			baseSpawnTime -= regularTimeReduction;
-			if (baseSpawnTime < minimalSpawnTime)
-				baseSpawnTime = minimalSpawnTime;
-			Invoke("RegularCowSpawn", baseSpawnTime);
+		if (!IsSpawnPossible (spawnPosition, cow.GetComponent<CircleCollider2D> ().radius)) {
+			Debug.Log ("supp cow collided at spawn, not spawned");
+			CowSpawn ();
 			return;
 		}
-
 		GameObject cowSpawned = Instantiate(cow, spawnPosition, Quaternion.identity);
 
 		Vector2 angle;
@@ -47,10 +42,50 @@ public class CowSpawner : MonoBehaviour {
 
 		cowSpawned.GetComponent<Rigidbody2D>().AddForce(angle * Random.Range(minSpawnForce, maxSpawnForce));
 		gMan.cowsSpawned.Add(cowSpawned.transform);
+	}
+
+	void RegularCowSpawn () {
+		CowSpawn ();
+		float chance = Random.Range(0f, 1f);
+		if (chance < 0.3f) {
+			SuppCowSpawn ();
+		}
+
 		baseSpawnTime -= regularTimeReduction;
 		if (baseSpawnTime < minimalSpawnTime)
 			baseSpawnTime = minimalSpawnTime;
 		Invoke("RegularCowSpawn", baseSpawnTime);
+		if (waveCount == 10) {
+			waveCount = 0;
+			WaveSpawn ();
+		}
+		waveCount++;
+	}
+
+	void SuppCowSpawn () {
+		Debug.Log("Spawned 2nd cow");
+		CowSpawn ();
+		float chance = Random.Range (0f, 1f);
+		if (chance < 0.1f) {
+			Supp2CowSpawn ();
+		}
+	}
+
+	void Supp2CowSpawn () {
+		Debug.Log ("Spawned 3rd Cow");
+		CowSpawn ();
+	}
+
+	void WaveSpawn (){
+		Debug.Log ("Spawned wave Cow!");
+		CowSpawn();
+		float chance = Random.Range (0.0f, 1.0f);
+			if(chance > 0.4){
+				CowSpawn();
+			}
+			if(chance > 0.8){
+				CowSpawn();
+			}
 	}
 
 	bool IsSpawnPossible (Vector2 targetPosition, float checkRadius) {
