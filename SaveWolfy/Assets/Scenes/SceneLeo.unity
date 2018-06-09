@@ -2002,6 +2002,8 @@ MonoBehaviour:
   finalScore: {fileID: 869517986}
   scoreToBeat: {fileID: 0}
   cowsSpawned: []
+  aspectWidth: 16
+  aspectHeight: 9
 --- !u!1 &1946888461
 GameObject:
   m_ObjectHideFlags: 0
