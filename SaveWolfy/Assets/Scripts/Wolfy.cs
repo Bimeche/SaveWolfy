@@ -9,17 +9,21 @@ public class Wolfy : AIManager
 	public bool isWolfVisible;
 	public float wolfForce;
 	bool panic = false;
+	private Animator anim;
 
 
 	// Use this for initialization
 	void Start () {
 		rb = GetComponent<Rigidbody2D>();
+		anim = GetComponent<Animator>();
 	}
 
 
 
 	// Update is called once per frame
 	void FixedUpdate () {
+		anim.SetBool ("Striked", false);
+		anim.SetFloat ("Altitude", transform.position.y);
 		if (transform.position.y >= -2 && panic == false)
 		{
 			panic = true;
@@ -40,6 +44,7 @@ public class Wolfy : AIManager
 		{
 			Physics2D.IgnoreCollision(player.GetComponent<Collider2D>(), gameObject.GetComponent<Collider2D>(), true);
 			Invoke("EnableCollisions", 0.2f);
+			anim.SetBool("Striked", true);
 			if (collision.contacts.Length > 0)
 			{
 				Vector2 impactPoint = new Vector2(collision.contacts[0].point.x - transform.position.x, collision.contacts[0].point.y - transform.position.y);
@@ -54,6 +59,7 @@ public class Wolfy : AIManager
 		}
 		else if (collision.gameObject.tag == "Cow")
 		{
+			anim.SetBool("Striked", true);
 			if (collision.contacts.Length > 0)
 			{
 
