@@ -8,10 +8,16 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/MainMenu.unity
     guid: 8c2c96e6cd80d6b43b26e14dd3b67fb3
-  - enabled: 1
-    path: Assets/Scenes/SaveWolfy.unity
+  - enabled: 0
+    path: Assets/__DELETED_GUID_Trash/e3e6111b7e0ec984e811c38171d1a5ff
     guid: e3e6111b7e0ec984e811c38171d1a5ff
   - enabled: 1
     path: Assets/Scenes/SceneLeo.unity
     guid: a2c4c0ac798d1f8429cb5db8271ce9f4
+  - enabled: 1
+    path: Assets/Scenes/ScenePaul.unity
+    guid: 59882c6c0bd30964c8bc1cba3a3f4229
+  - enabled: 1
+    path: Assets/Scenes/SaveWolfy.unity
+    guid: d942eb20c2f86f2439c1845eeda93a1c
   m_configObjects: {}
