@@ -20,9 +20,9 @@ GameObject:
   m_Component:
   - component: {fileID: 4855846170765632}
   - component: {fileID: 212830049519653034}
-  - component: {fileID: 58036666816574064}
   - component: {fileID: 50996265039493208}
   - component: {fileID: 114263025903639586}
+  - component: {fileID: 58491212153329938}
   m_Layer: 0
   m_Name: Cow
   m_TagString: Cow
@@ -38,7 +38,7 @@ Transform:
   m_GameObject: {fileID: 1198046634532640}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -4.351872, y: 1.8882903, z: 0}
-  m_LocalScale: {x: 1.75, y: 1.75, z: 1.75}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -63,7 +63,7 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 1
   m_Constraints: 0
---- !u!58 &58036666816574064
+--- !u!58 &58491212153329938
 CircleCollider2D:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -75,9 +75,9 @@ CircleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0.00999999, y: 0.00999999}
   serializedVersion: 2
-  m_Radius: 0.5
+  m_Radius: 0.765
 --- !u!114 &114263025903639586
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -132,8 +132,8 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 0da2a27252891d7409d6210e963dee90, type: 3}
-  m_Color: {r: 0.9811321, g: 0, b: 0, a: 1}
+  m_Sprite: {fileID: 21300058, guid: 3bd3ab0d5ef0df740809bc47dfb5df3a, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
