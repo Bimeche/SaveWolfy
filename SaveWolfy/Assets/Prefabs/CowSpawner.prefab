@@ -52,8 +52,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7311279d8c9d171459c4e23f45d99f84, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cow: {fileID: 4855846170765632, guid: 0149b384a4f85334eac66f23b7c8e2f2, type: 2}
-  spawner: {fileID: 4002446321967198}
+  cow: {fileID: 1851565385614576, guid: 082551a6a824a75489082d58079b7662, type: 2}
+  spawnZone:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 0
+    height: 0
+  minSpawnForce: 1
+  maxSpawnForce: 800
+  baseSpawnTime: 3
+  regularTimeReduction: 0.01
+  minimalSpawnTime: 0.5
+  waveCount: 0
 --- !u!212 &212238609249769696
 SpriteRenderer:
   m_ObjectHideFlags: 1

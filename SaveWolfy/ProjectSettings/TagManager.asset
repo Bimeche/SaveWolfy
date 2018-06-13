@@ -45,3 +45,9 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Fire Outline Effect
+    uniqueID: 1804481073
+    locked: 0
+  - name: Characters
+    uniqueID: 1247470851
+    locked: 0

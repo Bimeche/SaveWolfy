@@ -10,12 +10,13 @@ public class CowScript : AIManager {
 	public Transform fxDeath;
 	public Transform fxHit;
 	public Transform fxTrail;
-	public Transform fxstrikeMeter1;
-	public Transform fxstrikeMeter2;
-	public Transform fxstrikeMeter3;
-	public Transform fxstrikeMeter4;
-	public Transform fxstrikeMeter5;
 	bool panic = false;
+
+	//FireEffect
+	public GameObject ParticlePrefab;
+	public float Rate = 500; // per second
+	float timeSinceLastSpawn = 0;
+	//
 
 	// Use this for initialization
 	void Start () {
@@ -33,6 +34,19 @@ public class CowScript : AIManager {
 		{
 			rb.velocity = rb.velocity / (rb.velocity.magnitude / maxMagnitude);
 		}
+
+		//FireEffect
+		timeSinceLastSpawn += Time.deltaTime;
+
+		float correctTimeBetweenSpawns = 1f/Rate;
+
+		while( timeSinceLastSpawn > correctTimeBetweenSpawns )
+		{
+			// Time to spawn a particle
+			SpawnFireAlongOutline();
+			timeSinceLastSpawn -= correctTimeBetweenSpawns;
+		}
+		//
 	}
 
 	private void OnCollisionEnter2D (Collision2D collision) {
@@ -69,13 +83,43 @@ public class CowScript : AIManager {
 		}
 	}
 
+	//FireEffect
+	void SpawnFireAlongOutline()
+	{
+
+		PolygonCollider2D col = GetComponent<PolygonCollider2D>();
+
+		int pathIndex = Random.Range(0, col.pathCount);
+
+		Vector2[] points = col.GetPath(pathIndex);
+
+		int pointIndex = Random.Range(0, points.Length);
+
+		Vector2 pointA = points[ pointIndex ];
+		Vector2 pointB = points[ (pointIndex+1) % points.Length ];
+
+		Vector2 spawnPoint = Vector2.Lerp(pointA, pointB, Random.Range(0f, 1f) );
+
+		SpawnFireAtPosition(spawnPoint + (Vector2)this.transform.position);
+	}
+
+	void SpawnFireAtPosition(Vector2 position)
+	{
+		//Instantiate (ParticlePrefab, position, Quaternion.identity, this.transform);
+		SimplePool.Spawn(ParticlePrefab, position, Quaternion.identity);
+
+	}
+	//
+
 	private void StrikedState(int striked){
 		switch (striked) {
 		case 0:
 			GetComponent<SpriteRenderer> ().color = new Color (1f, 1f, 1f);
+			ParticlePrefab.transform.localScale = new Vector2(0f,0f);
 			break;
 		case 1:
 			GetComponent<SpriteRenderer> ().color = new Color (1f, 0.9f, 0.9f);
+			ParticlePrefab.transform.localScale = new Vector2(5f,5f);
 			break;
 		case 2:
 			GetComponent<SpriteRenderer> ().color = new Color (1f, 0.8f, 0.8f);
