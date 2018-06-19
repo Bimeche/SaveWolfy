@@ -32,6 +32,7 @@ public class CowScript : AIManager {
 	public Transform fxHit;
 	public Transform fxTrail;
 	bool panic = false;
+	private Vector3 fxPosition;
 
 	//FireEffect
 	public GameObject ParticlePrefab;
@@ -196,7 +197,12 @@ public class CowScript : AIManager {
 	}
 
 	public void OnDestroy(){
+		Vector3 v3Screen = Camera.main.WorldToViewportPoint(transform.position);
+			v3Screen.x = Mathf.Clamp (v3Screen.x, -0.01f, 1.01f);
+			v3Screen.y = Mathf.Clamp (v3Screen.y, -0.01f, 1.01f);
+			fxPosition = Camera.main.ViewportToWorldPoint (v3Screen);
+
 		SoundManager.instance.RandomizeSfx (cowDeath1, cowDeath2, cowDeath3, cowDeath4, cowDeath5);
-		Destroy (Instantiate (fxDeath, transform.position, Quaternion.identity).gameObject, 1f);
+		Destroy (Instantiate (fxDeath, fxPosition, Quaternion.identity).gameObject, 1f);
 	}
 }
