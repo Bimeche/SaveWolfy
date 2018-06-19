@@ -8,6 +8,19 @@ public class Wolfy : AIManager
 	[HideInInspector]
 	public bool isWolfVisible;
 	public float wolfForce;
+	public AudioClip WolfHit1;
+	public AudioClip WolfHit2;
+	public AudioClip WolfHit3;
+	public AudioClip WolfPanic1;
+	public AudioClip WolfPanic2;
+	public AudioClip WolfPanic3;
+	public AudioClip AttackHit1;
+	public AudioClip AttackHit2;
+	public AudioClip AttackHit3;
+	public AudioClip AttackHit4;
+	public AudioClip AttackHit5;
+	public AudioClip AttackHit6;
+	public AudioClip WolfDeath;
 	bool panic = false;
 	private Animator anim;
 
@@ -27,6 +40,7 @@ public class Wolfy : AIManager
 		if (transform.position.y >= -2 && panic == false)
 		{
 			panic = true;
+			SoundManager.instance.RandomizeSfx (WolfPanic1, WolfPanic2, WolfPanic3);
 		}
 		if (transform.position.y < -2)
 		{
@@ -42,6 +56,7 @@ public class Wolfy : AIManager
 	private void OnCollisionEnter2D (Collision2D collision) {
 		if (collision.gameObject.tag == "Player")
 		{
+			SoundManager.instance.RandomizeSfx (WolfHit1, WolfHit2, WolfHit3, WolfHit1, WolfHit2, WolfHit3, AttackHit1, AttackHit2, AttackHit3, AttackHit4, AttackHit5, AttackHit6);
 			Physics2D.IgnoreCollision(player.GetComponent<Collider2D>(), gameObject.GetComponent<Collider2D>(), true);
 			Invoke("EnableCollisions", 0.2f);
 			anim.SetBool("Striked", true);
@@ -59,6 +74,7 @@ public class Wolfy : AIManager
 		}
 		else if (collision.gameObject.tag == "Cow")
 		{
+			SoundManager.instance.RandomizeSfx (WolfHit1, WolfHit2, WolfHit3, WolfHit1, WolfHit2, WolfHit3, AttackHit1, AttackHit2, AttackHit3, AttackHit4, AttackHit5, AttackHit6);
 			anim.SetBool("Striked", true);
 			if (collision.contacts.Length > 0)
 			{
@@ -80,5 +96,9 @@ public class Wolfy : AIManager
 
 	private void OnBecameVisible () {
 		isWolfVisible = true;
+	}
+
+	void OnDestroy(){
+		SoundManager.instance.RandomizeSfx (WolfDeath, WolfDeath);
 	}
 }

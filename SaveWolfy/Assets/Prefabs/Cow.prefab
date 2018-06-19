@@ -24,7 +24,6 @@ GameObject:
   - component: {fileID: 114565073841954874}
   - component: {fileID: 58437534202625734}
   - component: {fileID: 95751773781104502}
-  - component: {fileID: 114860840454625964}
   - component: {fileID: 60529547818718326}
   m_Layer: 0
   m_Name: Cow
@@ -180,28 +179,32 @@ MonoBehaviour:
   isCowVisible: 0
   strikeMeter: 0
   comboTouch: 0
+  cowHit1: {fileID: 8300000, guid: bdb94f7d8240d5f49b6cf70a30d2b5f7, type: 3}
+  cowHit2: {fileID: 8300000, guid: e99df7bc55252384c9e0c827dd5ed7ee, type: 3}
+  cowHit3: {fileID: 8300000, guid: ecc12ffc5da77cf47917ea205c004c94, type: 3}
+  Idle: {fileID: 8300000, guid: 415961aba42ebec4bbaceb16b164b91f, type: 3}
+  cowPanic1: {fileID: 8300000, guid: 1a417ffe8b7c2d344b7824c90801702e, type: 3}
+  cowPanic2: {fileID: 8300000, guid: 89d412bd0b531f346817b7d649394875, type: 3}
+  cowPanic3: {fileID: 8300000, guid: da034a1ab79750b438fcacaa016dd6e9, type: 3}
+  cowBounce1: {fileID: 8300000, guid: 68b66c4a42e592e4495ca699415786ef, type: 3}
+  cowBounce2: {fileID: 8300000, guid: f2a061d4c75403b43b6bf7bca24777c0, type: 3}
+  cowBounce3: {fileID: 8300000, guid: 8f726c0a8bf7c814daf9d1b628215c4d, type: 3}
+  AttackHit1: {fileID: 8300000, guid: e06cec71a33638a41ae80bf191cd5f31, type: 3}
+  AttackHit2: {fileID: 8300000, guid: c4b922fd4b8376843ab60019c1928e5f, type: 3}
+  AttackHit3: {fileID: 8300000, guid: 8e25e2fa3cead4541951f185acd38d96, type: 3}
+  AttackHit4: {fileID: 8300000, guid: 03a33f6c408c08e42bd6b515ff10045a, type: 3}
+  AttackHit5: {fileID: 8300000, guid: ebbc3f0dcb9688b42b58c2e6ca4183fd, type: 3}
+  AttackHit6: {fileID: 8300000, guid: 42f92c3de199f234786ec738c200cc3e, type: 3}
+  cowDeath1: {fileID: 8300000, guid: 5ce133dc8d7039d4ca374429f6c1d0ff, type: 3}
+  cowDeath2: {fileID: 8300000, guid: 3a9abf49593d82945aaced6dc9a7c3ba, type: 3}
+  cowDeath3: {fileID: 8300000, guid: 907ee0c67dfcdb641be0b639d723b767, type: 3}
+  cowDeath4: {fileID: 8300000, guid: c869e9eec50f0c1439a31f1d8b4c0cbd, type: 3}
+  cowDeath5: {fileID: 8300000, guid: 44ed9ca7292d8fa4b9ba882e9d004d5b, type: 3}
   fxDeath: {fileID: 4000010212820824, guid: acf39d9f4addf294d93fa56fa373961b, type: 2}
   fxHit: {fileID: 4000011693693590, guid: 96730f8640590934eacb6f860058e7f9, type: 2}
   fxTrail: {fileID: 4000010049649436, guid: 20c0f7e297297fc468f9740f6bb08cb1, type: 2}
-  fxstrikeMeter1: {fileID: 0}
-  fxstrikeMeter2: {fileID: 0}
-  fxstrikeMeter3: {fileID: 0}
-  fxstrikeMeter4: {fileID: 0}
-  fxstrikeMeter5: {fileID: 0}
---- !u!114 &114860840454625964
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1851565385614576}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7a1465d491728644a864ec780a90c54c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
   ParticlePrefab: {fileID: 1000013535339118, guid: 11f65caf6538db840b74a3038053250f,
     type: 2}
-  particleSize: {x: 5, y: 5}
   Rate: 500
 --- !u!212 &212612135152186878
 SpriteRenderer:

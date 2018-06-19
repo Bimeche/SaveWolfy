@@ -67,6 +67,7 @@ public class GameManager : MonoBehaviour {
 		Cursor.visible = true;
 		Time.timeScale = 1f;
 		gameEnded = false;
+		SoundManager.instance.PauseMusic(false);
 		cowsSpawned = new List<Transform>();
 		pausePanel.GetComponent<CanvasGroup>().alpha = 0;
 		pausePanel.GetComponent<CanvasGroup>().blocksRaycasts = false;
