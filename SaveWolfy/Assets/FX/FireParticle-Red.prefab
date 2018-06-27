@@ -82,7 +82,7 @@ Transform:
   m_GameObject: {fileID: 1000013535339118}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.5, y: 0.5, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 0}
   m_Children:
   - {fileID: 4000013856222576}
   - {fileID: 4000010489845284}
@@ -115,7 +115,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MinVelocity: {x: -0.1, y: -0.2}
   MaxVelocity: {x: 0.1, y: 0.2}
-  LifeSpan: 0.05
+  LifeSpan: 0.5
   DestroysSelf: 0
   AlphaFalloff: 1
 --- !u!114 &114000012466697446
@@ -131,7 +131,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MinVelocity: {x: -0.5, y: -0.5}
   MaxVelocity: {x: 0.5, y: 0.5}
-  LifeSpan: 0.1
+  LifeSpan: 1
   DestroysSelf: 1
   AlphaFalloff: 2
 --- !u!212 &212000010057017534

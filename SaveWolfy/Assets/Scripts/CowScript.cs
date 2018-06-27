@@ -30,15 +30,10 @@ public class CowScript : AIManager {
 	public AudioClip cowDeath5;
 	public Transform fxDeath;
 	public Transform fxHit;
-	public Transform fxTrail;
 	bool panic = false;
 	private Vector3 fxPosition;
 
-	//FireEffect
-	public GameObject ParticlePrefab;
-	public float Rate = 500; // per second
-	float timeSinceLastSpawn = 0;
-	//
+	public GameObject CowFireFx;
 
 	// Use this for initialization
 	void Start () {
@@ -63,19 +58,7 @@ public class CowScript : AIManager {
 		{
 			rb.velocity = rb.velocity / (rb.velocity.magnitude / maxMagnitude);
 		}
-
-		//FireEffect
-		timeSinceLastSpawn += Time.deltaTime;
-
-		float correctTimeBetweenSpawns = 1f/Rate;
-
-		/*while( timeSinceLastSpawn > correctTimeBetweenSpawns )
-		{
-			// Time to spawn a particle
-			SpawnFireAlongOutline();
-			timeSinceLastSpawn -= correctTimeBetweenSpawns;
-		}*/
-		//
+			
 	}
 
 	private void OnCollisionEnter2D (Collision2D collision) {
@@ -115,79 +98,51 @@ public class CowScript : AIManager {
 		}
 	}
 
-	//FireEffect
-	void SpawnFireAlongOutline()
-	{
-
-		PolygonCollider2D col = GetComponent<PolygonCollider2D>();
-
-		int pathIndex = Random.Range(0, col.pathCount);
-
-		Vector2[] points = col.GetPath(pathIndex);
-
-		int pointIndex = Random.Range(0, points.Length);
-
-		Vector2 pointA = points[ pointIndex ];
-		Vector2 pointB = points[ (pointIndex+1) % points.Length ];
-
-		Vector2 spawnPoint = Vector2.Lerp(pointA, pointB, Random.Range(0f, 1f) );
-
-		SpawnFireAtPosition(spawnPoint + (Vector2)this.transform.position);
-	}
-
-	void SpawnFireAtPosition(Vector2 position)
-	{
-		Instantiate (ParticlePrefab, position, Quaternion.identity);
-		//SimplePool.Spawn(ParticlePrefab, position, Quaternion.identity);
-
-	}
-	//
-
 	private void StrikedState(int striked){
 		switch (striked) {
 		case 0:
 			GetComponent<SpriteRenderer> ().color = new Color (1f, 1f, 1f);
-			ParticlePrefab.transform.localScale = new Vector2(0f,0f);
+			CowFireFx.transform.localScale = new Vector2(0f,0f);
 			break;
 		case 1:
 			GetComponent<SpriteRenderer> ().color = new Color (1f, 0.9f, 0.9f);
-			ParticlePrefab.transform.localScale = new Vector2(0.5f,0.5f);
+			CowFireFx.transform.localScale = new Vector2(0.5f,0.5f);
 			break;
 		case 2:
 			GetComponent<SpriteRenderer> ().color = new Color (1f, 0.8f, 0.8f);
-			ParticlePrefab.transform.localScale = new Vector2(1f,1f);
+			CowFireFx.transform.localScale = new Vector2(1f,1f);
 			break;
 		case 3:
 			GetComponent<SpriteRenderer> ().color = new Color (1f, 0.7f, 0.7f);
-			ParticlePrefab.transform.localScale = new Vector2(1.5f,1.5f);
+			CowFireFx.transform.localScale = new Vector2(1.5f,1.5f);
 			break;
 		case 4:
 			GetComponent<SpriteRenderer> ().color = new Color (1f, 0.6f, 0.6f);
-			ParticlePrefab.transform.localScale = new Vector2(2f,2f);
+			CowFireFx.transform.localScale = new Vector2(2f,2f);
 			break;
 		case 5:
 			GetComponent<SpriteRenderer> ().color = new Color (1f, 0.5f, 0.5f);
-			ParticlePrefab.transform.localScale = new Vector2(2.5f,2.5f);
+			CowFireFx.transform.localScale = new Vector2(2.5f,2.5f);
 			break;
 		case 6:
 			GetComponent<SpriteRenderer> ().color = new Color (1f, 0.4f, 0.4f);
-			ParticlePrefab.transform.localScale = new Vector2(3f,3f);
+			CowFireFx.transform.localScale = new Vector2(3f,3f);
 			break;
 		case 7:
 			GetComponent<SpriteRenderer> ().color = new Color (1f, 0.3f, 0.3f);
-			ParticlePrefab.transform.localScale = new Vector2(3.5f,3.5f);
+			CowFireFx.transform.localScale = new Vector2(3.5f,3.5f);
 			break;
 		case 8:
 			GetComponent<SpriteRenderer> ().color = new Color (1f, 0.2f, 0.2f);
-			ParticlePrefab.transform.localScale = new Vector2(4f,4f);
+			CowFireFx.transform.localScale = new Vector2(4f,4f);
 			break;
 		case 9:
 			GetComponent<SpriteRenderer> ().color = new Color (1f, 0.1f, 0.1f);
-			ParticlePrefab.transform.localScale = new Vector2(4.5f,4.5f);
+			CowFireFx.transform.localScale = new Vector2(4.5f,4.5f);
 			break;
 		case 10:
 			GetComponent<SpriteRenderer> ().color = new Color (1f, 0f, 0f);
-			ParticlePrefab.transform.localScale = new Vector2(5f,5f);
+			CowFireFx.transform.localScale = new Vector2(5f,5f);
 			break;
 		}
 	}
