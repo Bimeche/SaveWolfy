@@ -394,7 +394,7 @@ MonoBehaviour:
   CowFireSpark: {fileID: 1823168601864802}
   CowFireAlphaTrail: {fileID: 1861650873268882}
   CowFireAddTrail: {fileID: 1470374833807600}
-  cameraShake: {fileID: 114206655757649036, guid: 29d4eb789dc259846895b992a183627a,
+  cameraShake: {fileID: 114900386257081752, guid: 29d4eb789dc259846895b992a183627a,
     type: 2}
 --- !u!198 &198097629290596494
 ParticleSystem:

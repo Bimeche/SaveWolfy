@@ -3,7 +3,10 @@ guid: 69d219f3067923244a5bdb7b0f986f5b
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - gMan: {instanceID: 0}
+  - cameraShake: {fileID: 114900386257081752, guid: 29d4eb789dc259846895b992a183627a,
+      type: 2}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

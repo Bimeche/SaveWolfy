@@ -22,6 +22,6 @@ public class CameraShake : MonoBehaviour {
 			yield return null;
 		}
 
-	transform.localPosition = originalPos;
+		transform.localPosition = new Vector3 (0.0f, 0.0f, originalPos.z);
 	}
 }
