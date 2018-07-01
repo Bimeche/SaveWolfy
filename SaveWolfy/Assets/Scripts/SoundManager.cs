@@ -3,6 +3,7 @@ using UnityEngine;
 
 public class SoundManager : MonoBehaviour {
 	public AudioSource efxSource;
+	public AudioSource efxSource2;
 	public AudioSource musicSource;
 	public static SoundManager instance = null;
 
@@ -41,6 +42,20 @@ public class SoundManager : MonoBehaviour {
 			efxSource.clip = clips [randomIndex];
 
 			efxSource.Play ();
+		}
+	}
+
+	public void RandomizeSfx2 (params AudioClip[] clips) {
+		int randomIndex = Random.Range (0, clips.Length);
+
+		float randomPitch = Random.Range (lowPitchRange, highPitchRange);
+		if (efxSource2)
+		{
+			efxSource2.pitch = randomPitch;
+
+			efxSource2.clip = clips [randomIndex];
+
+			efxSource2.Play ();
 		}
 	}
 
