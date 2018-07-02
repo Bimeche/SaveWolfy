@@ -480,7 +480,7 @@ MonoBehaviour:
   cowDeath1: {fileID: 8300000, guid: 101024dc235e3ea45932304f2ff68933, type: 3}
   cowDeath2: {fileID: 8300000, guid: 44ada094a4b1f504fa0142729d0dbc1f, type: 3}
   cowDeath3: {fileID: 8300000, guid: 47937c0c547ad02438e806173e051cc7, type: 3}
-  cowDeath4: {fileID: 8300000, guid: aaa6003fc7cc4344f8075b3d146f6d47, type: 3}
+  cowDeath4: {fileID: 8300000, guid: 47937c0c547ad02438e806173e051cc7, type: 3}
   cowDeath5: {fileID: 8300000, guid: 9fa5b290b441bfc4491066977fcb1560, type: 3}
   fxDeath: {fileID: 4207579276485460, guid: 566b4f04344df62448b9cc755c5c306c, type: 2}
   fxHit: {fileID: 4000011693693590, guid: 96730f8640590934eacb6f860058e7f9, type: 2}
