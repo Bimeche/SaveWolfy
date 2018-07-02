@@ -110,6 +110,7 @@ GameObject:
   - component: {fileID: 58437534202625734}
   - component: {fileID: 95751773781104502}
   - component: {fileID: 60529547818718326}
+  - component: {fileID: 82391201581546124}
   m_Layer: 0
   m_Name: Cow
   m_TagString: Cow
@@ -328,6 +329,101 @@ PolygonCollider2D:
       - {x: 0.4650216, y: -0.5950699}
       - {x: 0.51699543, y: -0.45382237}
       - {x: 0.5675621, y: -0.4150486}
+--- !u!82 &82391201581546124
+AudioSource:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1851565385614576}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!95 &95751773781104502
 Animator:
   serializedVersion: 3
@@ -381,12 +477,12 @@ MonoBehaviour:
   AttackHit4: {fileID: 8300000, guid: 03a33f6c408c08e42bd6b515ff10045a, type: 3}
   AttackHit5: {fileID: 8300000, guid: ebbc3f0dcb9688b42b58c2e6ca4183fd, type: 3}
   AttackHit6: {fileID: 8300000, guid: 42f92c3de199f234786ec738c200cc3e, type: 3}
-  cowDeath1: {fileID: 8300000, guid: 5ce133dc8d7039d4ca374429f6c1d0ff, type: 3}
-  cowDeath2: {fileID: 8300000, guid: 3a9abf49593d82945aaced6dc9a7c3ba, type: 3}
-  cowDeath3: {fileID: 8300000, guid: 907ee0c67dfcdb641be0b639d723b767, type: 3}
-  cowDeath4: {fileID: 8300000, guid: c869e9eec50f0c1439a31f1d8b4c0cbd, type: 3}
-  cowDeath5: {fileID: 8300000, guid: 44ed9ca7292d8fa4b9ba882e9d004d5b, type: 3}
-  fxDeath: {fileID: 4000010212820824, guid: acf39d9f4addf294d93fa56fa373961b, type: 2}
+  cowDeath1: {fileID: 8300000, guid: 101024dc235e3ea45932304f2ff68933, type: 3}
+  cowDeath2: {fileID: 8300000, guid: 44ada094a4b1f504fa0142729d0dbc1f, type: 3}
+  cowDeath3: {fileID: 8300000, guid: 44ada094a4b1f504fa0142729d0dbc1f, type: 3}
+  cowDeath4: {fileID: 8300000, guid: 47937c0c547ad02438e806173e051cc7, type: 3}
+  cowDeath5: {fileID: 8300000, guid: 47937c0c547ad02438e806173e051cc7, type: 3}
+  fxDeath: {fileID: 4207579276485460, guid: 566b4f04344df62448b9cc755c5c306c, type: 2}
   fxHit: {fileID: 4000011693693590, guid: 96730f8640590934eacb6f860058e7f9, type: 2}
   CowFireAlpha: {fileID: 1154300404434604}
   CowFireAdd: {fileID: 1173151037111050}
@@ -394,8 +490,6 @@ MonoBehaviour:
   CowFireSpark: {fileID: 1823168601864802}
   CowFireAlphaTrail: {fileID: 1861650873268882}
   CowFireAddTrail: {fileID: 1470374833807600}
-  cameraShake: {fileID: 114900386257081752, guid: 29d4eb789dc259846895b992a183627a,
-    type: 2}
 --- !u!198 &198097629290596494
 ParticleSystem:
   m_ObjectHideFlags: 1

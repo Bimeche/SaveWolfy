@@ -6,7 +6,9 @@ public class CowScript : AIManager {
 	[HideInInspector] public bool isCowVisible;
 	public int strikeMeter = 0;
 	public bool comboTouch = false;
+
 	private Animator anim;
+
 	public AudioClip cowHit1;
 	public AudioClip cowHit2;
 	public AudioClip cowHit3;
@@ -31,7 +33,7 @@ public class CowScript : AIManager {
 	public Transform fxDeath;
 	public Transform fxHit;
 	bool panic = false;
-	private Vector3 fxPosition;
+	public Vector3 fxPosition;
 
 	public GameObject CowFireAlpha;
 	public GameObject CowFireAdd;
@@ -111,12 +113,12 @@ public class CowScript : AIManager {
 			break;
 		case 1:
 			GetComponent<SpriteRenderer> ().color = new Color (1f, 0.8f, 08f);
-			CowFireAlpha.transform.localScale = new Vector3(0.5f,0.5f,0.5f);
-			CowFireAdd.transform.localScale = new Vector3(0.5f,0.5f,0.5f);
-			CowFireGlow.transform.localScale = new Vector3(0.75f,0.75f,0.75f);
-			CowFireSpark.transform.localScale = new Vector3(0.75f,0.75f,0.75f);
-			CowFireAlphaTrail.transform.localScale = new Vector3(0.5f,0.5f,0.5f);
-			CowFireAddTrail.transform.localScale = new Vector3(0.5f,0.5f,0.5f);
+			CowFireAlpha.transform.localScale = new Vector3 (0.5f, 0.5f, 0.5f);
+			CowFireAdd.transform.localScale = new Vector3 (0.5f, 0.5f, 0.5f);
+			CowFireGlow.transform.localScale = new Vector3 (0.75f, 0.75f, 0.75f);
+			CowFireSpark.transform.localScale = new Vector3 (0.75f, 0.75f, 0.75f);
+			CowFireAlphaTrail.transform.localScale = new Vector3 (0.5f, 0.5f, 0.5f);
+			CowFireAddTrail.transform.localScale = new Vector3 (0.5f, 0.5f, 0.5f);
 			break;
 		case 2:
 			GetComponent<SpriteRenderer> ().color = new Color (1f, 0.6f, 0.6f);
@@ -214,7 +216,35 @@ public class CowScript : AIManager {
 			v3Screen.y = Mathf.Clamp (v3Screen.y, -0.01f, 1.01f);
 			fxPosition = Camera.main.ViewportToWorldPoint (v3Screen);
 
-		SoundManager.instance.RandomizeSfx (cowDeath1, cowDeath2, cowDeath3, cowDeath4, cowDeath5);
+		switch (strikeMeter) {
+		//ça marche mais je sais pas si c'est trés opti...
+		case 0:
+			fxDeath.transform.localScale = new Vector3 (2.0f, 2.0f, 2.0f);
+			break;
+
+		case 1:
+			fxDeath.transform.localScale = new Vector3 (3.0f, 3.0f, 3.0f);
+			break;
+
+		case 2:
+			fxDeath.transform.localScale = new Vector3 (4.0f, 4.0f, 4.0f);
+			break;
+
+		case 3:
+			fxDeath.transform.localScale = new Vector3 (5.0f, 5.0f, 5.0f);
+			break;
+
+		case 4:
+			fxDeath.transform.localScale = new Vector3 (6.0f, 6.0f, 6.0f);
+			break;
+			
+		default:
+			fxDeath.transform.localScale = new Vector3 (7.0f, 7.0f, 7.0f);
+			break;
+		}
+
+		SoundManager.instance.RandomizeSfx2 (cowDeath1, cowDeath2, cowDeath3, cowDeath4, cowDeath5);
 		Destroy (Instantiate (fxDeath, fxPosition, Quaternion.identity).gameObject, 1f);
+		fxDeath.transform.localScale = new Vector3 (2.0f, 2.0f, 2.0f);
 	}
 }
