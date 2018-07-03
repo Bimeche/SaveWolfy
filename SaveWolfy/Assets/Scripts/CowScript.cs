@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class CowScript : AIManager {
+public class CowScript : AIManager, IPooledObject{
 	[HideInInspector] public bool isCowVisible;
 	public int strikeMeter = 0;
 	public bool comboTouch = false;
@@ -44,7 +44,7 @@ public class CowScript : AIManager {
 
 
 	// Use this for initialization
-	void Start () {
+	public void OnObjectSpawn () {
 		isCowVisible = false;
 		rb = GetComponent<Rigidbody2D>();
 		anim = GetComponent<Animator>();
@@ -210,7 +210,7 @@ public class CowScript : AIManager {
 		isCowVisible = true;
 	}
 
-	public void OnDestroy(){
+	public void OnDespawn(){
 		Vector3 v3Screen = Camera.main.WorldToViewportPoint(transform.position);
 			v3Screen.x = Mathf.Clamp (v3Screen.x, -0.01f, 1.01f);
 			v3Screen.y = Mathf.Clamp (v3Screen.y, -0.01f, 1.01f);

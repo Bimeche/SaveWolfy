@@ -13,7 +13,6 @@ public class GameManager : MonoBehaviour {
 	public Text finalScore;
 	public Text scoreToBeat;
 	private int playerScore = 0;
-	private float scoreUpdate = 0.2f;
 	[HideInInspector]
 	public List<Transform> cowsSpawned;
 	private bool paused = false;
@@ -21,6 +20,7 @@ public class GameManager : MonoBehaviour {
 	private bool gameEnded;
 	public float aspectWidth = 16.0f;
 	public float aspectHeight = 9.0f;
+	public ObjectPooler objectPooler;
 
 	void adaptScreenRatio () {
 
@@ -88,7 +88,7 @@ public class GameManager : MonoBehaviour {
 		playerScore += 1;
 		playerScore += strikeMeter;
 		playerScore += comboCount;
-		Destroy(go);
+		objectPooler.DespawnToPool(go);
 		Debug.Log(playerScore);
 		scoreText.text = "Score : " + playerScore;
 		Debug.Log(comboCount);

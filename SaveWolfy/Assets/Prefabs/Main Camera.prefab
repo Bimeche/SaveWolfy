@@ -108,6 +108,8 @@ MonoBehaviour:
   cowsSpawned: []
   aspectWidth: 16
   aspectHeight: 9
+  objectPooler: {fileID: 114184160126577990, guid: d7eb67f992402514c95814081e7914d6,
+    type: 2}
 --- !u!124 &124382956333167728
 Behaviour:
   m_ObjectHideFlags: 1

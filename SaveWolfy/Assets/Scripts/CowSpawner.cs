@@ -15,8 +15,11 @@ public class CowSpawner : MonoBehaviour {
 
 	private GameManager gMan;
 
+	ObjectPooler objectPooler;
+
 	// Use this for initialization
-	void Start () {
+	public void Start () {
+		objectPooler = ObjectPooler.Instance;
 		gMan = FindObjectOfType<GameManager>();
 		Invoke("RegularCowSpawn", baseSpawnTime);
 		Debug.Log(spawnZone.xMin + "  " + spawnZone.xMax + "  " + spawnZone.yMin + "  " + spawnZone.yMax);
@@ -29,7 +32,8 @@ public class CowSpawner : MonoBehaviour {
 			CowSpawn ();
 			return;
 		}
-		GameObject cowSpawned = Instantiate(cow, spawnPosition, Quaternion.identity);
+		GameObject cowSpawned = objectPooler.SpawnFromPool ("Cow", spawnPosition, Quaternion.identity);
+		//GameObject cowSpawned = Instantiate(cow, spawnPosition, Quaternion.identity);
 
 		Vector2 angle;
 		if (spawnPosition.x < 0)
