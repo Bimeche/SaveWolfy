@@ -14,7 +14,6 @@ public class GameManager : MonoBehaviour {
 	public Text scoreToBeat;
 	private int playerScore = 0;
 	[HideInInspector]
-	public List<Transform> cowsSpawned;
 	private bool paused = false;
 	int comboCount = 0;
 	private bool gameEnded;
@@ -68,7 +67,6 @@ public class GameManager : MonoBehaviour {
 		Time.timeScale = 1f;
 		gameEnded = false;
 		SoundManager.instance.PauseMusic(false);
-		cowsSpawned = new List<Transform>();
 		pausePanel.GetComponent<CanvasGroup>().alpha = 0;
 		pausePanel.GetComponent<CanvasGroup>().blocksRaycasts = false;
 		endGamePanel.GetComponent<CanvasGroup>().alpha = 0;
@@ -83,15 +81,13 @@ public class GameManager : MonoBehaviour {
 	}
 
 	public void DestroyCow (GameObject go, int strikeMeter) {
-		cowsSpawned.Remove(go.transform);
 		comboCount++;
 		playerScore += 1;
 		playerScore += strikeMeter;
 		playerScore += comboCount;
 		objectPooler.DespawnToPool(go);
-		Debug.Log(playerScore);
+
 		scoreText.text = "Score : " + playerScore;
-		Debug.Log(comboCount);
 	}
 
 	public void ResetCombo () {
@@ -124,12 +120,6 @@ public class GameManager : MonoBehaviour {
 		gameEnded = true;
 		Destroy(go);
 		Transform toDestroy;
-		for(int i = cowsSpawned.Count - 1; i >= 0; i--)
-		{
-			toDestroy = cowsSpawned[i];
-			cowsSpawned.RemoveAt(i);
-			Destroy(toDestroy.gameObject);
-		}
 
 		endGamePanel.GetComponent<CanvasGroup>().alpha = 1;
 		endGamePanel.GetComponent<CanvasGroup>().blocksRaycasts = true;

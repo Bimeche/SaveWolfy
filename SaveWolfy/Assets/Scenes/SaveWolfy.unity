@@ -281,6 +281,11 @@ Prefab:
       propertyPath: DefaultRotInfluence.x
       value: 0.5
       objectReference: {fileID: 0}
+    - target: {fileID: 114371793429374242, guid: ebdc5457d4e613e498ee4595302e29ea,
+        type: 2}
+      propertyPath: objectPooler
+      value: 
+      objectReference: {fileID: 410087301}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: ebdc5457d4e613e498ee4595302e29ea, type: 2}
   m_IsPrefabParent: 0
@@ -465,6 +470,12 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 366286958}
+--- !u!114 &410087301 stripped
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 114184160126577990, guid: d7eb67f992402514c95814081e7914d6,
+    type: 2}
+  m_PrefabInternal: {fileID: 803736977}
+  m_Script: {fileID: 11500000, guid: 0fce9d27f7cf489458c1ff862d8654f6, type: 3}
 --- !u!1 &484058041
 GameObject:
   m_ObjectHideFlags: 0

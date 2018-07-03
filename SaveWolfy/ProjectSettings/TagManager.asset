@@ -7,7 +7,7 @@ TagManager:
   - CowSpawn
   - Cow
   - Wolf
-  - Foot
+  - CowDeath
   layers:
   - Default
   - TransparentFX

@@ -457,7 +457,7 @@ MonoBehaviour:
   cowForce: 250
   maxMagnitude: 60
   minMagnitude: 300
-  gMan: {fileID: 0}
+  gMan: {fileID: 114371793429374242, guid: ebdc5457d4e613e498ee4595302e29ea, type: 2}
   isCowVisible: 0
   strikeMeter: 0
   comboTouch: 0
@@ -491,6 +491,8 @@ MonoBehaviour:
   CowFireSpark: {fileID: 1823168601864802}
   CowFireAlphaTrail: {fileID: 1861650873268882}
   CowFireAddTrail: {fileID: 1470374833807600}
+  objectPooler: {fileID: 114184160126577990, guid: d7eb67f992402514c95814081e7914d6,
+    type: 2}
 --- !u!198 &198097629290596494
 ParticleSystem:
   m_ObjectHideFlags: 1

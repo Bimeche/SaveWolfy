@@ -45,7 +45,6 @@ public class CowSpawner : MonoBehaviour {
 
 
 		cowSpawned.GetComponent<Rigidbody2D>().AddForce(angle * Random.Range(minSpawnForce, maxSpawnForce));
-		gMan.cowsSpawned.Add(cowSpawned.transform);
 	}
 
 	void RegularCowSpawn () {

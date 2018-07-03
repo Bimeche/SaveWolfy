@@ -54,4 +54,4 @@ MonoBehaviour:
   pools:
   - tag: Cow
     prefab: {fileID: 1851565385614576, guid: 082551a6a824a75489082d58079b7662, type: 2}
-    size: 5
+    size: 15
