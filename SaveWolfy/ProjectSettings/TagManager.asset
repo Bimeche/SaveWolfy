@@ -8,6 +8,7 @@ TagManager:
   - Cow
   - Wolf
   - CowDeath
+  - FloatingText
   layers:
   - Default
   - TransparentFX
@@ -17,7 +18,7 @@ TagManager:
   - UI
   - 
   - 
-  - 
+  - Player
   - 
   - 
   - 
@@ -50,4 +51,7 @@ TagManager:
     locked: 0
   - name: Characters
     uniqueID: 1247470851
+    locked: 0
+  - name: Player
+    uniqueID: 515114697
     locked: 0

@@ -131,13 +131,13 @@ MonoBehaviour:
   pauseButtonPanel: {fileID: 0}
   currentScorePanel: {fileID: 0}
   endGamePanel: {fileID: 0}
-  scoreText: {fileID: 0}
+  score: {fileID: 0}
   bestScore: {fileID: 0}
   finalScore: {fileID: 0}
   scoreToBeat: {fileID: 0}
-  cowsSpawned: []
   aspectWidth: 16
   aspectHeight: 9
+  objectPooler: {fileID: 0}
 --- !u!114 &114991807251551300
 MonoBehaviour:
   m_ObjectHideFlags: 1

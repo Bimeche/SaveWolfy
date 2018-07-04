@@ -6,9 +6,8 @@ using UnityEngine.UI;
 public class GameManager : MonoBehaviour {
 	public RectTransform pausePanel;
 	public RectTransform pauseButtonPanel;
-	public RectTransform currentScorePanel;
 	public RectTransform endGamePanel;
-	public Text scoreText;
+	public GameObject score;
 	public Text bestScore;
 	public Text finalScore;
 	public Text scoreToBeat;
@@ -67,27 +66,31 @@ public class GameManager : MonoBehaviour {
 		Time.timeScale = 1f;
 		gameEnded = false;
 		SoundManager.instance.PauseMusic(false);
+		adaptScreenRatio();
 		pausePanel.GetComponent<CanvasGroup>().alpha = 0;
 		pausePanel.GetComponent<CanvasGroup>().blocksRaycasts = false;
 		endGamePanel.GetComponent<CanvasGroup>().alpha = 0;
 		endGamePanel.GetComponent<CanvasGroup>().blocksRaycasts = false;
-		adaptScreenRatio();
+
+		score.GetComponent<ScoreUpdate> ().Initialize(playerScore);
 	}
 
 	// Update is called once per frame
 	void Update () {
 		if (Input.GetKeyDown(KeyCode.P))
 			PauseGame();
+		if (Input.GetKeyDown(KeyCode.Escape))
+			PauseGame();
 	}
 
 	public void DestroyCow (GameObject go, int strikeMeter) {
-		comboCount++;
+		//comboCount++;
 		playerScore += 1;
 		playerScore += strikeMeter;
-		playerScore += comboCount;
+		//playerScore += comboCount;
 		objectPooler.DespawnToPool(go);
 
-		scoreText.text = "Score : " + playerScore;
+		score.GetComponent<ScoreUpdate> ().UpdateScore(playerScore);
 	}
 
 	public void ResetCombo () {
@@ -124,12 +127,21 @@ public class GameManager : MonoBehaviour {
 		endGamePanel.GetComponent<CanvasGroup>().alpha = 1;
 		endGamePanel.GetComponent<CanvasGroup>().blocksRaycasts = true;
 
-		//pauseButtonPanel.GetComponent<CanvasGroup>().alpha = 0;
-		//pauseButtonPanel.GetComponent<CanvasGroup>().blocksRaycasts = false;
-
-		currentScorePanel.GetComponent<CanvasGroup>().alpha = 0;
-		currentScorePanel.GetComponent<CanvasGroup>().blocksRaycasts = false;
+		pauseButtonPanel.GetComponent<CanvasGroup>().alpha = 0;
+		pauseButtonPanel.GetComponent<CanvasGroup>().blocksRaycasts = false;
 
 		finalScore.text = "" + playerScore;
+		if (playerScore > MySceneManager.scoreSave)
+		{
+			MySceneManager.scoreSave = playerScore;
+			bestScore.CrossFadeAlpha(1f, 0f, true);
+			scoreToBeat.CrossFadeAlpha(0f, 0f, true);
+		}
+		else
+		{
+			scoreToBeat.text = "Highscore : " + MySceneManager.scoreSave;
+			bestScore.CrossFadeAlpha(0f, 0f, true);
+			scoreToBeat.CrossFadeAlpha(1f, 0f, true);
+		}
 	}
 }

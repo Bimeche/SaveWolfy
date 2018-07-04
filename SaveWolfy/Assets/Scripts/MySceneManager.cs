@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class MySceneManager : MonoBehaviour {
+
 	[HideInInspector]
 	public static int scoreSave;
 
@@ -11,8 +12,8 @@ public class MySceneManager : MonoBehaviour {
 		Cursor.visible = true;
 	}
 
-	public void ChangeScene (int id) {
-		SceneManager.LoadScene(id);
+	public void ChangeScene (string sceneName) {
+		SceneManager.LoadScene(sceneName);
 	}
 
 	public void LeaveGame () {
