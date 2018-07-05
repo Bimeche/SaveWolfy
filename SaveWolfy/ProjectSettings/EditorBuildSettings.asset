@@ -6,15 +6,15 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/SaveWolfy.unity
-    guid: d942eb20c2f86f2439c1845eeda93a1c
-  - enabled: 1
     path: Assets/Scenes/MainMenu.unity
     guid: 8c2c96e6cd80d6b43b26e14dd3b67fb3
   - enabled: 1
+    path: Assets/Scenes/SaveWolfy.unity
+    guid: d942eb20c2f86f2439c1845eeda93a1c
+  - enabled: 0
     path: Assets/Scenes/SceneLeo.unity
     guid: a2c4c0ac798d1f8429cb5db8271ce9f4
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/ScenePaul.unity
     guid: 59882c6c0bd30964c8bc1cba3a3f4229
   m_configObjects: {}
