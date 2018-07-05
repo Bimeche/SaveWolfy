@@ -131,15 +131,15 @@ public class GameManager : MonoBehaviour {
 		pauseButtonPanel.GetComponent<CanvasGroup>().blocksRaycasts = false;
 
 		finalScore.text = "" + playerScore;
-		if (playerScore > MySceneManager.scoreSave)
+		if (playerScore > PlayerPrefs.GetFloat("Highscore"))
 		{
-			MySceneManager.scoreSave = playerScore;
+			PlayerPrefs.SetFloat ("Highscore", playerScore);
 			bestScore.CrossFadeAlpha(1f, 0f, true);
 			scoreToBeat.CrossFadeAlpha(0f, 0f, true);
 		}
 		else
 		{
-			scoreToBeat.text = "Highscore : " + MySceneManager.scoreSave;
+			scoreToBeat.text = "Highscore : " + ((int)PlayerPrefs.GetFloat ("Highscore")).ToString();
 			bestScore.CrossFadeAlpha(0f, 0f, true);
 			scoreToBeat.CrossFadeAlpha(1f, 0f, true);
 		}

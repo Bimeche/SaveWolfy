@@ -5,9 +5,6 @@ using UnityEngine.SceneManagement;
 
 public class MySceneManager : MonoBehaviour {
 
-	[HideInInspector]
-	public static int scoreSave;
-
 	private void Start () {
 		Cursor.visible = true;
 	}
