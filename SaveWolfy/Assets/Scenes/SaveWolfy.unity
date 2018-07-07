@@ -886,7 +886,7 @@ Prefab:
     - target: {fileID: 68577315608682142, guid: 8dfc86be467d5ce49b5c3cfe5be3ef10,
         type: 2}
       propertyPath: m_EdgeRadius
-      value: 2.19
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 8dfc86be467d5ce49b5c3cfe5be3ef10, type: 2}
@@ -2114,17 +2114,17 @@ Prefab:
     - target: {fileID: 114263189291587316, guid: 2477b88e7864d884ba3a7a860310de96,
         type: 2}
       propertyPath: regularTimeReduction
-      value: 0
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 114263189291587316, guid: 2477b88e7864d884ba3a7a860310de96,
         type: 2}
       propertyPath: baseSpawnTime
-      value: 5
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 114263189291587316, guid: 2477b88e7864d884ba3a7a860310de96,
         type: 2}
       propertyPath: minimalSpawnTime
-      value: 5
+      value: 2.5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 2477b88e7864d884ba3a7a860310de96, type: 2}
