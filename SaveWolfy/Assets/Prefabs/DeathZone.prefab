@@ -76,3 +76,4 @@ MonoBehaviour:
   gMan: {fileID: 114371793429374242, guid: ebdc5457d4e613e498ee4595302e29ea, type: 2}
   FloatingTextPrefab: {fileID: 1172967468909402, guid: 53d652cc3555c8b478b42c391af21e96,
     type: 2}
+  fxDeath: {fileID: 4207579276485460, guid: 566b4f04344df62448b9cc755c5c306c, type: 2}
