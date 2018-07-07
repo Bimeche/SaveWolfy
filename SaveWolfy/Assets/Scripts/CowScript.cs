@@ -30,7 +30,6 @@ public class CowScript : AIManager, IPooledObject{
 	public AudioClip cowDeath3;
 	public AudioClip cowDeath4;
 	public AudioClip cowDeath5;
-	public Transform fxDeath;
 	public Transform fxHit;
 	bool panic;
 	public Vector3 fxPosition;
@@ -41,6 +40,8 @@ public class CowScript : AIManager, IPooledObject{
 	public GameObject CowFireSpark;
 	public GameObject CowFireAlphaTrail;
 	public GameObject CowFireAddTrail;
+
+	public ObjectPooler objectPooler;
 
 
 	// Use this for initialization
@@ -226,16 +227,10 @@ public class CowScript : AIManager, IPooledObject{
 			v3Screen.y = Mathf.Clamp (v3Screen.y, -0.01f, 1.01f);
 			fxPosition = Camera.main.ViewportToWorldPoint (v3Screen);
 
-		//ça marche mais je sais pas si c'est trés opti...
-		if (strikeMeter < 5) {
-			fxDeath.transform.localScale = new Vector3 (strikeMeter + 1.0f, strikeMeter + 1.0f, strikeMeter + 1.0f);
-		} 
-		else {
-			fxDeath.transform.localScale = new Vector3 (6.0f, 6.0f, 6.0f);
-		}
+
 
 		SoundManager.instance.RandomizeSfx2 (cowDeath1, cowDeath2, cowDeath3, cowDeath4, cowDeath5);
-		Destroy (Instantiate (fxDeath, fxPosition, Quaternion.identity).gameObject, 1f);
+		//Destroy (Instantiate (fxDeath, fxPosition, Quaternion.identity).gameObject, 1f);
 		//fxDeath.transform.localScale = new Vector3 (2.0f, 2.0f, 2.0f);
 	}
 }
