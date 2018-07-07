@@ -9,16 +9,6 @@ public class AIManager : MonoBehaviour {
 	public float maxMagnitude = 30;
 	public float minMagnitude = 50f;
 	public GameManager gMan;
-
-	// Use this for initialization
-	void Start () {
-	}
-
-	// Update is called once per frame
-	void Update () {
-	}
-
-	public void ResetCombo () {
-		gMan.ResetCombo ();
-	}
+	protected Animator anim;
+	protected bool panic = false;
 }

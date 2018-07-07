@@ -14,7 +14,6 @@ public class GameManager : MonoBehaviour {
 	private int playerScore = 0;
 	[HideInInspector]
 	private bool paused = false;
-	int comboCount = 0;
 	private bool gameEnded;
 	public float aspectWidth = 16.0f;
 	public float aspectHeight = 9.0f;
@@ -77,6 +76,11 @@ public class GameManager : MonoBehaviour {
 
 	// Update is called once per frame
 	void Update () {
+		if (Input.GetKeyDown(KeyCode.I) && Application.isEditor)
+		{
+			playerScore += 200;
+			score.GetComponent<ScoreUpdate>().UpdateScore(playerScore);
+		}
 		if (Input.GetKeyDown(KeyCode.P))
 			PauseGame();
 		if (Input.GetKeyDown(KeyCode.Escape))
@@ -84,18 +88,11 @@ public class GameManager : MonoBehaviour {
 	}
 
 	public void DestroyCow (GameObject go, int strikeMeter) {
-		//comboCount++;
 		playerScore += 1;
 		playerScore += strikeMeter;
-		//playerScore += comboCount;
 		objectPooler.DespawnToPool(go);
 
 		score.GetComponent<ScoreUpdate> ().UpdateScore(playerScore);
-	}
-
-	public void ResetCombo () {
-		comboCount = 0;
-		Debug.Log ("Reset combo");
 	}
 
 	public void PauseGame () {
@@ -122,7 +119,6 @@ public class GameManager : MonoBehaviour {
 		Time.timeScale = 0;
 		gameEnded = true;
 		Destroy(go);
-		Transform toDestroy;
 
 		endGamePanel.GetComponent<CanvasGroup>().alpha = 1;
 		endGamePanel.GetComponent<CanvasGroup>().blocksRaycasts = true;

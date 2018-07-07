@@ -4,8 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 
 public class MenuManager : MonoBehaviour {
-
-	private bool paused = false;
+	
 	public float aspectWidth = 16.0f;
 	public float aspectHeight = 9.0f;
 

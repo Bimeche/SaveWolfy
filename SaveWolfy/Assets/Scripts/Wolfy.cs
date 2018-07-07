@@ -8,6 +8,7 @@ public class Wolfy : AIManager
 	[HideInInspector]
 	public bool isWolfVisible;
 	public float wolfForce;
+
 	public AudioClip WolfHit1;
 	public AudioClip WolfHit2;
 	public AudioClip WolfHit3;
@@ -21,9 +22,6 @@ public class Wolfy : AIManager
 	public AudioClip AttackHit5;
 	public AudioClip AttackHit6;
 	public AudioClip WolfDeath;
-	bool panic = false;
-	private Animator anim;
-
 
 	// Use this for initialization
 	void Start () {
@@ -85,7 +83,6 @@ public class Wolfy : AIManager
 
 				rb.AddForce(impactPoint * wolfForce);
 				collision.gameObject.GetComponent<Rigidbody2D>().AddForce(impactPoint * cowForce);
-				gMan.ResetCombo ();
 			}
 		}
 	}

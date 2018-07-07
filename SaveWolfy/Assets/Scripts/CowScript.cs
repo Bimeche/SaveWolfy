@@ -3,11 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class CowScript : AIManager, IPooledObject{
-	[HideInInspector] public bool isCowVisible;
 	public int strikeMeter;
 	public bool comboTouch;
-
-	private Animator anim;
 
 	public AudioClip cowHit1;
 	public AudioClip cowHit2;
@@ -30,8 +27,8 @@ public class CowScript : AIManager, IPooledObject{
 	public AudioClip cowDeath3;
 	public AudioClip cowDeath4;
 	public AudioClip cowDeath5;
+
 	public Transform fxHit;
-	bool panic;
 	public Vector3 fxPosition;
 
 	public GameObject CowFireAlpha;
@@ -43,6 +40,7 @@ public class CowScript : AIManager, IPooledObject{
 
 	public ObjectPooler objectPooler;
 
+	[HideInInspector] public bool isCowVisible;
 
 	// Use this for initialization
 	public void OnObjectSpawn () {
@@ -223,14 +221,10 @@ public class CowScript : AIManager, IPooledObject{
 
 	public void OnDespawn(){
 		Vector3 v3Screen = Camera.main.WorldToViewportPoint(transform.position);
-			v3Screen.x = Mathf.Clamp (v3Screen.x, -0.01f, 1.01f);
-			v3Screen.y = Mathf.Clamp (v3Screen.y, -0.01f, 1.01f);
-			fxPosition = Camera.main.ViewportToWorldPoint (v3Screen);
-
-
+		v3Screen.x = Mathf.Clamp (v3Screen.x, -0.01f, 1.01f);
+		v3Screen.y = Mathf.Clamp (v3Screen.y, -0.01f, 1.01f);
+		fxPosition = Camera.main.ViewportToWorldPoint (v3Screen);
 
 		SoundManager.instance.RandomizeSfx2 (cowDeath1, cowDeath2, cowDeath3, cowDeath4, cowDeath5);
-		//Destroy (Instantiate (fxDeath, fxPosition, Quaternion.identity).gameObject, 1f);
-		//fxDeath.transform.localScale = new Vector3 (2.0f, 2.0f, 2.0f);
 	}
 }
