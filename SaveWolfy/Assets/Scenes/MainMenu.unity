@@ -338,7 +338,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &560619651 stripped
 MonoBehaviour:
@@ -383,7 +383,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4413490316606852, guid: c1548ce6a4411a94fb38c9870edccc8d, type: 2}
       propertyPath: m_RootOrder
-      value: 3
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 1055347097545108, guid: c1548ce6a4411a94fb38c9870edccc8d, type: 2}
       propertyPath: m_Name
@@ -845,7 +845,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4195647236724134, guid: 3960d5c9c7b40714eb0318c45d03816c, type: 2}
       propertyPath: m_RootOrder
-      value: 5
+      value: 4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3960d5c9c7b40714eb0318c45d03816c, type: 2}
@@ -1095,7 +1095,7 @@ RectTransform:
   - {fileID: 1244298895}
   - {fileID: 1226664521}
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}

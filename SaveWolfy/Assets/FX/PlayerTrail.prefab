@@ -120,7 +120,7 @@ ParticleSystem:
     startLifetime:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 1
+      scalar: 0.2
       minScalar: 5
       maxCurve:
         serializedVersion: 2
@@ -683,7 +683,7 @@ ParticleSystem:
     m_UseMeshColors: 1
     alignToDirection: 0
     m_Texture: {fileID: 0}
-    m_TextureClipChannel: 3
+    m_TextureClipChannel: 2
     m_TextureClipThreshold: 0
     m_TextureUVChannel: 0
     m_TextureColorAffectsParticles: 1
@@ -865,7 +865,7 @@ ParticleSystem:
     rateOverDistance:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 25
+      scalar: 5
       minScalar: 0
       maxCurve:
         serializedVersion: 2
@@ -937,7 +937,7 @@ ParticleSystem:
           inWeight: 0.33333334
           outWeight: 0.33333334
         - serializedVersion: 3
-          time: 0.20976257
+          time: 1
           value: 0
           inSlope: 0.67434007
           outSlope: 0.67434007
