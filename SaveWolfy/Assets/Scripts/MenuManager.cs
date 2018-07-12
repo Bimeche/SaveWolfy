@@ -7,6 +7,15 @@ public class MenuManager : MonoBehaviour {
 	
 	public float aspectWidth = 16.0f;
 	public float aspectHeight = 9.0f;
+	public RectTransform mainMenuPanel;
+	public RectTransform skinPanel;
+
+	public RectTransform changeSkinButton0;
+	public RectTransform changeSkinButton1;
+	public RectTransform changeSkinButton2;
+	public RectTransform changeSkinButton3;
+	int scrollingState;
+
 
 	void adaptScreenRatio () {
 
@@ -54,5 +63,110 @@ public class MenuManager : MonoBehaviour {
 		Time.timeScale = 1f;
 		SoundManager.instance.PauseMusic(false);
 		adaptScreenRatio();
+	}
+
+	public void OpenSkinMenu(){
+		mainMenuPanel.GetComponent<CanvasGroup>().alpha = 0;
+		mainMenuPanel.GetComponent<CanvasGroup>().blocksRaycasts = false;
+
+		skinPanel.GetComponent<CanvasGroup>().alpha = 1;
+		skinPanel.GetComponent<CanvasGroup>().blocksRaycasts = true;
+	}
+
+	public void OpenMainMenu(){
+		skinPanel.GetComponent<CanvasGroup>().alpha = 0;
+		skinPanel.GetComponent<CanvasGroup>().blocksRaycasts = false;
+
+		mainMenuPanel.GetComponent<CanvasGroup>().alpha = 1;
+		mainMenuPanel.GetComponent<CanvasGroup>().blocksRaycasts = true;
+	}
+
+	public void ScrollRigth(){
+		if (scrollingState < 3) {
+			scrollingState = scrollingState + 1;
+		}
+		else {
+			scrollingState = 0;
+		}
+
+		switch (scrollingState) {
+		case 0:
+			changeSkinButton3.GetComponent<CanvasGroup> ().alpha = 0;
+			changeSkinButton3.GetComponent<CanvasGroup> ().blocksRaycasts = false;
+
+			changeSkinButton0.GetComponent<CanvasGroup> ().alpha = 1;
+			changeSkinButton0.GetComponent<CanvasGroup> ().blocksRaycasts = true;
+			break;
+
+		case 1:
+			changeSkinButton0.GetComponent<CanvasGroup> ().alpha = 0;
+			changeSkinButton0.GetComponent<CanvasGroup> ().blocksRaycasts = false;
+
+			changeSkinButton1.GetComponent<CanvasGroup> ().alpha = 1;
+			changeSkinButton1.GetComponent<CanvasGroup> ().blocksRaycasts = true;
+			break;
+
+		case 2:
+			changeSkinButton1.GetComponent<CanvasGroup> ().alpha = 0;
+			changeSkinButton1.GetComponent<CanvasGroup> ().blocksRaycasts = false;
+
+			changeSkinButton2.GetComponent<CanvasGroup> ().alpha = 1;
+			changeSkinButton2.GetComponent<CanvasGroup> ().blocksRaycasts = true;
+			break;
+
+		case 3:
+			changeSkinButton2.GetComponent<CanvasGroup> ().alpha = 0;
+			changeSkinButton2.GetComponent<CanvasGroup> ().blocksRaycasts = false;
+
+			changeSkinButton3.GetComponent<CanvasGroup> ().alpha = 1;
+			changeSkinButton3.GetComponent<CanvasGroup> ().blocksRaycasts = true;
+			break;
+		default:
+			break;
+		}
+	}
+
+	public void ScrollLeft(){
+		if (scrollingState > 0) {
+			scrollingState = scrollingState - 1;
+		} else {
+			scrollingState = 3;
+		}
+
+		switch (scrollingState) {
+		case 0:
+			changeSkinButton1.GetComponent<CanvasGroup> ().alpha = 0;
+			changeSkinButton1.GetComponent<CanvasGroup> ().blocksRaycasts = false;
+
+			changeSkinButton0.GetComponent<CanvasGroup> ().alpha = 1;
+			changeSkinButton0.GetComponent<CanvasGroup> ().blocksRaycasts = true;
+			break;
+
+		case 1:
+			changeSkinButton2.GetComponent<CanvasGroup> ().alpha = 0;
+			changeSkinButton2.GetComponent<CanvasGroup> ().blocksRaycasts = false;
+
+			changeSkinButton1.GetComponent<CanvasGroup> ().alpha = 1;
+			changeSkinButton1.GetComponent<CanvasGroup> ().blocksRaycasts = true;
+			break;
+
+		case 2:
+			changeSkinButton3.GetComponent<CanvasGroup> ().alpha = 0;
+			changeSkinButton3.GetComponent<CanvasGroup> ().blocksRaycasts = false;
+
+			changeSkinButton2.GetComponent<CanvasGroup> ().alpha = 1;
+			changeSkinButton2.GetComponent<CanvasGroup> ().blocksRaycasts = true;
+			break;
+
+		case 3:
+			changeSkinButton0.GetComponent<CanvasGroup> ().alpha = 0;
+			changeSkinButton0.GetComponent<CanvasGroup> ().blocksRaycasts = false;
+
+			changeSkinButton3.GetComponent<CanvasGroup> ().alpha = 1;
+			changeSkinButton3.GetComponent<CanvasGroup> ().blocksRaycasts = true;
+			break;
+		default:
+			break;
+		}
 	}
 }
