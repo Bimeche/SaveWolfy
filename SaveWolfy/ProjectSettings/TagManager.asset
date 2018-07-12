@@ -43,15 +43,24 @@ TagManager:
   - 
   - 
   m_SortingLayers:
-  - name: Default
-    uniqueID: 0
+  - name: Background
+    uniqueID: 4143802853
     locked: 0
-  - name: Fire Outline Effect
+  - name: Field
+    uniqueID: 2239247401
+    locked: 0
+  - name: FX
     uniqueID: 1804481073
     locked: 0
   - name: Characters
     uniqueID: 1247470851
     locked: 0
+  - name: UI
+    uniqueID: 327283499
+    locked: 0
   - name: Player
     uniqueID: 515114697
+    locked: 0
+  - name: Default
+    uniqueID: 0
     locked: 0

@@ -1,9 +1,12 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
-public class GameManager : MonoBehaviour {
+public class GameManager : MonoBehaviour
+{
+	public GameObject player;
 	public RectTransform pausePanel;
 	public RectTransform pauseButtonPanel;
 	public RectTransform endGamePanel;
@@ -12,7 +15,6 @@ public class GameManager : MonoBehaviour {
 	public Text finalScore;
 	public Text scoreToBeat;
 	private int playerScore = 0;
-	[HideInInspector]
 	private bool paused = false;
 	private bool gameEnded;
 	public float aspectWidth = 16.0f;
@@ -61,7 +63,6 @@ public class GameManager : MonoBehaviour {
 	}
 	// Use this for initialization
 	void Start () {
-		Cursor.visible = true;
 		Time.timeScale = 1f;
 		gameEnded = false;
 		SoundManager.instance.PauseMusic(false);

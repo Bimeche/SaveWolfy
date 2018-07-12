@@ -141,7 +141,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1851565385614576}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.5027671, y: -3.2712262, z: -0.1}
+  m_LocalPosition: {x: 0.5027671, y: -3.2712262, z: 10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4446996593297372}
@@ -395,7 +395,6 @@ MonoBehaviour:
   maxMagnitude: 60
   minMagnitude: 300
   gMan: {fileID: 114371793429374242, guid: ebdc5457d4e613e498ee4595302e29ea, type: 2}
-  isCowVisible: 0
   strikeMeter: 0
   comboTouch: 0
   cowHit1: {fileID: 8300000, guid: bdb94f7d8240d5f49b6cf70a30d2b5f7, type: 3}
@@ -429,6 +428,7 @@ MonoBehaviour:
   CowFireAddTrail: {fileID: 1470374833807600}
   objectPooler: {fileID: 114184160126577990, guid: d7eb67f992402514c95814081e7914d6,
     type: 2}
+  isCowVisible: 0
 --- !u!198 &198097629290596494
 ParticleSystem:
   m_ObjectHideFlags: 1
@@ -27649,9 +27649,9 @@ ParticleSystemRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingLayerID: 1804481073
+  m_SortingLayer: -4
+  m_SortingOrder: 0
   m_RenderMode: 0
   m_SortMode: 0
   m_MinParticleSize: 0
@@ -27705,9 +27705,9 @@ ParticleSystemRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingLayerID: 1804481073
+  m_SortingLayer: -4
+  m_SortingOrder: 0
   m_RenderMode: 0
   m_SortMode: 0
   m_MinParticleSize: 0
@@ -27761,9 +27761,9 @@ ParticleSystemRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingLayerID: 1804481073
+  m_SortingLayer: -4
+  m_SortingOrder: 0
   m_RenderMode: 0
   m_SortMode: 0
   m_MinParticleSize: 0
@@ -27817,9 +27817,9 @@ ParticleSystemRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingLayerID: 1804481073
+  m_SortingLayer: -4
+  m_SortingOrder: 0
   m_RenderMode: 0
   m_SortMode: 0
   m_MinParticleSize: 0
@@ -27873,8 +27873,8 @@ ParticleSystemRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 1804481073
+  m_SortingLayer: -4
   m_SortingOrder: 0
   m_RenderMode: 0
   m_SortMode: 0
@@ -27929,8 +27929,8 @@ ParticleSystemRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 1804481073
+  m_SortingLayer: -4
   m_SortingOrder: 0
   m_RenderMode: 0
   m_SortMode: 0
@@ -27983,9 +27983,9 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 1247470851
-  m_SortingLayer: 2
-  m_SortingOrder: 0
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 10
   m_Sprite: {fileID: 21300058, guid: 3bd3ab0d5ef0df740809bc47dfb5df3a, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0

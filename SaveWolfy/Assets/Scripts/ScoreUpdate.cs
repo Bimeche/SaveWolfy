@@ -16,6 +16,7 @@ public class ScoreUpdate : MonoBehaviour {
 
 	public void UpdateScore(int score){
 		GetComponent<TextMesh>().text = score.ToString();
+		GameData.Score = score;
 		anim.SetTrigger ("Update");
 	}
 }

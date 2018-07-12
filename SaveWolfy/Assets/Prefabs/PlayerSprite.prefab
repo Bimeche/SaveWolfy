@@ -21,7 +21,7 @@ GameObject:
   - component: {fileID: 4599176066964938}
   - component: {fileID: 198200198522900160}
   - component: {fileID: 199615341345430364}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: PlayerEffect
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -38,7 +38,7 @@ GameObject:
   - component: {fileID: 4515939445957890}
   - component: {fileID: 198500969281502176}
   - component: {fileID: 199832125326139092}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: PlayerTrailSuppEffect
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -56,7 +56,7 @@ GameObject:
   - component: {fileID: 58616390539783768}
   - component: {fileID: 114189403103021568}
   - component: {fileID: 50232511804436884}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: PlayerSprite
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -87,7 +87,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1984227158818248}
   m_LocalRotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: -0.1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4209935134749696}
@@ -181,6 +181,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a926506b73e8be3438f0ae30b62ebe4c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  footTrailPrefab: {fileID: 198429370838303572, guid: 0effba6ca371a794e97655971b63d5b8,
+    type: 2}
 --- !u!198 &198077361419587324
 ParticleSystem:
   m_ObjectHideFlags: 1
@@ -13754,9 +13756,9 @@ ParticleSystemRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingLayerID: 515114697
+  m_SortingLayer: -1
+  m_SortingOrder: 1
   m_RenderMode: 0
   m_SortMode: 0
   m_MinParticleSize: 0
@@ -13810,9 +13812,9 @@ ParticleSystemRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingLayerID: 515114697
+  m_SortingLayer: -1
+  m_SortingOrder: 1
   m_RenderMode: 0
   m_SortMode: 0
   m_MinParticleSize: 0
@@ -13866,8 +13868,8 @@ ParticleSystemRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 515114697
+  m_SortingLayer: -1
   m_SortingOrder: 1
   m_RenderMode: 0
   m_SortMode: 0

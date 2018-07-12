@@ -1,7 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-using UnityEngine.UI;
+﻿using UnityEngine;
 
 public class MenuManager : MonoBehaviour {
 	
@@ -57,12 +54,13 @@ public class MenuManager : MonoBehaviour {
 			Camera.main.rect = rect;
 		}
 	}
+
 	// Use this for initialization
 	void Start () {
-		Cursor.visible = true;
 		Time.timeScale = 1f;
 		SoundManager.instance.PauseMusic(false);
 		adaptScreenRatio();
+		GameData.ResetValues();
 	}
 
 	public void OpenSkinMenu(){

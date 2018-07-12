@@ -32,7 +32,8 @@ public class DeathScript : MonoBehaviour {
 
 				gMan.DestroyCow(collision.gameObject, collision.gameObject.GetComponent<CowScript>().strikeMeter);
 				collision.gameObject.GetComponent<CowScript> ().OnDespawn();
-					}
+				GameData.CowDeaths++;
+			}
 		}
 		else if (collision.gameObject.tag == "Wolf")
 		{
