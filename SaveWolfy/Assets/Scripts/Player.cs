@@ -4,11 +4,13 @@ using UnityEngine;
 
 public class Player : MonoBehaviour {
 	Camera cam;
-	[SerializeField] private ParticleSystem footTrailPrefab;
+	public ParticleSystem playerTrail;
+	public ParticleSystem playerEffect;
+	public ParticleSystem playerTrailSuppEffect;
 
 	void Enable () {
 		cam = Camera.main;
-		footTrailPrefab.Play();
+
 	}
 
 	// Use this for initialization
@@ -32,10 +34,51 @@ public class Player : MonoBehaviour {
 	private IEnumerator UpdatePosition () {
 		while (true)
 		{
+			
+			//PC
 			Vector2 newPosition = cam.ScreenToWorldPoint(Input.mousePosition);
-			Debug.Log(newPosition);
 			transform.position = newPosition;
-			//Instantiate(footTrailPrefab, transform);
+			//Instantiate(playerTrail, transform);
+
+			//mobile
+			/*if (Input.touchCount > 0)
+			{
+				Touch touch = Input.GetTouch(0);
+
+			switch(touch.phase){
+				case TouchPhase.Began:
+					// Get movement of the finger since last frame
+					Vector2 newPosition = Camera.main.ScreenToWorldPoint (Input.GetTouch (0).position);
+
+					// Move object across XY plane
+					transform.position = newPosition;
+					playerEffect.Play();
+					playerTrail.Play();
+					playerTrailSuppEffect.Play();
+					GetComponent<Rigidbody2D> ().simulated = true;
+				break;
+			
+				case TouchPhase.Moved:
+				// Get movement of the finger since last frame
+				Vector2 movePosition = Camera.main.ScreenToWorldPoint (Input.GetTouch (0).position);
+
+				// Move object across XY plane
+				transform.position = movePosition;
+
+				break;
+
+				case TouchPhase.Ended:
+					playerEffect.Stop ();
+					playerTrail.Stop ();
+					playerTrailSuppEffect.Stop ();
+					playerEffect.Clear ();
+					playerTrail.Clear ();
+					playerTrailSuppEffect.Clear ();
+					GetComponent<Rigidbody2D> ().simulated = false;
+				break;
+				}
+			}*/
+
 			yield return null;
 		}
 	}

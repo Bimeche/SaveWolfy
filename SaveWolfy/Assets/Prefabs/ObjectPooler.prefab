@@ -61,3 +61,6 @@ MonoBehaviour:
   - tag: CowDeath
     prefab: {fileID: 1254876855250884, guid: 566b4f04344df62448b9cc755c5c306c, type: 2}
     size: 5
+  - tag: Player
+    prefab: {fileID: 1892611751071694, guid: 9d1e1652e415fb64eb3da9bc02b36743, type: 2}
+    size: 3

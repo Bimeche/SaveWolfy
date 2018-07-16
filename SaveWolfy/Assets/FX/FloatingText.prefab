@@ -22,6 +22,7 @@ GameObject:
   - component: {fileID: 23415255330566924}
   - component: {fileID: 102942561986852746}
   - component: {fileID: 95149293337109722}
+  - component: {fileID: 210910992111904962}
   m_Layer: 0
   m_Name: FloatingText
   m_TagString: Untagged
@@ -50,7 +51,7 @@ MeshRenderer:
   m_GameObject: {fileID: 1172967468909402}
   m_Enabled: 1
   m_CastShadows: 1
-  m_ReceiveShadows: 1
+  m_ReceiveShadows: 0
   m_DynamicOccludee: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
@@ -116,3 +117,13 @@ TextMesh:
   m_Color:
     serializedVersion: 2
     rgba: 4278190335
+--- !u!210 &210910992111904962
+SortingGroup:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1172967468909402}
+  m_Enabled: 1
+  m_SortingLayerID: 1804481073
+  m_SortingLayer: -4
+  m_SortingOrder: 0

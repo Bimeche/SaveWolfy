@@ -77,6 +77,7 @@ public class GameManager : MonoBehaviour
 
 	// Update is called once per frame
 	void Update () {
+		Debug.Log ("Haaaa");
 		if (Input.GetKeyDown(KeyCode.I) && Application.isEditor)
 		{
 			playerScore += 200;
