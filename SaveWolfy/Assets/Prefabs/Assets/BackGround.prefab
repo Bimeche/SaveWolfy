@@ -56,25 +56,21 @@ MonoBehaviour:
   leftWallGO: {fileID: 0}
   rightWallGO: {fileID: 0}
   baseBackGround: {fileID: 21300000, guid: 06472bbcd1a6ccd4cbe47d2b182f49e6, type: 3}
-  fireBackGround: {fileID: 0}
-  iceBackGround: {fileID: 0}
-  desertBackGround: {fileID: 0}
-  jungleBackGround: {fileID: 0}
-  baseGround: {fileID: 0}
-  fireGround: {fileID: 0}
-  iceGround: {fileID: 0}
-  desertGround: {fileID: 0}
-  jungleGround: {fileID: 0}
-  baseLeftWall: {fileID: 0}
-  fireLeftWall: {fileID: 0}
-  iceLeftWall: {fileID: 0}
-  desertLeftWall: {fileID: 0}
-  jungleLeftWall: {fileID: 0}
-  baseRightWall: {fileID: 0}
-  fireRightWall: {fileID: 0}
-  iceRightWall: {fileID: 0}
-  desertRightWall: {fileID: 0}
-  jungleRightWall: {fileID: 0}
+  fireBackGround: {fileID: 21300000, guid: 737180189e3af1b4581c3ea356864d6e, type: 3}
+  iceBackGround: {fileID: 21300000, guid: 77016d765e1d76643b79447c90e6e765, type: 3}
+  desertBackGround: {fileID: 21300000, guid: 81fc66ac68091a14a9e8ffc7da8a5a43, type: 3}
+  baseGround: {fileID: 21300000, guid: d5d3b54928feb0c4d91399d785385939, type: 3}
+  fireGround: {fileID: 21300000, guid: 0ba19d7b69dd47640af00e174c571e21, type: 3}
+  iceGround: {fileID: 21300000, guid: 075f84de02dd6fc4b87138083eb21f58, type: 3}
+  desertGround: {fileID: 21300000, guid: 1c1cee3913cc9774c84e4bb79d9a1fa0, type: 3}
+  baseLeftWall: {fileID: 21300006, guid: 459299ad87278b4468f34605eeeba564, type: 3}
+  fireLeftWall: {fileID: 21300000, guid: b305b909f6c75c840a7766372b9315d9, type: 3}
+  iceLeftWall: {fileID: 21300000, guid: 71bf314d6ad04954a942e10e00d99b2b, type: 3}
+  desertLeftWall: {fileID: 21300000, guid: fa138c22ffc9fcb4cb3dc59810f6e7e1, type: 3}
+  baseRightWall: {fileID: 21300002, guid: 459299ad87278b4468f34605eeeba564, type: 3}
+  fireRightWall: {fileID: 21300000, guid: 2a928397387700848836f6de2fee5ed0, type: 3}
+  iceRightWall: {fileID: 21300000, guid: 5db2dbf25a0a1664f8e70fa1904ebe47, type: 3}
+  desertRightWall: {fileID: 21300000, guid: e6db5c972df87a148b7a75bd6820786d, type: 3}
 --- !u!212 &212653413195383488
 SpriteRenderer:
   m_ObjectHideFlags: 1

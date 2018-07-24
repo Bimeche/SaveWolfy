@@ -323,7 +323,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 88506529}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 127385614}
+        m_MethodName: ChangeBackGround
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 1
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &88506529
@@ -401,6 +412,12 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 6c13970a4eeb92c438534a27ba5a253e, type: 2}
   m_IsPrefabParent: 0
+--- !u!114 &127385614 stripped
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 114643528679422302, guid: 9a04ba9576a2729489914ad0dde2a988,
+    type: 2}
+  m_PrefabInternal: {fileID: 1255742446}
+  m_Script: {fileID: 11500000, guid: 28c0c862ce48c4d4c82e2be6ac8b88a2, type: 3}
 --- !u!1 &148004405
 GameObject:
   m_ObjectHideFlags: 0
@@ -730,7 +747,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: -0.000013639508}
-  m_SizeDelta: {x: 500, y: 500}
+  m_SizeDelta: {x: 1, y: 1}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &382903440
 MonoBehaviour:
@@ -852,7 +869,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 463338363}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 127385614}
+        m_MethodName: ChangeBackGround
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 2
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &463338363
@@ -922,7 +950,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: -0.000013639508}
-  m_SizeDelta: {x: 500, y: 500}
+  m_SizeDelta: {x: 1, y: 1}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &467475172
 MonoBehaviour:
@@ -1903,6 +1931,16 @@ Prefab:
       propertyPath: groundGO
       value: 
       objectReference: {fileID: 871259963}
+    - target: {fileID: 114643528679422302, guid: 9a04ba9576a2729489914ad0dde2a988,
+        type: 2}
+      propertyPath: leftWallGO
+      value: 
+      objectReference: {fileID: 1378764868}
+    - target: {fileID: 114643528679422302, guid: 9a04ba9576a2729489914ad0dde2a988,
+        type: 2}
+      propertyPath: rightWallGO
+      value: 
+      objectReference: {fileID: 1357095342}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9a04ba9576a2729489914ad0dde2a988, type: 2}
   m_IsPrefabParent: 0
@@ -2022,6 +2060,16 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1344310232}
+--- !u!1 &1357095342 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1199550331694736, guid: 9b0d9d3d4b7f4b34d897d575414a8fa3,
+    type: 2}
+  m_PrefabInternal: {fileID: 1699699177}
+--- !u!1 &1378764868 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1002729687490680, guid: 6c13970a4eeb92c438534a27ba5a253e,
+    type: 2}
+  m_PrefabInternal: {fileID: 98203759}
 --- !u!1 &1406514054
 GameObject:
   m_ObjectHideFlags: 0
@@ -2056,7 +2104,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: -0.000013639508}
-  m_SizeDelta: {x: 500, y: 500}
+  m_SizeDelta: {x: 1, y: 1}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1406514056
 MonoBehaviour:
@@ -2602,7 +2650,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1806287082}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 127385614}
+        m_MethodName: ChangeBackGround
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &1806287082
@@ -2736,7 +2795,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1835843174}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 127385614}
+        m_MethodName: ChangeBackGround
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 3
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 1
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &1835843174
