@@ -71,6 +71,11 @@ MonoBehaviour:
   fireRightWall: {fileID: 21300000, guid: 2a928397387700848836f6de2fee5ed0, type: 3}
   iceRightWall: {fileID: 21300000, guid: 5db2dbf25a0a1664f8e70fa1904ebe47, type: 3}
   desertRightWall: {fileID: 21300000, guid: e6db5c972df87a148b7a75bd6820786d, type: 3}
+  playerSprite0: {fileID: 0}
+  playerSprite1: {fileID: 0}
+  playerSprite2: {fileID: 0}
+  playerSprite3: {fileID: 0}
+  playerSprite4: {fileID: 0}
 --- !u!212 &212653413195383488
 SpriteRenderer:
   m_ObjectHideFlags: 1

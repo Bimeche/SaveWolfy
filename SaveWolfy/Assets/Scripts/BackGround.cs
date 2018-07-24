@@ -28,11 +28,18 @@ public class BackGround : MonoBehaviour {
 	public Sprite iceRightWall;
 	public Sprite desertRightWall;
 
+	public GameObject playerSprite0;
+	public GameObject playerSprite1;
+	public GameObject playerSprite2;
+	public GameObject playerSprite3;
+	public GameObject playerSprite4;
+
 
 
 	// Use this for initialization
 	void Start () {
 		UpdateBackGround ();
+		UpdateCursorSkin ();
 	}
 
 	public void ChangeBackGround(int id){
@@ -41,6 +48,11 @@ public class BackGround : MonoBehaviour {
 		PlayerPrefs.SetInt ("LeftWallSkin", id);
 		PlayerPrefs.SetInt ("RightWallSkin", id);
 		UpdateBackGround ();
+	}
+
+	public void ChangeCursorSkin(int id){
+		PlayerPrefs.SetInt ("CursorSkin", id);
+		UpdateCursorSkin ();
 	}
 
 	void UpdateBackGround(){
@@ -122,6 +134,56 @@ public class BackGround : MonoBehaviour {
 		default:
 			PlayerPrefs.SetInt ("RigthWallSkin", 0);
 			rightWallGO.GetComponent<SpriteRenderer> ().sprite = baseRightWall;
+			break;
+		}
+	}
+
+	void UpdateCursorSkin(){
+		int cursorSkin = PlayerPrefs.GetInt ("CursorSkin");
+
+		switch (cursorSkin) {
+		case 0:
+			playerSprite0.SetActive (true);
+			playerSprite1.SetActive (false);
+			playerSprite2.SetActive (false);
+			playerSprite3.SetActive(false);
+			playerSprite4.SetActive(false);
+			break;
+		case 1:
+			playerSprite0.SetActive(false);
+			playerSprite1.SetActive (true);
+			playerSprite2.SetActive (false);
+			playerSprite3.SetActive (false);
+			playerSprite4.SetActive (false);
+			break;
+		case 2:
+			playerSprite0.SetActive (false);
+			playerSprite1.SetActive (false);
+			playerSprite2.SetActive (true);
+			playerSprite3.SetActive (false);
+			playerSprite4.SetActive (false);
+			break;
+		case 3:
+			playerSprite0.SetActive (false);
+			playerSprite1.SetActive (false);
+			playerSprite2.SetActive (false);
+			playerSprite3.SetActive (true);
+			playerSprite4.SetActive (false);
+			break;
+		case 4:
+			playerSprite0.SetActive (false);
+			playerSprite1.SetActive (false);
+			playerSprite2.SetActive (false);
+			playerSprite3.SetActive (false);
+			playerSprite4.SetActive (true);
+			break;
+		default:
+			PlayerPrefs.SetInt ("CursorSkin", 0);
+			playerSprite0.SetActive (true);
+			playerSprite1.SetActive (false);
+			playerSprite2.SetActive (false);
+			playerSprite3.SetActive (false);
+			playerSprite4.SetActive (false);
 			break;
 		}
 	}
