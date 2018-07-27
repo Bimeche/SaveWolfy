@@ -34,6 +34,8 @@ public class BackGround : MonoBehaviour {
 	public GameObject playerSprite3;
 	public GameObject playerSprite4;
 
+	public AudioClip buttonClic;
+
 
 
 	// Use this for initialization
@@ -43,6 +45,7 @@ public class BackGround : MonoBehaviour {
 	}
 
 	public void ChangeBackGround(int id){
+		SoundManager.instance.RandomizeSfx (buttonClic, buttonClic);
 		PlayerPrefs.SetInt ("BackGroundSkin", id);
 		PlayerPrefs.SetInt ("GroundSkin", id);
 		PlayerPrefs.SetInt ("LeftWallSkin", id);
@@ -51,6 +54,7 @@ public class BackGround : MonoBehaviour {
 	}
 
 	public void ChangeCursorSkin(int id){
+		SoundManager.instance.RandomizeSfx (buttonClic, buttonClic);
 		PlayerPrefs.SetInt ("CursorSkin", id);
 		UpdateCursorSkin ();
 	}

@@ -3,9 +3,13 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
+
 public class MySceneManager : MonoBehaviour {
 
+	public AudioClip gameStart;
+
 	public void ChangeScene (string sceneName) {
+		SoundManager.instance.RandomizeSfx (gameStart, gameStart);
 		SceneManager.LoadScene(sceneName);
 		int count = SceneManager.sceneCount;
 		Scene scene;
@@ -25,6 +29,7 @@ public class MySceneManager : MonoBehaviour {
 	}
 
 	public void LeaveGame () {
+		SoundManager.instance.RandomizeSfx (gameStart, gameStart);
 		Application.Quit();
 	}
 }

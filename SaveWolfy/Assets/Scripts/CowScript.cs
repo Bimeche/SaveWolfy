@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class CowScript : AIManager, IPooledObject{
 	public int strikeMeter;
-	public bool comboTouch;
 
 	public AudioClip cowHit1;
 	public AudioClip cowHit2;
@@ -49,7 +48,6 @@ public class CowScript : AIManager, IPooledObject{
 		anim = GetComponent<Animator>();
 		strikeMeter = 0;
 		panic = false;
-		comboTouch = false;
 		StrikedState (strikeMeter);
 	}
 
@@ -121,7 +119,7 @@ public class CowScript : AIManager, IPooledObject{
 			CowFireAddTrail.transform.localScale = new Vector3 (0.0f, 0.0f, 0.0f);
 			break;
 		case 1:
-			GetComponent<SpriteRenderer> ().color = new Color (1f, 0.8f, 08f);
+			GetComponent<SpriteRenderer> ().color = new Color (1f, 0.8f, 0.8f);
 			CowFireAlpha.transform.localScale = new Vector3 (0.5f, 0.5f, 0.5f);
 			CowFireAdd.transform.localScale = new Vector3 (0.5f, 0.5f, 0.5f);
 			CowFireGlow.transform.localScale = new Vector3 (0.75f, 0.75f, 0.75f);
@@ -165,51 +163,6 @@ public class CowScript : AIManager, IPooledObject{
 			CowFireAlphaTrail.transform.localScale = new Vector3(1.5f,1.5f,1.5f);
 			CowFireAddTrail.transform.localScale = new Vector3(1.5f,1.5f,1.5f);
 			break;
-		/*case 6:
-			GetComponent<SpriteRenderer> ().color = new Color (1f, 0.4f, 0.4f);
-			CowFireAlpha.transform.localScale = new Vector3(1f,1f,1f);
-			CowFireAdd.transform.localScale = new Vector3(1f,1f,1f);
-			CowFireGlow.transform.localScale = new Vector3(1f,1f,1f);
-			CowFireSpark.transform.localScale = new Vector3(1f,1f,1f);
-			CowFireAlphaTrail.transform.localScale = new Vector3(0.6f,0.6f,0.6f);
-			CowFireAddTrail.transform.localScale = new Vector3(0.6f,0.6f,0.6f);
-			break;
-		case 7:
-			GetComponent<SpriteRenderer> ().color = new Color (1f, 0.3f, 0.3f);
-			CowFireAlpha.transform.localScale = new Vector3(1f,1f,1f);
-			CowFireAdd.transform.localScale = new Vector3(1f,1f,1f);
-			CowFireGlow.transform.localScale = new Vector3(1f,1f,1f);
-			CowFireSpark.transform.localScale = new Vector3(1f,1f,1f);
-			CowFireAlphaTrail.transform.localScale = new Vector3(0.6f,0.6f,0.6f);
-			CowFireAddTrail.transform.localScale = new Vector3(0.6f,0.6f,0.6f);
-			break;
-		case 8:
-			GetComponent<SpriteRenderer> ().color = new Color (1f, 0.2f, 0.2f);
-			CowFireAlpha.transform.localScale = new Vector3(1f,1f,1f);
-			CowFireAdd.transform.localScale = new Vector3(1f,1f,1f);
-			CowFireGlow.transform.localScale = new Vector3(1f,1f,1f);
-			CowFireSpark.transform.localScale = new Vector3(1f,1f,1f);
-			CowFireAlphaTrail.transform.localScale = new Vector3(0.6f,0.6f,0.6f);
-			CowFireAddTrail.transform.localScale = new Vector3(0.6f,0.6f,0.6f);
-			break;
-		case 9:
-			GetComponent<SpriteRenderer> ().color = new Color (1f, 0.1f, 0.1f);
-			CowFireAlpha.transform.localScale = new Vector3(1f,1f,1f);
-			CowFireAdd.transform.localScale = new Vector3(1f,1f,1f);
-			CowFireGlow.transform.localScale = new Vector3(1f,1f,1f);
-			CowFireSpark.transform.localScale = new Vector3(1f,1f,1f);
-			CowFireAlphaTrail.transform.localScale = new Vector3(0.6f,0.6f,0.6f);
-			CowFireAddTrail.transform.localScale = new Vector3(0.6f,0.6f,0.6f);
-			break;
-		case 10:
-			GetComponent<SpriteRenderer> ().color = new Color (1f, 0f, 0f);
-			CowFireAlpha.transform.localScale = new Vector3(1.5f,1.5f,1.5f);
-			CowFireAdd.transform.localScale = new Vector3(1.5f,1.5f,1.5f);
-			CowFireGlow.transform.localScale = new Vector3(1.5f,1.5f,1.5f);
-			CowFireSpark.transform.localScale = new Vector3(1.5f,1.5f,1.5f);
-			CowFireAlphaTrail.transform.localScale = new Vector3(1.5f,1.5f,1.5f);
-			CowFireAddTrail.transform.localScale = new Vector3(1.5f,1.5f,1.5f);
-			break;*/
 		default:
 			break;
 		}

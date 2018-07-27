@@ -60,7 +60,7 @@ MonoBehaviour:
     height: 6
   minSpawnForce: 1
   maxSpawnForce: 200
-  baseSpawnTime: 4
+  baseSpawnTime: 2.5
   regularTimeReduction: 0.5
   minimalSpawnTime: 2.5
   waveCount: 0

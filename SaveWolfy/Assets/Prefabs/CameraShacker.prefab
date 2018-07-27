@@ -127,9 +127,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 27eed778dfb3ec54e871f448dbd1c101, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  player: {fileID: 1892611751071694, guid: 9d1e1652e415fb64eb3da9bc02b36743, type: 2}
   pausePanel: {fileID: 0}
   pauseButtonPanel: {fileID: 0}
-  currentScorePanel: {fileID: 0}
   endGamePanel: {fileID: 0}
   score: {fileID: 0}
   bestScore: {fileID: 0}
@@ -138,6 +138,11 @@ MonoBehaviour:
   aspectWidth: 16
   aspectHeight: 9
   objectPooler: {fileID: 0}
+  highScoreFx1: {fileID: 0}
+  highScoreFx2: {fileID: 0}
+  highScoreSucessFx: {fileID: 0}
+  buttonClic: {fileID: 8300000, guid: 424fc0cc134a25243995196cc0c289bc, type: 3}
+  successSound: {fileID: 8300000, guid: 25ba0f7002413764984df1a9415f76aa, type: 3}
 --- !u!114 &114991807251551300
 MonoBehaviour:
   m_ObjectHideFlags: 1

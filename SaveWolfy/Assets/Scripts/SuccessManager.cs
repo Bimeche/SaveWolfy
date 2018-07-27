@@ -12,6 +12,7 @@ public class SuccessManager : MonoBehaviour {
 	public GameObject purpleImage;
 	public GameObject yellowImage;
 	public GameObject redImage;
+	public AudioClip successSound;
 	private static SuccessManager instance;
 
 	public static SuccessManager Instance {
@@ -33,6 +34,7 @@ public class SuccessManager : MonoBehaviour {
 		PlayerPrefs.SetInt (name, 1);
 		successFx.SetActive (true);
 		successFx.SetActive (true);
+		SoundManager.instance.RandomizeSfx (successSound, successSound);
 		switch (name) {
 		case "Fire":			
 			fireImage.SetActive (true);

@@ -23,6 +23,8 @@ public class GameManager : MonoBehaviour
 	public GameObject highScoreFx1;
 	public GameObject highScoreFx2;
 	public GameObject highScoreSucessFx;
+	public AudioClip buttonClic;
+	public AudioClip successSound;
 
 	void adaptScreenRatio () {
 
@@ -67,7 +69,7 @@ public class GameManager : MonoBehaviour
 	// Use this for initialization
 	void Start () {
 		Debug.Log ("Remove!");
-		//PlayerPrefs.DeleteAll();
+		//PlayerPrefs.DeleteAll ();
 		Time.timeScale = 1f;
 		gameEnded = false;
 		SoundManager.instance.PauseMusic(false);
@@ -113,6 +115,7 @@ public class GameManager : MonoBehaviour
 	}
 
 	public void PauseGame () {
+		SoundManager.instance.RandomizeSfx (buttonClic, buttonClic);
 		if (gameEnded)
 			return;
 		if (!paused)
@@ -157,9 +160,12 @@ public class GameManager : MonoBehaviour
 			PlayerPrefs.SetFloat ("Highscore", playerScore);
 			bestScore.CrossFadeAlpha(1f, 0f, true);
 			scoreToBeat.CrossFadeAlpha(0f, 0f, true);
+
 			highScoreFx1.SetActive (true);
 			highScoreFx2.SetActive (true);
 			highScoreSucessFx.SetActive (true);
+			SoundManager.instance.RandomizeSfx (successSound, successSound);
+
 			if (PlayerPrefs.GetInt("Green") == 0) {
 				SuccessManager.Instance.UnlockSkin ("Green");
 			}

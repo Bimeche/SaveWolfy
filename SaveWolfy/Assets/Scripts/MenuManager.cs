@@ -22,6 +22,18 @@ public class MenuManager : MonoBehaviour {
 	public RectTransform changeCursorButton4;
 	int cursorScrollingState;
 
+	public GameObject changeSkinText1;
+	public GameObject changeSkinText2;
+	public GameObject changeSkinText3;
+	public GameObject changeCursorText1;
+	public GameObject changeCursorText2;
+	public GameObject changeCursorText3;
+	public GameObject changeCursorText4;
+
+	public GameObject highScoreText;
+
+	public AudioClip buttonClic;
+
 
 
 	void adaptScreenRatio () {
@@ -67,14 +79,17 @@ public class MenuManager : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
+		Cursor.visible = false;
 		Time.timeScale = 1f;
 		SoundManager.instance.PauseMusic(false);
 		adaptScreenRatio();
 		GameData.ResetValues();
 		CheckData ();
+		SetHighscore ();
 	}
 
 	public void OpenSkinMenu(){
+		SoundManager.instance.RandomizeSfx (buttonClic, buttonClic);
 		mainMenuPanel.GetComponent<CanvasGroup>().alpha = 0;
 		mainMenuPanel.GetComponent<CanvasGroup>().blocksRaycasts = false;
 
@@ -83,6 +98,7 @@ public class MenuManager : MonoBehaviour {
 	}
 
 	public void OpenMainMenu(){
+		SoundManager.instance.RandomizeSfx (buttonClic, buttonClic);
 		skinPanel.GetComponent<CanvasGroup>().alpha = 0;
 		skinPanel.GetComponent<CanvasGroup>().blocksRaycasts = false;
 
@@ -94,6 +110,7 @@ public class MenuManager : MonoBehaviour {
 	}
 
 	public void OpenHighScoreMenu(){
+		SoundManager.instance.RandomizeSfx (buttonClic, buttonClic);
 		mainMenuPanel.GetComponent<CanvasGroup>().alpha = 0;
 		mainMenuPanel.GetComponent<CanvasGroup>().blocksRaycasts = false;
 
@@ -102,6 +119,7 @@ public class MenuManager : MonoBehaviour {
 	}
 
 	public void SkinScrollRigth(){
+		SoundManager.instance.RandomizeSfx (buttonClic, buttonClic);
 		if (skinScrollingState < 3) {
 			skinScrollingState = skinScrollingState + 1;
 		}
@@ -147,6 +165,7 @@ public class MenuManager : MonoBehaviour {
 	}
 
 	public void SkinScrollLeft(){
+		SoundManager.instance.RandomizeSfx (buttonClic, buttonClic);
 		if (skinScrollingState > 0) {
 			skinScrollingState = skinScrollingState - 1;
 		} else {
@@ -191,6 +210,7 @@ public class MenuManager : MonoBehaviour {
 	}
 
 	public void CursorScrollRigth(){
+		SoundManager.instance.RandomizeSfx (buttonClic, buttonClic);
 		if (cursorScrollingState < 4) {
 			cursorScrollingState = cursorScrollingState + 1;
 		}
@@ -243,6 +263,7 @@ public class MenuManager : MonoBehaviour {
 	}
 
 	public void CursorScrollLeft(){
+		SoundManager.instance.RandomizeSfx (buttonClic, buttonClic);
 		if (cursorScrollingState > 0) {
 			cursorScrollingState = cursorScrollingState - 1;
 		} else {
@@ -304,30 +325,41 @@ public class MenuManager : MonoBehaviour {
 
 		if (groundSkin1 == 1) {
 			changeSkinButton1.GetComponent<Button> ().interactable = true;
+			changeSkinText1.SetActive (false);
 		}
 
 		if (groundSkin2 == 1) {
 			changeSkinButton2.GetComponent<Button> ().interactable = true;
+			changeSkinText2.SetActive (false);
 		}
 
 		if (groundSkin3 == 1) {
 			changeSkinButton3.GetComponent<Button> ().interactable = true;
+			changeSkinText3.SetActive (false);
 		}
 
 		if (cursorSkin1 == 1) {
 			changeCursorButton1.GetComponent<Button> ().interactable = true;
+			changeCursorText1.SetActive (false);
 		}
 
 		if (cursorSkin2 == 1) {
 			changeCursorButton2.GetComponent<Button> ().interactable = true;
+			changeCursorText2.SetActive (false);
 		}
 
 		if (cursorSkin3 == 1) {
 			changeCursorButton3.GetComponent<Button> ().interactable = true;
+			changeCursorText3.SetActive (false);
 		}
 
 		if (cursorSkin4 == 1) {
 			changeCursorButton4.GetComponent<Button> ().interactable = true;
+			changeCursorText4.SetActive (false);
 		}
+	}
+
+	public void SetHighscore(){
+		highScoreText.GetComponent<Text>().text = ((int)PlayerPrefs.GetFloat ("Highscore")).ToString();
 	}
 }

@@ -61,7 +61,7 @@ MonoBehaviour:
     height: 0
   minSpawnForce: 1
   maxSpawnForce: 800
-  baseSpawnTime: 3
+  baseSpawnTime: 0.5
   regularTimeReduction: 0.01
   minimalSpawnTime: 0.5
   waveCount: 0
@@ -108,5 +108,5 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
