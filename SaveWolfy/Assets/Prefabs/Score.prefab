@@ -23,6 +23,8 @@ GameObject:
   - component: {fileID: 102010260126694490}
   - component: {fileID: 114144701145915698}
   - component: {fileID: 95065632647546934}
+  - component: {fileID: 210234238445476628}
+  - component: {fileID: 114638752728562916}
   m_Layer: 5
   m_Name: Score
   m_TagString: Untagged
@@ -89,7 +91,7 @@ Animator:
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: 69302826726d1104886a3029af92bf6f, type: 2}
   m_CullingMode: 0
-  m_UpdateMode: 0
+  m_UpdateMode: 2
   m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
   m_WarningMessage: 
@@ -103,7 +105,7 @@ TextMesh:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1854415171911386}
-  m_Text: 34
+  m_Text: Score
   m_OffsetZ: 0
   m_CharacterSize: 0.5
   m_LineSpacing: 1
@@ -128,3 +130,27 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b8aca515f666ebf49b6fa1a729f370d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &114638752728562916
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1854415171911386}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1573420865, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_EffectColor: {r: 0, g: 0, b: 0, a: 0.5}
+  m_EffectDistance: {x: 1, y: -1}
+  m_UseGraphicAlpha: 1
+--- !u!210 &210234238445476628
+SortingGroup:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1854415171911386}
+  m_Enabled: 1
+  m_SortingLayerID: 1804481073
+  m_SortingLayer: -4
+  m_SortingOrder: 1

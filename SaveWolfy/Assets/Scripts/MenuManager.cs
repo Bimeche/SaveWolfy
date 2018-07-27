@@ -7,6 +7,7 @@ public class MenuManager : MonoBehaviour {
 	public float aspectHeight = 9.0f;
 	public RectTransform mainMenuPanel;
 	public RectTransform skinPanel;
+	public RectTransform highScorePanel;
 
 	public RectTransform changeSkinButton0;
 	public RectTransform changeSkinButton1;
@@ -20,6 +21,8 @@ public class MenuManager : MonoBehaviour {
 	public RectTransform changeCursorButton3;
 	public RectTransform changeCursorButton4;
 	int cursorScrollingState;
+
+
 
 	void adaptScreenRatio () {
 
@@ -83,8 +86,19 @@ public class MenuManager : MonoBehaviour {
 		skinPanel.GetComponent<CanvasGroup>().alpha = 0;
 		skinPanel.GetComponent<CanvasGroup>().blocksRaycasts = false;
 
+		highScorePanel.GetComponent<CanvasGroup>().alpha = 0;
+		highScorePanel.GetComponent<CanvasGroup>().blocksRaycasts = false;
+
 		mainMenuPanel.GetComponent<CanvasGroup>().alpha = 1;
 		mainMenuPanel.GetComponent<CanvasGroup>().blocksRaycasts = true;
+	}
+
+	public void OpenHighScoreMenu(){
+		mainMenuPanel.GetComponent<CanvasGroup>().alpha = 0;
+		mainMenuPanel.GetComponent<CanvasGroup>().blocksRaycasts = false;
+
+		highScorePanel.GetComponent<CanvasGroup>().alpha = 1;
+		highScorePanel.GetComponent<CanvasGroup>().blocksRaycasts = true;
 	}
 
 	public void SkinScrollRigth(){
@@ -279,49 +293,14 @@ public class MenuManager : MonoBehaviour {
 		}
 	}
 
-	public void UnlockSkin(int id){
-		switch (id) {
-		case 0:
-			changeSkinButton1.GetComponent<Button> ().interactable = true;
-			PlayerPrefs.SetInt ("groundSkin1", 1);
-			break;
-		case 1:
-			changeSkinButton2.GetComponent<Button> ().interactable = true;
-			PlayerPrefs.SetInt ("groundSkin2", 1);
-			break;
-		case 2:
-			changeSkinButton3.GetComponent<Button> ().interactable = true;
-			PlayerPrefs.SetInt ("groundSkin3", 1);
-			break;
-		case 3:
-			changeCursorButton1.GetComponent<Button> ().interactable = true;
-			PlayerPrefs.SetInt ("cursorSkin1", 1);
-			break;
-		case 4:
-			changeCursorButton2.GetComponent<Button> ().interactable = true;
-			PlayerPrefs.SetInt ("cursorSkin2", 1);
-			break;
-		case 5:
-			changeCursorButton3.GetComponent<Button> ().interactable = true;
-			PlayerPrefs.SetInt ("cursorSkin3", 1);
-			break;
-		case 6:
-			changeCursorButton4.GetComponent<Button> ().interactable = true;
-			PlayerPrefs.SetInt ("cursorSkin4", 1);
-			break;
-		default:
-			break;
-		}
-	}
-
 	void CheckData(){
-		int groundSkin1 = PlayerPrefs.GetInt ("groundSkin1");
-		int groundSkin2 = PlayerPrefs.GetInt ("groundSkin2");
-		int groundSkin3 = PlayerPrefs.GetInt ("groundSkin3");
-		int cursorSkin1 = PlayerPrefs.GetInt ("cursorSkin1");
-		int cursorSkin2 = PlayerPrefs.GetInt ("cursorSkin2");
-		int cursorSkin3 = PlayerPrefs.GetInt ("cursorSkin3");
-		int cursorSkin4 = PlayerPrefs.GetInt ("cursorSkin4");
+		int groundSkin1 = PlayerPrefs.GetInt ("Fire");
+		int groundSkin2 = PlayerPrefs.GetInt ("Ice");
+		int groundSkin3 = PlayerPrefs.GetInt ("Desert");
+		int cursorSkin1 = PlayerPrefs.GetInt ("Green");
+		int cursorSkin2 = PlayerPrefs.GetInt ("Purple");
+		int cursorSkin3 = PlayerPrefs.GetInt ("Yellow");
+		int cursorSkin4 = PlayerPrefs.GetInt ("Red");
 
 		if (groundSkin1 == 1) {
 			changeSkinButton1.GetComponent<Button> ().interactable = true;

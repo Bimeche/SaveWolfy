@@ -20,6 +20,9 @@ public class GameManager : MonoBehaviour
 	public float aspectWidth = 16.0f;
 	public float aspectHeight = 9.0f;
 	public ObjectPooler objectPooler;
+	public GameObject highScoreFx1;
+	public GameObject highScoreFx2;
+	public GameObject highScoreSucessFx;
 
 	void adaptScreenRatio () {
 
@@ -63,6 +66,8 @@ public class GameManager : MonoBehaviour
 	}
 	// Use this for initialization
 	void Start () {
+		Debug.Log ("Remove!");
+		//PlayerPrefs.DeleteAll();
 		Time.timeScale = 1f;
 		gameEnded = false;
 		SoundManager.instance.PauseMusic(false);
@@ -71,7 +76,9 @@ public class GameManager : MonoBehaviour
 		pausePanel.GetComponent<CanvasGroup>().blocksRaycasts = false;
 		endGamePanel.GetComponent<CanvasGroup>().alpha = 0;
 		endGamePanel.GetComponent<CanvasGroup>().blocksRaycasts = false;
-
+		highScoreFx1.SetActive (false);
+		highScoreFx2.SetActive (false);
+		highScoreSucessFx.SetActive(false);
 		score.GetComponent<ScoreUpdate> ().Initialize(playerScore);
 	}
 
@@ -87,6 +94,7 @@ public class GameManager : MonoBehaviour
 			PauseGame();
 		if (Input.GetKeyDown(KeyCode.Escape))
 			PauseGame();
+
 	}
 
 	public void DestroyCow (GameObject go, int strikeMeter) {
@@ -94,7 +102,14 @@ public class GameManager : MonoBehaviour
 		playerScore += strikeMeter;
 		objectPooler.DespawnToPool(go);
 
+		if (strikeMeter >= 9 && PlayerPrefs.GetInt("Fire") == 0) {
+			SuccessManager.Instance.UnlockSkin ("Fire");
+		}
+		if (strikeMeter >= 24 && PlayerPrefs.GetInt("Red") == 0) {
+			SuccessManager.Instance.UnlockSkin ("Red");
+		}
 		score.GetComponent<ScoreUpdate> ().UpdateScore(playerScore);
+
 	}
 
 	public void PauseGame () {
@@ -129,11 +144,31 @@ public class GameManager : MonoBehaviour
 		pauseButtonPanel.GetComponent<CanvasGroup>().blocksRaycasts = false;
 
 		finalScore.text = "" + playerScore;
+		PlayerPrefs.SetInt ("TotalScore", PlayerPrefs.GetInt ("TotalScore") + playerScore);
+		if (PlayerPrefs.GetInt ("Ice") == 0 && PlayerPrefs.GetInt ("TotalScore") >= 500) {
+			SuccessManager.Instance.UnlockSkin ("Ice");
+		}
+		else if(PlayerPrefs.GetInt ("Purple") == 0 && PlayerPrefs.GetInt ("TotalScore") >= 5000) {
+			SuccessManager.Instance.UnlockSkin ("Purple");
+		}
+
 		if (playerScore > PlayerPrefs.GetFloat("Highscore"))
 		{
 			PlayerPrefs.SetFloat ("Highscore", playerScore);
 			bestScore.CrossFadeAlpha(1f, 0f, true);
 			scoreToBeat.CrossFadeAlpha(0f, 0f, true);
+			highScoreFx1.SetActive (true);
+			highScoreFx2.SetActive (true);
+			highScoreSucessFx.SetActive (true);
+			if (PlayerPrefs.GetInt("Green") == 0) {
+				SuccessManager.Instance.UnlockSkin ("Green");
+			}
+			if (PlayerPrefs.GetInt ("Desert") == 0 && playerScore >= 100) {
+				SuccessManager.Instance.UnlockSkin ("Desert");
+			}
+			if (PlayerPrefs.GetInt ("Yellow") == 0 && playerScore >= 1000) {
+				SuccessManager.Instance.UnlockSkin ("Yellow");
+			}
 		}
 		else
 		{
