@@ -25,6 +25,7 @@ public class GameManager : MonoBehaviour
 	public GameObject highScoreSucessFx;
 	public AudioClip buttonClic;
 	public AudioClip successSound;
+	public AudioClip startSound;
 
 	void adaptScreenRatio () {
 
@@ -82,6 +83,7 @@ public class GameManager : MonoBehaviour
 		highScoreFx2.SetActive (false);
 		highScoreSucessFx.SetActive(false);
 		score.GetComponent<ScoreUpdate> ().Initialize(playerScore);
+		SoundManager.instance.RandomizeSfx3 (startSound, startSound);
 	}
 
 	// Update is called once per frame
@@ -104,7 +106,7 @@ public class GameManager : MonoBehaviour
 		playerScore += strikeMeter;
 		objectPooler.DespawnToPool(go);
 
-		if (strikeMeter >= 9 && PlayerPrefs.GetInt("Fire") == 0) {
+		if (strikeMeter >= 3 && PlayerPrefs.GetInt("Fire") == 0) {
 			SuccessManager.Instance.UnlockSkin ("Fire");
 		}
 		if (strikeMeter >= 24 && PlayerPrefs.GetInt("Red") == 0) {
@@ -164,7 +166,7 @@ public class GameManager : MonoBehaviour
 			highScoreFx1.SetActive (true);
 			highScoreFx2.SetActive (true);
 			highScoreSucessFx.SetActive (true);
-			SoundManager.instance.RandomizeSfx (successSound, successSound);
+			SoundManager.instance.RandomizeSfx3 (successSound, successSound);
 
 			if (PlayerPrefs.GetInt("Green") == 0) {
 				SuccessManager.Instance.UnlockSkin ("Green");

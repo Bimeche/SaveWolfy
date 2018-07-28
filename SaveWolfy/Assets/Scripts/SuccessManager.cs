@@ -34,7 +34,7 @@ public class SuccessManager : MonoBehaviour {
 		PlayerPrefs.SetInt (name, 1);
 		successFx.SetActive (true);
 		successFx.SetActive (true);
-		SoundManager.instance.RandomizeSfx (successSound, successSound);
+		SoundManager.instance.RandomizeSfx3 (successSound, successSound);
 		switch (name) {
 		case "Fire":			
 			fireImage.SetActive (true);
