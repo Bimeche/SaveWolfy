@@ -106,7 +106,7 @@ public class GameManager : MonoBehaviour
 		playerScore += strikeMeter;
 		objectPooler.DespawnToPool(go);
 
-		if (strikeMeter >= 3 && PlayerPrefs.GetInt("Fire") == 0) {
+		if (strikeMeter >= 9 && PlayerPrefs.GetInt("Fire") == 0) {
 			SuccessManager.Instance.UnlockSkin ("Fire");
 		}
 		if (strikeMeter >= 24 && PlayerPrefs.GetInt("Red") == 0) {
