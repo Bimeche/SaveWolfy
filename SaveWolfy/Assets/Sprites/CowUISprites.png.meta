@@ -1,0 +1,4642 @@
+fileFormatVersion: 2
+guid: 60c22ebdd6ddd3044b53de1ea08462bd
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: CowUISprites
+    21300002: button_1_hover
+    21300004: button_1_normal
+    21300006: button_1_pressed
+    21300008: button_rounded_hover
+    21300010: button_rounded_normal
+    21300012: button_rounded_pressed
+    21300014: icon_chest
+    21300016: icon_crown
+    21300018: icon_exit
+    21300020: icon_home
+    21300022: icon_pause
+    21300024: icon_play
+    21300026: icon_replay
+    21300028: Menu
+    21300030: vache_hit-vache_hit_0001
+    21300032: vache_hit-vache_hit_0002
+    21300034: vache_hit-vache_hit_0003
+    21300036: vache_hit-vache_hit_0004
+    21300038: vache_hit-vache_hit_0005
+    21300040: vache_hit-vache_hit_0006
+    21300042: vache_hit_cycle-vache_hit_cycle_0001
+    21300044: vache_hit_cycle-vache_hit_cycle_0002
+    21300046: vache_hit_cycle-vache_hit_cycle_0003
+    21300048: vache_hit_cycle-vache_hit_cycle_0004
+    21300050: vache_hit_cycle-vache_hit_cycle_0005
+    21300052: vache_hit_cycle-vache_hit_cycle_0006
+    21300054: vache_hit_cycle-vache_hit_cycle_0007
+    21300056: vache_hit_cycle-vache_hit_cycle_0008
+    21300058: vache_hit_cycle-vache_hit_cycle_0009
+    21300060: vache_hit_cycle-vache_hit_cycle_0010
+    21300062: vache_hit_cycle-vache_hit_cycle_0011
+    21300064: vache_hit_cycle-vache_hit_cycle_0012
+    21300066: vache_hit_cycle-vache_hit_cycle_0013
+    21300068: vache_hit_cycle-vache_hit_cycle_0014
+    21300070: vache_hit_cycle-vache_hit_cycle_0015
+    21300072: vache_hit_cycle-vache_hit_cycle_0016
+    21300074: vache_hit_cycle-vache_hit_cycle_0017
+    21300076: vache_hit_cycle-vache_hit_cycle_0018
+    21300078: vache_hit_cycle-vache_hit_cycle_0019
+    21300080: vache_hit_cycle-vache_hit_cycle_0020
+    21300082: vache_hit_cycle-vache_hit_cycle_0021
+    21300084: vache_hit_cycle-vache_hit_cycle_0022
+    21300086: vache_idle-vache_idle_0001
+    21300088: vache_idle-vache_idle_0002
+    21300090: vache_idle-vache_idle_0003
+    21300092: vache_idle-vache_idle_0004
+    21300094: vache_idle-vache_idle_0005
+    21300096: vache_idle-vache_idle_0006
+    21300098: vache_idle-vache_idle_0007
+    21300100: vache_idle-vache_idle_0008
+    21300102: vache_idle-vache_idle_0009
+    21300104: vache_idle-vache_idle_0010
+    21300106: vache_idle-vache_idle_0011
+    21300108: vache_idle-vache_idle_0012
+    21300110: vache_idle-vache_idle_0013
+    21300112: vache_idle-vache_idle_0014
+    21300114: vache_idle-vache_idle_0015
+    21300116: vache_idle-vache_idle_0016
+    21300118: vache_idle-vache_idle_0017
+    21300120: vache_idle-vache_idle_0018
+    21300122: vache_idle-vache_idle_0019
+    21300124: vache_idle-vache_idle_0020
+    21300126: vache_idle-vache_idle_0021
+    21300128: vache_idle-vache_idle_0022
+    21300130: vache_idle-vache_idle_0023
+    21300132: vache_idle-vache_idle_0024
+    21300134: vache_idle-vache_idle_0025
+    21300136: vache_idle-vache_idle_0026
+    21300138: vache_idle-vache_idle_0027
+    21300140: vache_idle-vache_idle_0028
+    21300142: vache_idle-vache_idle_0029
+    21300144: vache_idle-vache_idle_0030
+    21300146: vache_idle-vache_idle_0031
+    21300148: vache_idle-vache_idle_0032
+    21300150: vache_idle-vache_idle_0033
+    21300152: vache_idle-vache_idle_0034
+    21300154: vache_idle-vache_idle_0035
+    21300156: vache_idle-vache_idle_0036
+    21300158: vache_idle-vache_idle_0037
+    21300160: vache_idle-vache_idle_0038
+    21300162: vache_idle-vache_idle_0039
+    21300164: vache_idle-vache_idle_0040
+    21300166: vache_idle-vache_idle_0041
+    21300168: vache_idle-vache_idle_0042
+    21300170: vache_idle-vache_idle_0043
+    21300172: vache_idle-vache_idle_0044
+    21300174: vache_idle-vache_idle_0045
+    21300176: vache_idle-vache_idle_0046
+    21300178: vache_idle-vache_idle_0047
+    21300180: vache_idle-vache_idle_0048
+    21300182: vache_idle-vache_idle_0049
+    21300184: vache_idle-vache_idle_0050
+    21300186: vache_idle-vache_idle_0051
+    21300188: vache_idle-vache_idle_0052
+    21300190: vache_idle-vache_idle_0053
+    21300192: vache_idle-vache_idle_0054
+    21300194: vache_idle-vache_idle_0055
+    21300196: vache_idle-vache_idle_0056
+    21300198: vache_idle-vache_idle_0057
+    21300200: vache_idle-vache_idle_0058
+    21300202: vache_idle-vache_idle_0059
+    21300204: vache_idle-vache_idle_0060
+    21300206: vache_idle-vache_idle_0061
+    21300208: vache_idle-vache_idle_0062
+    21300210: vache_idle-vache_idle_0063
+    21300212: vache_idle-vache_idle_0064
+    21300214: vache_idle-vache_idle_0065
+    21300216: vache_idle-vache_idle_0066
+    21300218: vache_idle-vache_idle_0067
+    21300220: vache_idle-vache_idle_0068
+    21300222: vache_idle-vache_idle_0069
+    21300224: vache_idle-vache_idle_0070
+    21300226: vache_idle-vache_idle_0071
+    21300228: vache_idle-vache_idle_0072
+    21300230: vache_idle-vache_idle_0073
+    21300232: vache_idle-vache_idle_0074
+    21300234: vache_idle-vache_idle_0075
+    21300236: vache_idle-vache_idle_0076
+    21300238: vache_idle-vache_idle_0077
+    21300240: vache_idle-vache_idle_0078
+    21300242: vache_idle-vache_idle_0079
+    21300244: vache_idle-vache_idle_0080
+    21300246: vache_idle-vache_idle_0081
+    21300248: vache_idle-vache_idle_0082
+    21300250: vache_idle-vache_idle_0083
+    21300252: vache_idle-vache_idle_0084
+    21300254: vache_idle-vache_idle_0085
+    21300256: vache_idle-vache_idle_0086
+    21300258: vache_idle-vache_idle_0087
+    21300260: vache_idle-vache_idle_0088
+    21300262: vache_idle-vache_idle_0089
+    21300264: vache_idle-vache_idle_0090
+    21300266: vache_idle-vache_idle_0091
+    21300268: vache_idle-vache_idle_0092
+    21300270: vache_idle-vache_idle_0093
+    21300272: vache_idle-vache_idle_0094
+    21300274: vache_idle-vache_idle_0095
+    21300276: vache_idle-vache_idle_0096
+    21300278: vache_idle-vache_idle_0097
+    21300280: vache_idle-vache_idle_0098
+    21300282: vache_idle-vache_idle_0099
+    21300284: vache_idle-vache_idle_0100
+    21300286: vache_idle-vache_idle_0101
+    21300288: vache_idle-vache_idle_0102
+    21300290: vache_idle-vache_idle_0103
+    21300292: vache_idle-vache_idle_0104
+    21300294: vache_idle-vache_idle_0105
+    21300296: vache_idle-vache_idle_0106
+    21300298: vache_idle-vache_idle_0107
+    21300300: vache_idle-vache_idle_0108
+    21300302: vache_idle-vache_idle_0109
+    21300304: vache_idle-vache_idle_0110
+    21300306: vache_idle-vache_idle_0111
+    21300308: vache_idle-vache_idle_0112
+    21300310: vache_idle-vache_idle_0113
+    21300312: vache_idle-vache_idle_0114
+    21300314: vache_idle-vache_idle_0115
+    21300316: vache_idle-vache_idle_0116
+    21300318: vache_idle-vache_idle_0117
+    21300320: vache_idle-vache_idle_0118
+    21300322: vache_idle-vache_idle_0119
+    21300324: vache_idle-vache_idle_0120
+    21300326: vache_idle-vache_idle_0121
+    21300328: vache_idle-vache_idle_0122
+    21300330: vache_idle-vache_idle_0123
+    21300332: vache_idle-vache_idle_0124
+    21300334: vache_idle-vache_idle_0125
+    21300336: vache_idle-vache_idle_0126
+    21300338: vache_idle-vache_idle_0127
+    21300340: vache_idle-vache_idle_0128
+    21300342: vache_idle-vache_idle_0129
+    21300344: vache_idle-vache_idle_0130
+    21300346: vache_idle-vache_idle_0131
+    21300348: vache_idle-vache_idle_0132
+    21300350: vache_idle-vache_idle_0133
+    21300352: vache_idle-vache_idle_0134
+    21300354: vache_idle-vache_idle_0135
+    21300356: vache_idle-vache_idle_0136
+    21300358: vache_idle-vache_idle_0137
+    21300360: vache_idle-vache_idle_0138
+    21300362: vache_idle-vache_idle_0139
+    21300364: vache_idle-vache_idle_0140
+    21300366: vache_idle-vache_idle_0141
+    21300368: vache_idle-vache_idle_0142
+    21300370: vache_idle-vache_idle_0143
+    21300372: vache_idle-vache_idle_0144
+    21300374: vache_idle-vache_idle_0145
+    21300376: vache_idle-vache_idle_0146
+    21300378: vache_idle-vache_idle_0147
+    21300380: vache_idle-vache_idle_0148
+    21300382: vache_idle-vache_idle_0149
+    21300384: vache_idle-vache_idle_0150
+    21300386: vache_idle-vache_idle_0151
+    21300388: vache_idle-vache_idle_0152
+    21300390: vache_idle-vache_idle_0153
+    21300392: vache_idle-vache_idle_0154
+    21300394: vache_idle-vache_idle_0155
+    21300396: vache_idle-vache_idle_0156
+    21300398: vache_idle-vache_idle_0157
+    21300400: vache_idle-vache_idle_0158
+    21300402: vache_idle-vache_idle_0159
+    21300404: vache_idle-vache_idle_0160
+    21300406: vache_idle-vache_idle_0161
+    21300408: vache_idle-vache_idle_0162
+    21300410: vache_idle-vache_idle_0163
+    21300412: vache_idle-vache_idle_0164
+    21300414: vache_idle-vache_idle_0165
+    21300416: vache_idle-vache_idle_0166
+    21300418: vache_idle-vache_idle_0167
+    21300420: vache_idle-vache_idle_0168
+    21300422: vache_idle-vache_idle_0169
+    21300424: vache_idle-vache_idle_0170
+    21300426: vache_idle-vache_idle_0171
+    21300428: vache_idle-vache_idle_0172
+    21300430: vache_idle-vache_idle_0173
+    21300432: vache_idle-vache_idle_0174
+    21300434: vache_idle-vache_idle_0175
+  externalObjects: {}
+  serializedVersion: 5
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: button_1_hover
+      rect:
+        serializedVersion: 2
+        x: 1917
+        y: 1243
+        width: 100
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5eb24cd1bd620f649b1ea921b033a736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button_1_normal
+      rect:
+        serializedVersion: 2
+        x: 1917
+        y: 1190
+        width: 100
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec86a4d8b40da4d41b636086ce6e1477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button_1_pressed
+      rect:
+        serializedVersion: 2
+        x: 1917
+        y: 1137
+        width: 100
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1e14407201fc774c9740bb6e35874a6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button_rounded_hover
+      rect:
+        serializedVersion: 2
+        x: 1978
+        y: 1828
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a72e1644d866084596d85cf9f4cac85
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button_rounded_normal
+      rect:
+        serializedVersion: 2
+        x: 1978
+        y: 1764
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8e7c35781329204187ae35c9eccd2cc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: button_rounded_pressed
+      rect:
+        serializedVersion: 2
+        x: 1978
+        y: 1700
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da7a57513b993a246ba7a77c4b7d33be
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icon_chest
+      rect:
+        serializedVersion: 2
+        x: 1978
+        y: 1658
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e822bae90447f99438badef1df79ec23
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icon_crown
+      rect:
+        serializedVersion: 2
+        x: 1978
+        y: 1616
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b17db35589a84d4aa6e98183a54ff44
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icon_exit
+      rect:
+        serializedVersion: 2
+        x: 1978
+        y: 1574
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f622f18962b84fd45b45d69ccb7444c1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icon_home
+      rect:
+        serializedVersion: 2
+        x: 1978
+        y: 1532
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 229d477899c349b44857790fda920fe4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icon_pause
+      rect:
+        serializedVersion: 2
+        x: 2015
+        y: 1456
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a60113fdabd686d4b99c41bda356760a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icon_play
+      rect:
+        serializedVersion: 2
+        x: 1978
+        y: 1452
+        width: 35
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d37c8e90c210aec448b35cac3a616c83
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icon_replay
+      rect:
+        serializedVersion: 2
+        x: 1978
+        y: 1490
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99d5f981cdde4554aa4a22d5ab6bdf0d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1574
+        width: 564
+        height: 473
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aac12c5c57055f44781c20b25d55147f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vache_hit-vache_hit_0001
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1283
+        width: 147
+        height: 145
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8454a98e92b3745439157415a98cfedc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vache_hit-vache_hit_0002
+      rect:
+        serializedVersion: 2
+        x: 1577
+        y: 1294
+        width: 169
+        height: 147
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89fc58a390906ba4d87bfb88b6b037cf
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vache_hit-vache_hit_0003
+      rect:
+        serializedVersion: 2
+        x: 1748
+        y: 1147
+        width: 167
+        height: 147
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d680d82d7b7a1054a969c77514e65291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vache_hit-vache_hit_0004
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 1586
+        width: 166
+        height: 147
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94d0dfb10b442664984acba155d2d744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vache_hit-vache_hit_0005
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 1586
+        width: 163
+        height: 146
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bcac0efd10bdaf1498b51a123149f963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vache_hit-vache_hit_0006
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 1586
+        width: 163
+        height: 146
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95cadd13d46988348880a50fe4c85b71
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vache_hit_cycle-vache_hit_cycle_0001
+      rect:
+        serializedVersion: 2
+        x: 1785
+        y: 1296
+        width: 191
+        height: 146
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4c91a1cec673334f971283da27d4645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vache_hit_cycle-vache_hit_cycle_0002
+      rect:
+        serializedVersion: 2
+        x: 983
+        y: 1892
+        width: 206
+        height: 155
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e707a8a1cec300b43a68545dbbb78729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vache_hit_cycle-vache_hit_cycle_0003
+      rect:
+        serializedVersion: 2
+        x: 1785
+        y: 1593
+        width: 191
+        height: 147
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b0f41c888a708740b7fd1d219ee6282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vache_hit_cycle-vache_hit_cycle_0004
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 1735
+        width: 206
+        height: 154
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a876d1107850fc44a553b6b3060dc33
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vache_hit_cycle-vache_hit_cycle_0005
+      rect:
+        serializedVersion: 2
+        x: 1191
+        y: 1587
+        width: 191
+        height: 147
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca610c1c7c21c8240af50d2f1a7f7ec6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vache_hit_cycle-vache_hit_cycle_0006
+      rect:
+        serializedVersion: 2
+        x: 1191
+        y: 1892
+        width: 206
+        height: 155
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 427aee86f6786db4f9c69974866139e8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vache_hit_cycle-vache_hit_cycle_0007
+      rect:
+        serializedVersion: 2
+        x: 1785
+        y: 1444
+        width: 191
+        height: 147
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19edd0ec7e07d6340aff58f60afefa0f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vache_hit_cycle-vache_hit_cycle_0008
+      rect:
+        serializedVersion: 2
+        x: 1191
+        y: 1736
+        width: 206
+        height: 154
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9984e0d35a8bf2408cd9d69fa1b89f7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vache_hit_cycle-vache_hit_cycle_0009
+      rect:
+        serializedVersion: 2
+        x: 1592
+        y: 1443
+        width: 191
+        height: 147
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd4af54b2d87c434eb0fbc78a17cfe72
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vache_hit_cycle-vache_hit_cycle_0010
+      rect:
+        serializedVersion: 2
+        x: 1399
+        y: 1892
+        width: 206
+        height: 155
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3ed7b58e9458bd4c8820f0f058a820a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vache_hit_cycle-vache_hit_cycle_0011
+      rect:
+        serializedVersion: 2
+        x: 1384
+        y: 1442
+        width: 191
+        height: 147
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df97ce98096539e4c81d77ad33fde2bb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vache_hit_cycle-vache_hit_cycle_0012
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 1891
+        width: 206
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5237999b528a5948b3fad3527af28ff
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vache_hit_cycle-vache_hit_cycle_0013
+      rect:
+        serializedVersion: 2
+        x: 1592
+        y: 1742
+        width: 191
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ddacf704259c2c8448d2a678c0ceb18b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vache_hit_cycle-vache_hit_cycle_0014
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 1891
+        width: 206
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f30db91d5aad60c429943098773d8fcc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vache_hit_cycle-vache_hit_cycle_0015
+      rect:
+        serializedVersion: 2
+        x: 1785
+        y: 1742
+        width: 191
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70ecc3cb4f139af489cd216fd8ce901b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vache_hit_cycle-vache_hit_cycle_0016
+      rect:
+        serializedVersion: 2
+        x: 1607
+        y: 1892
+        width: 206
+        height: 155
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 351c520fdf5ef4740bd9f5a99ab468bd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vache_hit_cycle-vache_hit_cycle_0017
+      rect:
+        serializedVersion: 2
+        x: 1592
+        y: 1592
+        width: 191
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f025a0d103babe640ab1625bbb14faf3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vache_hit_cycle-vache_hit_cycle_0018
+      rect:
+        serializedVersion: 2
+        x: 1815
+        y: 1892
+        width: 206
+        height: 155
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a68739bdea9c5454fb1713eca449e345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vache_hit_cycle-vache_hit_cycle_0019
+      rect:
+        serializedVersion: 2
+        x: 1399
+        y: 1591
+        width: 191
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d845e43ea0eaacc4a951691f612b9d50
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vache_hit_cycle-vache_hit_cycle_0020
+      rect:
+        serializedVersion: 2
+        x: 983
+        y: 1735
+        width: 206
+        height: 155
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bf9c8b7e336e6a4ab1a8996ca605b49
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vache_hit_cycle-vache_hit_cycle_0021
+      rect:
+        serializedVersion: 2
+        x: 1399
+        y: 1741
+        width: 191
+        height: 149
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04d0a4f128d6d7d4eb1b5845f212b0fd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vache_hit_cycle-vache_hit_cycle_0022
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 1734
+        width: 206
+        height: 155
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a36d6f1ef6433484b914cb7346693b39
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vache_idle-vache_idle_0001
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1283
+        width: 147
+        height: 145
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c7cf5e53bea5e34c9e8ff2321bfb285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vache_idle-vache_idle_0002
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 1284
+        width: 147
+        height: 145
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7364b3a807192c4459f59b43e15a4b8e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vache_idle-vache_idle_0003
+      rect:
+        serializedVersion: 2
+        x: 893
+        y: 268
+        width: 146
+        height: 145
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4a966cd324cbd94ab20d74b00cb7ec1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vache_idle-vache_idle_0004
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 268
+        width: 146
+        height: 145
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 897b4c24c0758324ebee2de429733d21
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vache_idle-vache_idle_0005
+      rect:
+        serializedVersion: 2
+        x: 1037
+        y: 121
+        width: 146
+        height: 145
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e766836fcebfda246b8b1984830caa1d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vache_idle-vache_idle_0006
+      rect:
+        serializedVersion: 2
+        x: 1784
+        y: 410
+        width: 146
+        height: 145
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23f73e5d169252a40b95c3b87d46ac4a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vache_idle-vache_idle_0007
+      rect:
+        serializedVersion: 2
+        x: 1185
+        y: 118
+        width: 146
+        height: 145
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9b252542fe41ca42895e0097bc71ed1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vache_idle-vache_idle_0008
+      rect:
+        serializedVersion: 2
+        x: 1333
+        y: 118
+        width: 146
+        height: 145
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf3d753b51f58e9448c550efe07c9ea9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vache_idle-vache_idle_0009
+      rect:
+        serializedVersion: 2
+        x: 1340
+        y: 266
+        width: 146
+        height: 145
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd0c737dcb36a7a4e9a32490939635cb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vache_idle-vache_idle_0010
+      rect:
+        serializedVersion: 2
+        x: 1488
+        y: 268
+        width: 146
+        height: 145
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f129a92e72faa824cb637afb7a396ce5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vache_idle-vache_idle_0011
+      rect:
+        serializedVersion: 2
+        x: 1636
+        y: 266
+        width: 146
+        height: 145
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1217e5dcc5e817a4680cd239fa98d66f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vache_idle-vache_idle_0012
+      rect:
+        serializedVersion: 2
+        x: 1488
+        y: 121
+        width: 146
+        height: 145
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f04d02efcb52dd94886b49bffd4b2417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vache_idle-vache_idle_0013
+      rect:
+        serializedVersion: 2
+        x: 1784
+        y: 263
+        width: 146
+        height: 145
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75c48f8eef281834385f60d0cc8bf126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vache_idle-vache_idle_0014
+      rect:
+        serializedVersion: 2
+        x: 1636
+        y: 119
+        width: 146
+        height: 145
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5776811da2770a44a6a1d2c8392105c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vache_idle-vache_idle_0015
+      rect:
+        serializedVersion: 2
+        x: 1784
+        y: 116
+        width: 146
+        height: 145
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce44329e5193ffc4488fdb7d423c2abe
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vache_idle-vache_idle_0016
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 1149
+        width: 147
+        height: 145
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b0bc0104e5cdae478808c8b5aaa7b92
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vache_idle-vache_idle_0017
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 1144
+        width: 147
+        height: 145
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c69bd69f9158d4649b4b93338358900c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vache_idle-vache_idle_0018
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 1137
+        width: 147
+        height: 145
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 651beef260e6aea43a9f23fcdab37c54
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vache_idle-vache_idle_0019
+      rect:
+        serializedVersion: 2
+        x: 749
+        y: 1149
+        width: 147
+        height: 145
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bdcfc7ede5597342a71298275facc05
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vache_idle-vache_idle_0020
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1283
+        width: 147
+        height: 145
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af011146be2726a42b3cb01608c24a1b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vache_idle-vache_idle_0021
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 1284
+        width: 147
+        height: 145
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5fe018e43136824e87e4c116fc6387e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vache_idle-vache_idle_0022
+      rect:
+        serializedVersion: 2
+        x: 893
+        y: 268
+        width: 146
+        height: 145
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 392760bfe6f156b499c8a4af5fc5a5c3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vache_idle-vache_idle_0023
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 268
+        width: 146
+        height: 145
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9916bc4002629a445b478c7e903244aa
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vache_idle-vache_idle_0024
+      rect:
+        serializedVersion: 2
+        x: 1037
+        y: 121
+        width: 146
+        height: 145
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6e83155b348bb744a4c09c025a6e8e5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vache_idle-vache_idle_0025
+      rect:
+        serializedVersion: 2
+        x: 1784
+        y: 410
+        width: 146
+        height: 145
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad5fc03d10714384e842b98ad4d18d9a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vache_idle-vache_idle_0026
+      rect:
+        serializedVersion: 2
+        x: 1185
+        y: 118
+        width: 146
+        height: 145
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74004ec62fe237f4b8a4baa1b38b04b0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vache_idle-vache_idle_0027
+      rect:
+        serializedVersion: 2
+        x: 1333
+        y: 118
+        width: 146
+        height: 145
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 400e849e4ad88f34bb6e2a883cab31f4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vache_idle-vache_idle_0028
+      rect:
+        serializedVersion: 2
+        x: 1340
+        y: 266
+        width: 146
+        height: 145
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c490753945cdcb47922c4cc66ca6033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vache_idle-vache_idle_0029
+      rect:
+        serializedVersion: 2
+        x: 1488
+        y: 268
+        width: 146
+        height: 145
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 109104135a992514d98491a158f6be4b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vache_idle-vache_idle_0030
+      rect:
+        serializedVersion: 2
+        x: 1636
+        y: 266
+        width: 146
+        height: 145
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16e682b9824f9374e9afc39d0b0eda74
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vache_idle-vache_idle_0031
+      rect:
+        serializedVersion: 2
+        x: 1488
+        y: 121
+        width: 146
+        height: 145
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b83fa6ffa910f044c86dbc61b369a87e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vache_idle-vache_idle_0032
+      rect:
+        serializedVersion: 2
+        x: 1784
+        y: 263
+        width: 146
+        height: 145
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90d7350fca15ac04da24dc4bb608a06c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vache_idle-vache_idle_0033
+      rect:
+        serializedVersion: 2
+        x: 1636
+        y: 119
+        width: 146
+        height: 145
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0dbea9ca0f92a9641aa5b14aa12de208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vache_idle-vache_idle_0034
+      rect:
+        serializedVersion: 2
+        x: 1784
+        y: 116
+        width: 146
+        height: 145
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc902b02d8e1b92488b0e716c8ffb639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vache_idle-vache_idle_0035
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 1149
+        width: 147
+        height: 145
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f93aef7482e2e8242a9ea6e791344d4b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vache_idle-vache_idle_0036
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 1144
+        width: 147
+        height: 145
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 555aa649e4379be428b1123dd7bc0ec5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vache_idle-vache_idle_0037
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 1137
+        width: 147
+        height: 145
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89d902c4cd9332f45a86c1cd2f0a0f57
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vache_idle-vache_idle_0038
+      rect:
+        serializedVersion: 2
+        x: 749
+        y: 1149
+        width: 147
+        height: 145
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61110947f436089489081592e8a75e0c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vache_idle-vache_idle_0039
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1283
+        width: 147
+        height: 145
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8e2a349bc9604a46b036cbbb3cb43e7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vache_idle-vache_idle_0040
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 1284
+        width: 147
+        height: 145
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7462716afbbfce647b6848f0f829851e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vache_idle-vache_idle_0041
+      rect:
+        serializedVersion: 2
+        x: 893
+        y: 268
+        width: 146
+        height: 145
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b45bac7cc610f649918e2915036c445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vache_idle-vache_idle_0042
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 268
+        width: 146
+        height: 145
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0052ea0e3a61e3c40a6ad54c3d487200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vache_idle-vache_idle_0043
+      rect:
+        serializedVersion: 2
+        x: 1037
+        y: 121
+        width: 146
+        height: 145
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 640095694fbd4a24b9aaed3830f4bc26
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vache_idle-vache_idle_0044
+      rect:
+        serializedVersion: 2
+        x: 1784
+        y: 410
+        width: 146
+        height: 145
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4d04ac37b38cce4eb558f69090fa022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vache_idle-vache_idle_0045
+      rect:
+        serializedVersion: 2
+        x: 1185
+        y: 118
+        width: 146
+        height: 145
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8922c31224610d44090df7f82092d399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vache_idle-vache_idle_0046
+      rect:
+        serializedVersion: 2
+        x: 1333
+        y: 118
+        width: 146
+        height: 145
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e72bac3993e86c4ca77fd0835fc4df6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vache_idle-vache_idle_0047
+      rect:
+        serializedVersion: 2
+        x: 1340
+        y: 266
+        width: 146
+        height: 145
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b6fc626450d4cc4098cc838a47f3ac2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vache_idle-vache_idle_0048
+      rect:
+        serializedVersion: 2
+        x: 1488
+        y: 268
+        width: 146
+        height: 145
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 785572b3cf834fe44b9d0ba94837a7e2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vache_idle-vache_idle_0049
+      rect:
+        serializedVersion: 2
+        x: 1636
+        y: 266
+        width: 146
+        height: 145
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5ee4d74a0659624da86af796a2d2f42
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vache_idle-vache_idle_0050
+      rect:
+        serializedVersion: 2
+        x: 1488
+        y: 121
+        width: 146
+        height: 145
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b32ea0215ae98747acfc30d9469e851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vache_idle-vache_idle_0051
+      rect:
+        serializedVersion: 2
+        x: 1784
+        y: 263
+        width: 146
+        height: 145
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44ee749340451384b8283931e2f9fbaf
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vache_idle-vache_idle_0052
+      rect:
+        serializedVersion: 2
+        x: 1636
+        y: 119
+        width: 146
+        height: 145
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41d301b91f2312542b1047b898b2f7c4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vache_idle-vache_idle_0053
+      rect:
+        serializedVersion: 2
+        x: 1784
+        y: 116
+        width: 146
+        height: 145
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ded29b14c1b29e4889069ecf62f01e6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vache_idle-vache_idle_0054
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 1149
+        width: 147
+        height: 145
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90188896df1454a40a161ec96ccd5889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vache_idle-vache_idle_0055
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 1144
+        width: 147
+        height: 145
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6e1d27f296259649a1176bbe3348256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vache_idle-vache_idle_0056
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 1137
+        width: 147
+        height: 145
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8bf8af8b82145c48a19212eec1cf227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vache_idle-vache_idle_0057
+      rect:
+        serializedVersion: 2
+        x: 749
+        y: 1149
+        width: 147
+        height: 145
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0738fcbfdaa638478fee29612773437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vache_idle-vache_idle_0058
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1283
+        width: 147
+        height: 145
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cde53c7353beeda4ea243770af581f8f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vache_idle-vache_idle_0059
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1283
+        width: 147
+        height: 145
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8088e0f94b59694fa5bec3416fd2cfa
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vache_idle-vache_idle_0060
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1283
+        width: 147
+        height: 145
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c71871da212b15446a15125c9e233a38
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vache_idle-vache_idle_0061
+      rect:
+        serializedVersion: 2
+        x: 1641
+        y: 854
+        width: 147
+        height: 144
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1dd37ddb76c15fc4d847bd6c5f9066eb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vache_idle-vache_idle_0062
+      rect:
+        serializedVersion: 2
+        x: 1790
+        y: 699
+        width: 147
+        height: 143
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea53825f6a1f9e7479d234d4234ff466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vache_idle-vache_idle_0063
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 551
+        width: 147
+        height: 142
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5cf21cf604409c4fa8324e4e715decd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vache_idle-vache_idle_0064
+      rect:
+        serializedVersion: 2
+        x: 1044
+        y: 568
+        width: 147
+        height: 142
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6cd22ce250f07c34d97f2fe673f539ae
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vache_idle-vache_idle_0065
+      rect:
+        serializedVersion: 2
+        x: 1193
+        y: 568
+        width: 147
+        height: 142
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fac64c56f6eb56e4fa8514e267f69255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vache_idle-vache_idle_0066
+      rect:
+        serializedVersion: 2
+        x: 1342
+        y: 566
+        width: 147
+        height: 142
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ffcff89a0ee72e46a252ebc6de57375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vache_idle-vache_idle_0067
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 266
+        width: 146
+        height: 143
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e29868a229c9b7e45bf92662a9ec1b18
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vache_idle-vache_idle_0068
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 265
+        width: 146
+        height: 144
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 593300ec49d51794d8a2c2905cd81322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vache_idle-vache_idle_0069
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 116
+        width: 146
+        height: 147
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31d30a857a22777428c7080338f7f202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vache_idle-vache_idle_0070
+      rect:
+        serializedVersion: 2
+        x: 895
+        y: 567
+        width: 147
+        height: 143
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91a390e4c760da64ebfe0156d9c1c296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vache_idle-vache_idle_0071
+      rect:
+        serializedVersion: 2
+        x: 1017
+        y: 1297
+        width: 148
+        height: 142
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7185fd7b2e5ee764dac31acac4315326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vache_idle-vache_idle_0072
+      rect:
+        serializedVersion: 2
+        x: 1017
+        y: 1153
+        width: 148
+        height: 142
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 869c56ace1b721941af8d07d83650972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vache_idle-vache_idle_0073
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 1431
+        width: 148
+        height: 141
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7818c2a28bde924eae2e9181b66aa14
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vache_idle-vache_idle_0074
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 1431
+        width: 148
+        height: 141
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc6abfdc06393664ab2f1f73f1cfb88d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vache_idle-vache_idle_0075
+      rect:
+        serializedVersion: 2
+        x: 1167
+        y: 1152
+        width: 148
+        height: 142
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbe8bb0486107f4449ed9e78a6053a46
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vache_idle-vache_idle_0076
+      rect:
+        serializedVersion: 2
+        x: 717
+        y: 1441
+        width: 148
+        height: 143
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfbeacf4428ab1f4dabb4d6c6de35c4a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vache_idle-vache_idle_0077
+      rect:
+        serializedVersion: 2
+        x: 898
+        y: 1006
+        width: 147
+        height: 145
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9e53ed48bd3fcc4796118635c13c33e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vache_idle-vache_idle_0078
+      rect:
+        serializedVersion: 2
+        x: 1044
+        y: 415
+        width: 146
+        height: 151
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59e6756aa6dbd534f98db74b9788c866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vache_idle-vache_idle_0079
+      rect:
+        serializedVersion: 2
+        x: 895
+        y: 415
+        width: 146
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5401912282871f84281bc330fd8d07a7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vache_idle-vache_idle_0080
+      rect:
+        serializedVersion: 2
+        x: 1192
+        y: 416
+        width: 146
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21a744cf04ae27c40818d6ee9c83cd4a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vache_idle-vache_idle_0081
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 411
+        width: 146
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1519779f1c7e24241a57f2569ad9a9c8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vache_idle-vache_idle_0082
+      rect:
+        serializedVersion: 2
+        x: 1340
+        y: 415
+        width: 146
+        height: 149
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c1a1db8aaa865c418ff8972ae91bdc6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vache_idle-vache_idle_0083
+      rect:
+        serializedVersion: 2
+        x: 867
+        y: 1441
+        width: 148
+        height: 143
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9e71680f57142744a4fe43906d24c1d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vache_idle-vache_idle_0084
+      rect:
+        serializedVersion: 2
+        x: 1790
+        y: 844
+        width: 147
+        height: 144
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1f1c748efb49244cb8e0db68d4c9eb8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vache_idle-vache_idle_0085
+      rect:
+        serializedVersion: 2
+        x: 1045
+        y: 712
+        width: 147
+        height: 144
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87d0d929a3285b347802dcc848e6f8a9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vache_idle-vache_idle_0086
+      rect:
+        serializedVersion: 2
+        x: 1194
+        y: 712
+        width: 147
+        height: 144
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90a75be6f32e98f429819f76ce294682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vache_idle-vache_idle_0087
+      rect:
+        serializedVersion: 2
+        x: 1343
+        y: 710
+        width: 147
+        height: 144
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69820103e94e3b648851dcb2ccc66e0a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vache_idle-vache_idle_0088
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1136
+        width: 147
+        height: 145
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88bb7b9e25e226b4d9f0352220610efb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vache_idle-vache_idle_0089
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 1136
+        width: 147
+        height: 145
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f4cc26b67ba4ee46b0aad32b3667573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vache_idle-vache_idle_0090
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 1283
+        width: 147
+        height: 146
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5dcfd31648bc1b46a08a679ec6e0c1e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vache_idle-vache_idle_0091
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 1291
+        width: 147
+        height: 147
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34f2ac34f271e604c9fb756dcee7a2fb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vache_idle-vache_idle_0092
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 406
+        width: 146
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b10c068eab81f6e4d9a01683ee17b137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vache_idle-vache_idle_0093
+      rect:
+        serializedVersion: 2
+        x: 745
+        y: 411
+        width: 146
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95978faa17a0b76438843fcb940cfe83
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vache_idle-vache_idle_0094
+      rect:
+        serializedVersion: 2
+        x: 1192
+        y: 265
+        width: 146
+        height: 149
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e7acd1873a4b174081de16724442f87
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vache_idle-vache_idle_0095
+      rect:
+        serializedVersion: 2
+        x: 1488
+        y: 415
+        width: 146
+        height: 149
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a655cba6ce68af459de55b0733d36d1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vache_idle-vache_idle_0096
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 115
+        width: 146
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbe249b161f856f4e879088e733a6240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vache_idle-vache_idle_0097
+      rect:
+        serializedVersion: 2
+        x: 943
+        y: 1586
+        width: 148
+        height: 147
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43d23fdf468d3e2498f7932ad24cee4f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vache_idle-vache_idle_0098
+      rect:
+        serializedVersion: 2
+        x: 1093
+        y: 1441
+        width: 148
+        height: 144
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3bb734108e7a654dba4664617411250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vache_idle-vache_idle_0099
+      rect:
+        serializedVersion: 2
+        x: 717
+        y: 1296
+        width: 148
+        height: 143
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cda9169cb22b1b499338add6c2b5749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vache_idle-vache_idle_0100
+      rect:
+        serializedVersion: 2
+        x: 1317
+        y: 1152
+        width: 148
+        height: 142
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd3b13f40eeb05d43a2f6eecdc9e2f07
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vache_idle-vache_idle_0101
+      rect:
+        serializedVersion: 2
+        x: 1467
+        y: 1150
+        width: 148
+        height: 142
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ef31642e4b12d14e9d3624c6079a3ff
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vache_idle-vache_idle_0102
+      rect:
+        serializedVersion: 2
+        x: 741
+        y: 116
+        width: 146
+        height: 147
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1d9572d55c72894a946a31fe1f9eafd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vache_idle-vache_idle_0103
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 115
+        width: 146
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfee8c2295a14664cb8b2612109cd535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vache_idle-vache_idle_0104
+      rect:
+        serializedVersion: 2
+        x: 1636
+        y: 413
+        width: 146
+        height: 149
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2388bc4f216566499de9f7460369962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vache_idle-vache_idle_0105
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 399
+        width: 146
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d5369968353133499f18fe5bf7e7c02
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vache_idle-vache_idle_0106
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 398
+        width: 146
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e13cc82369f56fb41be629b8523a9572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vache_idle-vache_idle_0107
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 399
+        width: 146
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f60178f2a9524144b8eb7c32249eb33
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vache_idle-vache_idle_0108
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 114
+        width: 146
+        height: 149
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c314c0bda0a9d1449b5f76e21dcbabb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vache_idle-vache_idle_0109
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 115
+        width: 146
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 838ba3ec6faaed044a971549f46b9ac3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vache_idle-vache_idle_0110
+      rect:
+        serializedVersion: 2
+        x: 889
+        y: 117
+        width: 146
+        height: 146
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 337a41068866dd84dbc71dc47ba8028f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vache_idle-vache_idle_0111
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1430
+        width: 148
+        height: 142
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36815094e7272e844804a5ea49796b82
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vache_idle-vache_idle_0112
+      rect:
+        serializedVersion: 2
+        x: 867
+        y: 1296
+        width: 148
+        height: 143
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a72e215c94a1ca4cb1b0256c893ebf8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vache_idle-vache_idle_0113
+      rect:
+        serializedVersion: 2
+        x: 1243
+        y: 1296
+        width: 148
+        height: 144
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35786a0e6ed628443935e38ecbe37b41
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vache_idle-vache_idle_0114
+      rect:
+        serializedVersion: 2
+        x: 1393
+        y: 1296
+        width: 148
+        height: 144
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5a7bf1221526af47a8e381f3d70ea08
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vache_idle-vache_idle_0115
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 1440
+        width: 148
+        height: 144
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae3f6573e2fa39a4598f6a6ed278e12a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vache_idle-vache_idle_0116
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1283
+        width: 147
+        height: 145
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ca48ef22d74ea749ab08a4d9a9eb253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vache_idle-vache_idle_0117
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1283
+        width: 147
+        height: 145
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3af8aa1efe73d174ea92fc41472f2586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vache_idle-vache_idle_0118
+      rect:
+        serializedVersion: 2
+        x: 598
+        y: 1002
+        width: 147
+        height: 145
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebefe10852dfad34dac2e995474ec965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vache_idle-vache_idle_0119
+      rect:
+        serializedVersion: 2
+        x: 598
+        y: 1002
+        width: 147
+        height: 145
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a1b2bfe19ce4424f9df09dd8e5f17bf
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vache_idle-vache_idle_0120
+      rect:
+        serializedVersion: 2
+        x: 598
+        y: 1002
+        width: 147
+        height: 145
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a75020da96c1634fab3e15b72672000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vache_idle-vache_idle_0121
+      rect:
+        serializedVersion: 2
+        x: 1492
+        y: 710
+        width: 147
+        height: 144
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b931aece110a68468f8192b1c7ae3ba
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vache_idle-vache_idle_0122
+      rect:
+        serializedVersion: 2
+        x: 1641
+        y: 708
+        width: 147
+        height: 144
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aff65d7d1c3c9cd4c8f172a909c00b99
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vache_idle-vache_idle_0123
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 563
+        width: 147
+        height: 143
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35b7071c0b578de408b99e3ba7080b02
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vache_idle-vache_idle_0124
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 558
+        width: 147
+        height: 143
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23eaa8709fdc8ea4e96556d27d62f41d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vache_idle-vache_idle_0125
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 551
+        width: 147
+        height: 143
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e54a4e8eef8b0724dbe8367e059909f7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vache_idle-vache_idle_0126
+      rect:
+        serializedVersion: 2
+        x: 746
+        y: 563
+        width: 147
+        height: 143
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5178e868eab567b438558b0eb62cf866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vache_idle-vache_idle_0127
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 550
+        width: 147
+        height: 143
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41d8d3477ef402947a2a9d62b6550546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vache_idle-vache_idle_0128
+      rect:
+        serializedVersion: 2
+        x: 1491
+        y: 566
+        width: 147
+        height: 142
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f30e3dbe7f797d47a8558894e5bafdb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vache_idle-vache_idle_0129
+      rect:
+        serializedVersion: 2
+        x: 1640
+        y: 564
+        width: 147
+        height: 142
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 548354e5fdb862e4199da724163c275c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vache_idle-vache_idle_0130
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 997
+        width: 147
+        height: 145
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c47f5f7c4bf80b04ebbbc2968c660040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vache_idle-vache_idle_0131
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 990
+        width: 147
+        height: 145
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 301ab7df891e8204c90e5c32828f36d3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vache_idle-vache_idle_0132
+      rect:
+        serializedVersion: 2
+        x: 747
+        y: 1002
+        width: 147
+        height: 145
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8bbe4b1a6cc08045a01271a1a45cef4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vache_idle-vache_idle_0133
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 989
+        width: 147
+        height: 145
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 209b2d9c6b0a9284e87ed4234b3d7970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vache_idle-vache_idle_0134
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 989
+        width: 147
+        height: 145
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a78a599cff280a24f801fc852d8f32dd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vache_idle-vache_idle_0135
+      rect:
+        serializedVersion: 2
+        x: 1047
+        y: 1005
+        width: 147
+        height: 145
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87fe71b9a08a76148adccd33dcc62f01
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vache_idle-vache_idle_0136
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 859
+        width: 147
+        height: 145
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f745efe84914be44bb884dce4bc8eec
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vache_idle-vache_idle_0137
+      rect:
+        serializedVersion: 2
+        x: 1196
+        y: 1005
+        width: 147
+        height: 145
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b0c1bb60c2c5324d8e5c9fe951f3638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vache_idle-vache_idle_0138
+      rect:
+        serializedVersion: 2
+        x: 598
+        y: 855
+        width: 147
+        height: 145
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c4a4fef36e27c94daee08de8ecc26a7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vache_idle-vache_idle_0139
+      rect:
+        serializedVersion: 2
+        x: 747
+        y: 855
+        width: 147
+        height: 145
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f207cf946dd55dc4a92d1d2e6482ee0c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vache_idle-vache_idle_0140
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 850
+        width: 147
+        height: 145
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9c9597a3e31bef4caa0625a01a0312d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vache_idle-vache_idle_0141
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 843
+        width: 147
+        height: 145
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d61bcfbafda74b4bac986afffedd45d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vache_idle-vache_idle_0142
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 842
+        width: 147
+        height: 145
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0faa56dc9cfb5548b27101467a1f8aa
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vache_idle-vache_idle_0143
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 842
+        width: 147
+        height: 145
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8dd0f2aa7ae6e24dae46752d20e1c29
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vache_idle-vache_idle_0144
+      rect:
+        serializedVersion: 2
+        x: 1345
+        y: 1003
+        width: 147
+        height: 145
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c7cccc7a77019345a4716496cbd08e3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vache_idle-vache_idle_0145
+      rect:
+        serializedVersion: 2
+        x: 1494
+        y: 1003
+        width: 147
+        height: 145
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4fd8d73b3cd20447abe7f34cb2cb15e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vache_idle-vache_idle_0146
+      rect:
+        serializedVersion: 2
+        x: 1643
+        y: 1000
+        width: 147
+        height: 145
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e63076af07c20c946a5470f041c9cc90
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vache_idle-vache_idle_0147
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 990
+        width: 147
+        height: 145
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a043396686a6917488503fc9ab13fe93
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vache_idle-vache_idle_0148
+      rect:
+        serializedVersion: 2
+        x: 1045
+        y: 858
+        width: 147
+        height: 145
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8402032f29170e141bbd890fe8f6b4ca
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vache_idle-vache_idle_0149
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 712
+        width: 147
+        height: 145
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d84d631aca9f59e4fa19f56bf32708e8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vache_idle-vache_idle_0150
+      rect:
+        serializedVersion: 2
+        x: 1194
+        y: 858
+        width: 147
+        height: 145
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1046007d57ab844681d6a6613150634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vache_idle-vache_idle_0151
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 708
+        width: 147
+        height: 145
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0041529fa4ddba6459d3b0c60eb84460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vache_idle-vache_idle_0152
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 703
+        width: 147
+        height: 145
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c95043461ab0e8446bf7bb61611cab25
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vache_idle-vache_idle_0153
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 696
+        width: 147
+        height: 145
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70f50514f9bd0b84ca78b03aecd97931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vache_idle-vache_idle_0154
+      rect:
+        serializedVersion: 2
+        x: 746
+        y: 708
+        width: 147
+        height: 145
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40632e0d9109ccb48a3ea4a7c04d2baa
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vache_idle-vache_idle_0155
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 695
+        width: 147
+        height: 145
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63389bb735718a044a737324ac098760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vache_idle-vache_idle_0156
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 695
+        width: 147
+        height: 145
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a275a705ab75e8946b7f9af01a5204ab
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vache_idle-vache_idle_0157
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 695
+        width: 147
+        height: 145
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7442e03dd41b6fd41b0f0eb8e9d0bb78
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vache_idle-vache_idle_0158
+      rect:
+        serializedVersion: 2
+        x: 1343
+        y: 856
+        width: 147
+        height: 145
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24b4ca8ff85d53b41ac8f8ed4b8d73b9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vache_idle-vache_idle_0159
+      rect:
+        serializedVersion: 2
+        x: 1492
+        y: 856
+        width: 147
+        height: 145
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc7c4d764f02cbf459e53443c489b507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vache_idle-vache_idle_0160
+      rect:
+        serializedVersion: 2
+        x: 1789
+        y: 557
+        width: 147
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73a4e51614833da43b433c42bbf2bb7d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vache_idle-vache_idle_0161
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1283
+        width: 147
+        height: 145
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e201b1c97a209534ab04eecb052a9d8a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vache_idle-vache_idle_0162
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1283
+        width: 147
+        height: 145
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 765234a4ed79f544491c481c89fe0ed4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vache_idle-vache_idle_0163
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1283
+        width: 147
+        height: 145
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fce0012cad423543a9db5be7c7a393a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vache_idle-vache_idle_0164
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1283
+        width: 147
+        height: 145
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e60dfc4a9319684ba8d34d45fa39cbc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vache_idle-vache_idle_0165
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1283
+        width: 147
+        height: 145
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 157ac5f05d78722479bef90dd8139d78
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vache_idle-vache_idle_0166
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1283
+        width: 147
+        height: 145
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1df2d77e5442c704fb8b992ca0a60a44
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vache_idle-vache_idle_0167
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1283
+        width: 147
+        height: 145
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba6d52839f7bc4541b65512a02d6de12
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vache_idle-vache_idle_0168
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1283
+        width: 147
+        height: 145
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fce5a5bafdbce5e449bea9ffb4ed2b7c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vache_idle-vache_idle_0169
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1283
+        width: 147
+        height: 145
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d594da266c065f448372f79bb43fe71
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vache_idle-vache_idle_0170
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1283
+        width: 147
+        height: 145
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c345e8e39f053dc45988013c0699d071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vache_idle-vache_idle_0171
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1283
+        width: 147
+        height: 145
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79fd11530eaba5d49b142cae0b2aa03a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vache_idle-vache_idle_0172
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1283
+        width: 147
+        height: 145
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 990949e25afbc124cbb8cdc73e00db70
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vache_idle-vache_idle_0173
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1283
+        width: 147
+        height: 145
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79a1e5c01baf6e844b70bf2932c9ddea
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vache_idle-vache_idle_0174
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1283
+        width: 147
+        height: 145
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad6c29a603522e9418b793f8b58fe233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vache_idle-vache_idle_0175
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1283
+        width: 147
+        height: 145
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10052f701ab83b74fa563b8858a1f49e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: e13960fa4daba6c4ba661c15f08e464f
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

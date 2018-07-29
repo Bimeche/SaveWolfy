@@ -1,0 +1,2836 @@
+fileFormatVersion: 2
+guid: b7cc8c9d4ea3338478ed1bc5fbf76f33
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: WolfAchievementCursorskinSprites
+    21300002: BlueCursor
+    21300004: GreenCursor
+    21300006: Loup_Hit-loup_hit_0001
+    21300008: Loup_Hit-loup_hit_0002
+    21300010: Loup_Hit-loup_hit_0003
+    21300012: Loup_Hit-loup_hit_0004
+    21300014: Loup_Hit-loup_hit_0005
+    21300016: Loup_Hit-loup_hit_0006
+    21300018: loup_hit_cycle-loup_hit_cycle_0001
+    21300020: loup_hit_cycle-loup_hit_cycle_0002
+    21300022: loup_hit_cycle-loup_hit_cycle_0003
+    21300024: loup_hit_cycle-loup_hit_cycle_0004
+    21300026: loup_hit_cycle-loup_hit_cycle_0005
+    21300028: loup_hit_cycle-loup_hit_cycle_0006
+    21300030: loup_hit_cycle-loup_hit_cycle_0007
+    21300032: loup_hit_cycle-loup_hit_cycle_0008
+    21300034: loup_hit_cycle-loup_hit_cycle_0009
+    21300036: loup_hit_cycle-loup_hit_cycle_0010
+    21300038: loup_hit_cycle-loup_hit_cycle_0011
+    21300040: loup_hit_cycle-loup_hit_cycle_0012
+    21300042: loup_hit_cycle-loup_hit_cycle_0013
+    21300044: loup_hit_cycle-loup_hit_cycle_0014
+    21300046: loup_hit_cycle-loup_hit_cycle_0015
+    21300048: loup_hit_cycle-loup_hit_cycle_0016
+    21300050: loup_hit_cycle-loup_hit_cycle_0017
+    21300052: loup_hit_cycle-loup_hit_cycle_0018
+    21300054: loup_hit_cycle-loup_hit_cycle_0019
+    21300056: loup_hit_cycle-loup_hit_cycle_0020
+    21300058: loup_hit_cycle-loup_hit_cycle_0021
+    21300060: loup_hit_cycle-loup_hit_cycle_0022
+    21300062: loup_idle-loup_idle_0001
+    21300064: loup_idle-loup_idle_0002
+    21300066: loup_idle-loup_idle_0003
+    21300068: loup_idle-loup_idle_0004
+    21300070: loup_idle-loup_idle_0005
+    21300072: loup_idle-loup_idle_0006
+    21300074: loup_idle-loup_idle_0007
+    21300076: loup_idle-loup_idle_0008
+    21300078: loup_idle-loup_idle_0009
+    21300080: loup_idle-loup_idle_0010
+    21300082: loup_idle-loup_idle_0011
+    21300084: loup_idle-loup_idle_0012
+    21300086: loup_idle-loup_idle_0013
+    21300088: loup_idle-loup_idle_0014
+    21300090: loup_idle-loup_idle_0015
+    21300092: loup_idle-loup_idle_0016
+    21300094: loup_idle-loup_idle_0017
+    21300096: loup_idle-loup_idle_0018
+    21300098: loup_idle-loup_idle_0019
+    21300100: loup_idle-loup_idle_0020
+    21300102: loup_idle-loup_idle_0021
+    21300104: loup_idle-loup_idle_0022
+    21300106: loup_idle-loup_idle_0023
+    21300108: loup_idle-loup_idle_0024
+    21300110: loup_idle-loup_idle_0025
+    21300112: loup_idle-loup_idle_0026
+    21300114: loup_idle-loup_idle_0027
+    21300116: loup_idle-loup_idle_0028
+    21300118: loup_idle-loup_idle_0029
+    21300120: loup_idle-loup_idle_0030
+    21300122: loup_idle-loup_idle_0031
+    21300124: loup_idle-loup_idle_0032
+    21300126: loup_idle-loup_idle_0033
+    21300128: loup_idle-loup_idle_0034
+    21300130: loup_idle-loup_idle_0035
+    21300132: loup_idle-loup_idle_0036
+    21300134: loup_idle-loup_idle_0037
+    21300136: loup_idle-loup_idle_0038
+    21300138: loup_idle-loup_idle_0039
+    21300140: loup_idle-loup_idle_0040
+    21300142: loup_idle-loup_idle_0041
+    21300144: loup_idle-loup_idle_0042
+    21300146: loup_idle-loup_idle_0043
+    21300148: loup_idle-loup_idle_0044
+    21300150: loup_idle-loup_idle_0045
+    21300152: loup_idle-loup_idle_0046
+    21300154: loup_idle-loup_idle_0047
+    21300156: loup_idle-loup_idle_0048
+    21300158: loup_idle-loup_idle_0049
+    21300160: loup_idle-loup_idle_0050
+    21300162: loup_idle-loup_idle_0051
+    21300164: loup_idle-loup_idle_0052
+    21300166: loup_idle-loup_idle_0053
+    21300168: loup_idle-loup_idle_0054
+    21300170: loup_idle-loup_idle_0055
+    21300172: loup_idle-loup_idle_0056
+    21300174: loup_idle-loup_idle_0057
+    21300176: loup_idle-loup_idle_0058
+    21300178: loup_idle-loup_idle_0059
+    21300180: loup_idle-loup_idle_0060
+    21300182: loup_idle-loup_idle_0061
+    21300184: loup_idle-loup_idle_0062
+    21300186: loup_idle-loup_idle_0063
+    21300188: loup_idle-loup_idle_0064
+    21300190: loup_idle-loup_idle_0065
+    21300192: loup_idle-loup_idle_0066
+    21300194: loup_idle-loup_idle_0067
+    21300196: loup_idle-loup_idle_0068
+    21300198: loup_idle-loup_idle_0069
+    21300200: loup_idle-loup_idle_0070
+    21300202: loup_idle-loup_idle_0071
+    21300204: loup_idle-loup_idle_0072
+    21300206: loup_idle-loup_idle_0073
+    21300208: loup_idle-loup_idle_0074
+    21300210: loup_idle-loup_idle_0075
+    21300212: loup_idle-loup_idle_0076
+    21300214: loup_idle-loup_idle_0077
+    21300216: loup_idle-loup_idle_0078
+    21300218: loup_idle-loup_idle_0079
+    21300220: loup_idle-loup_idle_0080
+    21300222: loup_idle-loup_idle_0081
+    21300224: loup_idle-loup_idle_0082
+    21300226: loup_idle-loup_idle_0083
+    21300228: loup_idle-loup_idle_0084
+    21300230: loup_idle-loup_idle_0085
+    21300232: loup_idle-loup_idle_0086
+    21300234: loup_idle-loup_idle_0087
+    21300236: loup_idle-loup_idle_0088
+    21300238: loup_idle-loup_idle_0089
+    21300240: loup_idle-loup_idle_0090
+    21300242: loup_idle-loup_idle_0091
+    21300244: PurpleCursor
+    21300246: RedCursor
+    21300248: UnlockCursorGreen
+    21300250: UnlockCursorPurple
+    21300252: UnlockCursorRed
+    21300254: UnlockCursorYellow
+    21300256: UnlockSkinDesert
+    21300258: UnlockSkinFire
+    21300260: UnlockSkinIce
+    21300262: YellowCursor
+  externalObjects: {}
+  serializedVersion: 5
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: BlueCursor
+      rect:
+        serializedVersion: 2
+        x: 707
+        y: 1265
+        width: 487
+        height: 497
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c2d434bef9e7b84aa0f6423ded66680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenCursor
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 768
+        width: 487
+        height: 497
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7458c7426408334387a44a3dad353c7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Loup_Hit-loup_hit_0001
+      rect:
+        serializedVersion: 2
+        x: 1825
+        y: 773
+        width: 138
+        height: 125
+      alignment: 9
+      pivot: {x: 0.42753622, y: 0.52}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f13262541ddb472478e3bdba98cd0c0e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Loup_Hit-loup_hit_0002
+      rect:
+        serializedVersion: 2
+        x: 1684
+        y: 197
+        width: 152
+        height: 139
+      alignment: 9
+      pivot: {x: 0.5065789, y: 0.5179856}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46dd6f4f7c411d847827c1865dc481e6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Loup_Hit-loup_hit_0003
+      rect:
+        serializedVersion: 2
+        x: 1196
+        y: 1339
+        width: 150
+        height: 139
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5179856}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d04f63f1c4239074aa32c7573a7541b4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Loup_Hit-loup_hit_0004
+      rect:
+        serializedVersion: 2
+        x: 1348
+        y: 1339
+        width: 150
+        height: 139
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5179856}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6e5991a9a6bb4241a584f5eef1c7066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Loup_Hit-loup_hit_0005
+      rect:
+        serializedVersion: 2
+        x: 1901
+        y: 1909
+        width: 146
+        height: 138
+      alignment: 9
+      pivot: {x: 0.49315068, y: 0.51449275}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 067b40d11458ee54698215287c1c88e0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Loup_Hit-loup_hit_0006
+      rect:
+        serializedVersion: 2
+        x: 1901
+        y: 1909
+        width: 146
+        height: 138
+      alignment: 9
+      pivot: {x: 0.49315068, y: 0.51449275}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b389d0744e3f2ff46ab0d460522f76eb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loup_hit_cycle-loup_hit_cycle_0001
+      rect:
+        serializedVersion: 2
+        x: 1901
+        y: 1769
+        width: 146
+        height: 138
+      alignment: 9
+      pivot: {x: 0.49315068, y: 0.51449275}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5366a53ee2259642876bbf0bcfa061a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loup_hit_cycle-loup_hit_cycle_0002
+      rect:
+        serializedVersion: 2
+        x: 1835
+        y: 630
+        width: 147
+        height: 141
+      alignment: 9
+      pivot: {x: 0.47619048, y: 0.4964539}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da937c160cc7d244a8c0b14e87bcc82e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loup_hit_cycle-loup_hit_cycle_0003
+      rect:
+        serializedVersion: 2
+        x: 1838
+        y: 204
+        width: 147
+        height: 140
+      alignment: 9
+      pivot: {x: 0.4829932, y: 0.50714284}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0091bbc7b0e75a04db35dae5801f85b0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loup_hit_cycle-loup_hit_cycle_0004
+      rect:
+        serializedVersion: 2
+        x: 1834
+        y: 1339
+        width: 147
+        height: 139
+      alignment: 9
+      pivot: {x: 0.48979592, y: 0.50359714}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae74d4bccaa4a6c41a3961845705f606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loup_hit_cycle-loup_hit_cycle_0005
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 1335
+        width: 148
+        height: 143
+      alignment: 9
+      pivot: {x: 0.47297296, y: 0.4965035}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97a1dce2284ba34489536b871dcbaf20
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loup_hit_cycle-loup_hit_cycle_0006
+      rect:
+        serializedVersion: 2
+        x: 1900
+        y: 1625
+        width: 147
+        height: 139
+      alignment: 9
+      pivot: {x: 0.4829932, y: 0.50359714}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 473644904ad48be48a9e12a0c9ff83d6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loup_hit_cycle-loup_hit_cycle_0007
+      rect:
+        serializedVersion: 2
+        x: 1684
+        y: 1334
+        width: 148
+        height: 144
+      alignment: 9
+      pivot: {x: 0.47297296, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fbc0984709e479448f6a1cc47f37823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loup_hit_cycle-loup_hit_cycle_0008
+      rect:
+        serializedVersion: 2
+        x: 1834
+        y: 1058
+        width: 147
+        height: 138
+      alignment: 9
+      pivot: {x: 0.48979592, y: 0.5072464}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5999290cf2d281428faaf15403d4cbd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loup_hit_cycle-loup_hit_cycle_0009
+      rect:
+        serializedVersion: 2
+        x: 1684
+        y: 1189
+        width: 148
+        height: 143
+      alignment: 9
+      pivot: {x: 0.47297296, y: 0.4965035}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b25bcaf2667e0944ba4f89a51b95082d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loup_hit_cycle-loup_hit_cycle_0010
+      rect:
+        serializedVersion: 2
+        x: 1838
+        y: 62
+        width: 147
+        height: 140
+      alignment: 9
+      pivot: {x: 0.4829932, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0d7e8ffd0700564d868c38440defc91
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loup_hit_cycle-loup_hit_cycle_0011
+      rect:
+        serializedVersion: 2
+        x: 1684
+        y: 900
+        width: 148
+        height: 142
+      alignment: 9
+      pivot: {x: 0.47297296, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ae29801d46950241a164606d4192180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loup_hit_cycle-loup_hit_cycle_0012
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 1616
+        width: 150
+        height: 146
+      alignment: 9
+      pivot: {x: 0.47333333, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c5b0be9fb66e4f49ba40ebd1f94bf3d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loup_hit_cycle-loup_hit_cycle_0013
+      rect:
+        serializedVersion: 2
+        x: 1835
+        y: 487
+        width: 147
+        height: 141
+      alignment: 9
+      pivot: {x: 0.4829932, y: 0.5035461}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 133b0f8feb68ed045856650658305277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loup_hit_cycle-loup_hit_cycle_0014
+      rect:
+        serializedVersion: 2
+        x: 1900
+        y: 1484
+        width: 147
+        height: 139
+      alignment: 9
+      pivot: {x: 0.48979592, y: 0.50359714}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e33454d35b94f044b7d197391f95fb6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loup_hit_cycle-loup_hit_cycle_0015
+      rect:
+        serializedVersion: 2
+        x: 981
+        y: 833
+        width: 149
+        height: 145
+      alignment: 9
+      pivot: {x: 0.46979865, y: 0.49655172}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3713dc34216c9d646a6b2d1e56e2955b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loup_hit_cycle-loup_hit_cycle_0016
+      rect:
+        serializedVersion: 2
+        x: 1835
+        y: 346
+        width: 148
+        height: 139
+      alignment: 9
+      pivot: {x: 0.4864865, y: 0.50359714}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5c736b0bd256e04386163a86b5df820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loup_hit_cycle-loup_hit_cycle_0017
+      rect:
+        serializedVersion: 2
+        x: 1684
+        y: 338
+        width: 149
+        height: 144
+      alignment: 9
+      pivot: {x: 0.46979865, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63d50aaaf5d9c784989d073d69c53a3a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loup_hit_cycle-loup_hit_cycle_0018
+      rect:
+        serializedVersion: 2
+        x: 1685
+        y: 626
+        width: 148
+        height: 141
+      alignment: 9
+      pivot: {x: 0.47972974, y: 0.4964539}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7340d800995aaed40bacdcc4b0911323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loup_hit_cycle-loup_hit_cycle_0019
+      rect:
+        serializedVersion: 2
+        x: 1834
+        y: 1198
+        width: 147
+        height: 139
+      alignment: 9
+      pivot: {x: 0.48979592, y: 0.51079136}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ed3104681c43a14caaaff888d128995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loup_hit_cycle-loup_hit_cycle_0020
+      rect:
+        serializedVersion: 2
+        x: 1684
+        y: 1044
+        width: 148
+        height: 143
+      alignment: 9
+      pivot: {x: 0.47297296, y: 0.4965035}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ce0e953ddb81d647bc4bd8a46230319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loup_hit_cycle-loup_hit_cycle_0021
+      rect:
+        serializedVersion: 2
+        x: 1685
+        y: 484
+        width: 148
+        height: 140
+      alignment: 9
+      pivot: {x: 0.4864865, y: 0.50714284}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5bd2b0f0c4af214185fdd54e939105e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loup_hit_cycle-loup_hit_cycle_0022
+      rect:
+        serializedVersion: 2
+        x: 1834
+        y: 918
+        width: 147
+        height: 138
+      alignment: 9
+      pivot: {x: 0.49659863, y: 0.5072464}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82cde6f9718e577459128226ebda332d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loup_idle-loup_idle_0001
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 636
+        width: 136
+        height: 130
+      alignment: 9
+      pivot: {x: 0.4632353, y: 0.5153846}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22efb642f03f88646ac253b3b66caa85
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loup_idle-loup_idle_0002
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 636
+        width: 136
+        height: 130
+      alignment: 9
+      pivot: {x: 0.4632353, y: 0.5153846}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be78d61c0642aeb4ca39e65b653702fa
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loup_idle-loup_idle_0003
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 636
+        width: 136
+        height: 130
+      alignment: 9
+      pivot: {x: 0.4632353, y: 0.5153846}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3eb64daa0fbd5a14db05852dc479f956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loup_idle-loup_idle_0004
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 636
+        width: 136
+        height: 130
+      alignment: 9
+      pivot: {x: 0.4632353, y: 0.5153846}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 334a031e89e9c084693b392ec7cf139a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loup_idle-loup_idle_0005
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 636
+        width: 136
+        height: 130
+      alignment: 9
+      pivot: {x: 0.4632353, y: 0.5153846}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfb2a89027018b54090b7e7d6cfe391b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loup_idle-loup_idle_0006
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 636
+        width: 136
+        height: 130
+      alignment: 9
+      pivot: {x: 0.4632353, y: 0.5153846}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa01e363538365d45a7775dcd5a7b25b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loup_idle-loup_idle_0007
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 636
+        width: 136
+        height: 130
+      alignment: 9
+      pivot: {x: 0.4632353, y: 0.5153846}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96b4a3ac058dd354da69d40e33ff82f9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loup_idle-loup_idle_0008
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 636
+        width: 136
+        height: 130
+      alignment: 9
+      pivot: {x: 0.4632353, y: 0.5153846}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c50ea4a392d42fc4583af17a69012a40
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loup_idle-loup_idle_0009
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 636
+        width: 136
+        height: 130
+      alignment: 9
+      pivot: {x: 0.4632353, y: 0.5153846}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b57811ad04818a4459cab95833e502e0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loup_idle-loup_idle_0010
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 636
+        width: 136
+        height: 130
+      alignment: 9
+      pivot: {x: 0.4632353, y: 0.5153846}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91a1984653d3ffd45a4cd5c535fadda4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loup_idle-loup_idle_0011
+      rect:
+        serializedVersion: 2
+        x: 686
+        y: 219
+        width: 128
+        height: 129
+      alignment: 9
+      pivot: {x: 0.46875, y: 0.5116279}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0d74c9a946e8e54baea0d91d7408108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loup_idle-loup_idle_0012
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 219
+        width: 127
+        height: 129
+      alignment: 9
+      pivot: {x: 0.46456692, y: 0.5116279}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bbbdeab602da7e488e81877700f1708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loup_idle-loup_idle_0013
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 88
+        width: 127
+        height: 128
+      alignment: 9
+      pivot: {x: 0.4566929, y: 0.5078125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56be21d5c3c03dc4ea70432817f2d1a5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loup_idle-loup_idle_0014
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 89
+        width: 127
+        height: 128
+      alignment: 9
+      pivot: {x: 0.4566929, y: 0.5078125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba1073c9fb0883a42afc81754a5495d5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loup_idle-loup_idle_0015
+      rect:
+        serializedVersion: 2
+        x: 814
+        y: 89
+        width: 126
+        height: 128
+      alignment: 9
+      pivot: {x: 0.45238096, y: 0.5078125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc19e47e5c5cb9d42b405360e74145a1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loup_idle-loup_idle_0016
+      rect:
+        serializedVersion: 2
+        x: 1071
+        y: 72
+        width: 126
+        height: 128
+      alignment: 9
+      pivot: {x: 0.45238096, y: 0.5078125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3da41b30cf424ff4c8a17fc9f1b106fb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loup_idle-loup_idle_0017
+      rect:
+        serializedVersion: 2
+        x: 1199
+        y: 72
+        width: 126
+        height: 128
+      alignment: 9
+      pivot: {x: 0.45238096, y: 0.5078125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e25570871360f44eb4ef6f7f9289ebb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loup_idle-loup_idle_0018
+      rect:
+        serializedVersion: 2
+        x: 1199
+        y: 72
+        width: 126
+        height: 128
+      alignment: 9
+      pivot: {x: 0.45238096, y: 0.5078125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4159df54684aecc4cbe205532ea610e8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loup_idle-loup_idle_0019
+      rect:
+        serializedVersion: 2
+        x: 1199
+        y: 72
+        width: 126
+        height: 128
+      alignment: 9
+      pivot: {x: 0.45238096, y: 0.5078125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3115ca2491e05324aaef762f7997fbe9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loup_idle-loup_idle_0020
+      rect:
+        serializedVersion: 2
+        x: 1199
+        y: 72
+        width: 126
+        height: 128
+      alignment: 9
+      pivot: {x: 0.45238096, y: 0.5078125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d52394d9d28455429a8b765e951c8bd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loup_idle-loup_idle_0021
+      rect:
+        serializedVersion: 2
+        x: 1327
+        y: 72
+        width: 126
+        height: 128
+      alignment: 9
+      pivot: {x: 0.45238096, y: 0.5078125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e8326249f2183541ae258a3d5b12327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loup_idle-loup_idle_0022
+      rect:
+        serializedVersion: 2
+        x: 942
+        y: 73
+        width: 127
+        height: 127
+      alignment: 9
+      pivot: {x: 0.43307087, y: 0.503937}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 193eb4b836230e94fa3bb6280ef92a4c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loup_idle-loup_idle_0023
+      rect:
+        serializedVersion: 2
+        x: 942
+        y: 73
+        width: 127
+        height: 127
+      alignment: 9
+      pivot: {x: 0.43307087, y: 0.503937}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4848f2590c5233c48912a6147dcc1f19
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loup_idle-loup_idle_0024
+      rect:
+        serializedVersion: 2
+        x: 1455
+        y: 72
+        width: 126
+        height: 128
+      alignment: 9
+      pivot: {x: 0.45238096, y: 0.5078125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec90d2f179046344f817409ab044bf3f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loup_idle-loup_idle_0025
+      rect:
+        serializedVersion: 2
+        x: 1199
+        y: 72
+        width: 126
+        height: 128
+      alignment: 9
+      pivot: {x: 0.45238096, y: 0.5078125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed1a5f0f813feab4eaff09f8326d4d41
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loup_idle-loup_idle_0026
+      rect:
+        serializedVersion: 2
+        x: 1199
+        y: 72
+        width: 126
+        height: 128
+      alignment: 9
+      pivot: {x: 0.45238096, y: 0.5078125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0654ae26eaae055418c19aef336263ae
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loup_idle-loup_idle_0027
+      rect:
+        serializedVersion: 2
+        x: 1199
+        y: 72
+        width: 126
+        height: 128
+      alignment: 9
+      pivot: {x: 0.45238096, y: 0.5078125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35399bf756e72eb438dccb7f3566e7e7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loup_idle-loup_idle_0028
+      rect:
+        serializedVersion: 2
+        x: 1199
+        y: 72
+        width: 126
+        height: 128
+      alignment: 9
+      pivot: {x: 0.45238096, y: 0.5078125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60cfd913f0efb954aad971f0a68a8cc9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loup_idle-loup_idle_0029
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 219
+        width: 131
+        height: 129
+      alignment: 9
+      pivot: {x: 0.46564886, y: 0.5116279}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: baa59318bbb58c74da1120d8fd5be658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loup_idle-loup_idle_0030
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 106
+        width: 134
+        height: 130
+      alignment: 9
+      pivot: {x: 0.46268657, y: 0.5153846}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab0088e833795cd48ad4c793fe8abb52
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loup_idle-loup_idle_0031
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 504
+        width: 136
+        height: 130
+      alignment: 9
+      pivot: {x: 0.4632353, y: 0.5153846}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9835607c805eb434bb7e0d1bfa11a77a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loup_idle-loup_idle_0032
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 372
+        width: 136
+        height: 130
+      alignment: 9
+      pivot: {x: 0.4632353, y: 0.5153846}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f7cfb47df3937d48a26711090e7c467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loup_idle-loup_idle_0033
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 370
+        width: 137
+        height: 130
+      alignment: 9
+      pivot: {x: 0.459854, y: 0.5153846}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b03bab97631e5e468823b370d45b3bb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loup_idle-loup_idle_0034
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 636
+        width: 136
+        height: 130
+      alignment: 9
+      pivot: {x: 0.4632353, y: 0.5153846}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b2a9b1e4cbf07c49b9efd5c3b424ae1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loup_idle-loup_idle_0035
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 636
+        width: 136
+        height: 130
+      alignment: 9
+      pivot: {x: 0.4632353, y: 0.5153846}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 189ae3036965dfc43b8a51bfe4602c15
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loup_idle-loup_idle_0036
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 636
+        width: 136
+        height: 130
+      alignment: 9
+      pivot: {x: 0.4632353, y: 0.5153846}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bff61cc49cda3294081e8a72a593c28a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loup_idle-loup_idle_0037
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 636
+        width: 136
+        height: 130
+      alignment: 9
+      pivot: {x: 0.4632353, y: 0.5153846}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d37ff6b88392cbf4ca5b99085ef7b8fa
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loup_idle-loup_idle_0038
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 636
+        width: 136
+        height: 130
+      alignment: 9
+      pivot: {x: 0.4632353, y: 0.5153846}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6defc1a05175f9d47ad5010c7f3af4f8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loup_idle-loup_idle_0039
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 636
+        width: 136
+        height: 130
+      alignment: 9
+      pivot: {x: 0.4632353, y: 0.5153846}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1c87375938a5c34ea4a0753407fc988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loup_idle-loup_idle_0040
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 636
+        width: 136
+        height: 130
+      alignment: 9
+      pivot: {x: 0.4632353, y: 0.5153846}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83e540148e329fa43a56cb7daa542083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loup_idle-loup_idle_0041
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 636
+        width: 136
+        height: 130
+      alignment: 9
+      pivot: {x: 0.4632353, y: 0.5153846}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f8a24872dab6b04d99badbf86d9a098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loup_idle-loup_idle_0042
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 636
+        width: 136
+        height: 130
+      alignment: 9
+      pivot: {x: 0.4632353, y: 0.5153846}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecd99d0b719f9b843855a38d33a95925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loup_idle-loup_idle_0043
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 636
+        width: 136
+        height: 130
+      alignment: 9
+      pivot: {x: 0.4632353, y: 0.5153846}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93d273c43e923c847b7173f9b33f08b0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loup_idle-loup_idle_0044
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 636
+        width: 136
+        height: 130
+      alignment: 9
+      pivot: {x: 0.4632353, y: 0.5153846}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cd28c7a5e10cf640bb3861af890abc5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loup_idle-loup_idle_0045
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 636
+        width: 136
+        height: 130
+      alignment: 9
+      pivot: {x: 0.4632353, y: 0.5153846}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c699cc70ad49fe40ba0e7e93206acdb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loup_idle-loup_idle_0046
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 350
+        width: 136
+        height: 130
+      alignment: 9
+      pivot: {x: 0.4632353, y: 0.5153846}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 193858caf53efa348ac2c1ab3c272b82
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loup_idle-loup_idle_0047
+      rect:
+        serializedVersion: 2
+        x: 1684
+        y: 769
+        width: 139
+        height: 129
+      alignment: 9
+      pivot: {x: 0.4676259, y: 0.5116279}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dabfa3eb6abc075418d3bb9943d4ff83
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loup_idle-loup_idle_0048
+      rect:
+        serializedVersion: 2
+        x: 1684
+        y: 769
+        width: 139
+        height: 129
+      alignment: 9
+      pivot: {x: 0.4676259, y: 0.5116279}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fbb2f903a6b35f45ad1c9b574051600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loup_idle-loup_idle_0049
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 238
+        width: 136
+        height: 130
+      alignment: 9
+      pivot: {x: 0.4632353, y: 0.5153846}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 830ab3aeee83729488e9f2a37e6408ec
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loup_idle-loup_idle_0050
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 636
+        width: 136
+        height: 130
+      alignment: 9
+      pivot: {x: 0.4632353, y: 0.5153846}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52e3fe5c2c2282945b1b408c99a3d79f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loup_idle-loup_idle_0051
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 636
+        width: 136
+        height: 130
+      alignment: 9
+      pivot: {x: 0.4632353, y: 0.5153846}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6296255dfd5b57049adcc23c5cce4708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loup_idle-loup_idle_0052
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 350
+        width: 136
+        height: 130
+      alignment: 9
+      pivot: {x: 0.4632353, y: 0.5153846}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2069d9ecb19eee442bb516bd7d7dc4fe
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loup_idle-loup_idle_0053
+      rect:
+        serializedVersion: 2
+        x: 1684
+        y: 769
+        width: 139
+        height: 129
+      alignment: 9
+      pivot: {x: 0.4676259, y: 0.5116279}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0714677b7c828f8408e0f23097284961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loup_idle-loup_idle_0054
+      rect:
+        serializedVersion: 2
+        x: 1684
+        y: 769
+        width: 139
+        height: 129
+      alignment: 9
+      pivot: {x: 0.4676259, y: 0.5116279}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a0553a05171abe47b27731e58276b6e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loup_idle-loup_idle_0055
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 238
+        width: 136
+        height: 130
+      alignment: 9
+      pivot: {x: 0.4632353, y: 0.5153846}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b63224a2623fcff428a0c52c0ee3902f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loup_idle-loup_idle_0056
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 636
+        width: 136
+        height: 130
+      alignment: 9
+      pivot: {x: 0.4632353, y: 0.5153846}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac36e9409a54a344289ebcb0d4e20171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loup_idle-loup_idle_0057
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 636
+        width: 136
+        height: 130
+      alignment: 9
+      pivot: {x: 0.4632353, y: 0.5153846}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c09b6744f2a48c34eb6f1fa6094e00dd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loup_idle-loup_idle_0058
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 636
+        width: 136
+        height: 130
+      alignment: 9
+      pivot: {x: 0.4632353, y: 0.5153846}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1958bb5585e543b4388d299be5211867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loup_idle-loup_idle_0059
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 636
+        width: 136
+        height: 130
+      alignment: 9
+      pivot: {x: 0.4632353, y: 0.5153846}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be74748700fc7124397aa375252a0e23
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loup_idle-loup_idle_0060
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 636
+        width: 136
+        height: 130
+      alignment: 9
+      pivot: {x: 0.4632353, y: 0.5153846}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56c91e9281f991c48bbeef20e16e9e7e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loup_idle-loup_idle_0061
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 636
+        width: 136
+        height: 130
+      alignment: 9
+      pivot: {x: 0.4632353, y: 0.5153846}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c392c4cad9ad2934398c8f9ccb9c7ed3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loup_idle-loup_idle_0062
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 93
+        width: 130
+        height: 124
+      alignment: 9
+      pivot: {x: 0.44615385, y: 0.5403226}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f2df2c81673d1340b4639be844c8e2f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loup_idle-loup_idle_0063
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 634
+        width: 136
+        height: 132
+      alignment: 9
+      pivot: {x: 0.4632353, y: 0.50757575}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7380346a2935e3e45b3c4ce712289785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loup_idle-loup_idle_0064
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 501
+        width: 136
+        height: 131
+      alignment: 9
+      pivot: {x: 0.4632353, y: 0.5114504}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae87428e8696c134e9b2119bbdabe6ba
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loup_idle-loup_idle_0065
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 236
+        width: 136
+        height: 130
+      alignment: 9
+      pivot: {x: 0.4632353, y: 0.5153846}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 747cf4353f710d54b94aa5a0a31fd565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loup_idle-loup_idle_0066
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 368
+        width: 136
+        height: 131
+      alignment: 9
+      pivot: {x: 0.4632353, y: 0.5114504}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a086a2746d76ee244b1f8ffa5765f306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loup_idle-loup_idle_0067
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 238
+        width: 136
+        height: 130
+      alignment: 9
+      pivot: {x: 0.4632353, y: 0.5153846}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a12c7848dd4ef1468e84e0c0e5722be
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loup_idle-loup_idle_0068
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 635
+        width: 136
+        height: 131
+      alignment: 9
+      pivot: {x: 0.4632353, y: 0.5114504}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c31ecfdbea92f5342831690c991cfc48
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loup_idle-loup_idle_0069
+      rect:
+        serializedVersion: 2
+        x: 554
+        y: 350
+        width: 136
+        height: 130
+      alignment: 9
+      pivot: {x: 0.4632353, y: 0.5153846}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1aff0022680a8644699e23dc67d13906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loup_idle-loup_idle_0070
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 502
+        width: 136
+        height: 131
+      alignment: 9
+      pivot: {x: 0.4632353, y: 0.5114504}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e59dc9ca815c962499588123c7866517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loup_idle-loup_idle_0071
+      rect:
+        serializedVersion: 2
+        x: 692
+        y: 350
+        width: 136
+        height: 130
+      alignment: 9
+      pivot: {x: 0.4632353, y: 0.5153846}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27615c1c4849a3544a59343849544cf9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loup_idle-loup_idle_0072
+      rect:
+        serializedVersion: 2
+        x: 830
+        y: 350
+        width: 136
+        height: 130
+      alignment: 9
+      pivot: {x: 0.4632353, y: 0.5153846}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 940fca9e6a3c54a4ea7159457fccced2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loup_idle-loup_idle_0073
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 218
+        width: 136
+        height: 130
+      alignment: 9
+      pivot: {x: 0.4632353, y: 0.5153846}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4855de8293b4ff84499ed6480d566169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loup_idle-loup_idle_0074
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 106
+        width: 136
+        height: 130
+      alignment: 9
+      pivot: {x: 0.4632353, y: 0.5153846}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b17d5cfddba367248aecc5f18578cfea
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loup_idle-loup_idle_0075
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 104
+        width: 136
+        height: 130
+      alignment: 9
+      pivot: {x: 0.4632353, y: 0.5153846}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d12f5e3f14eca814aa90c61e7c2d03e2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loup_idle-loup_idle_0076
+      rect:
+        serializedVersion: 2
+        x: 1684
+        y: 769
+        width: 139
+        height: 129
+      alignment: 9
+      pivot: {x: 0.4676259, y: 0.5116279}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ac84627d84741f46bfbb7e5b9d268fd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loup_idle-loup_idle_0077
+      rect:
+        serializedVersion: 2
+        x: 1684
+        y: 769
+        width: 139
+        height: 129
+      alignment: 9
+      pivot: {x: 0.4676259, y: 0.5116279}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a59da196bf040e49a22d6aa0cffcf17
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loup_idle-loup_idle_0078
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 238
+        width: 136
+        height: 130
+      alignment: 9
+      pivot: {x: 0.4632353, y: 0.5153846}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84314a662c1d1bb418a393405079dcdf
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loup_idle-loup_idle_0079
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 636
+        width: 136
+        height: 130
+      alignment: 9
+      pivot: {x: 0.4632353, y: 0.5153846}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 823c58ecc1191a4468330adc0bc459a1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loup_idle-loup_idle_0080
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 636
+        width: 136
+        height: 130
+      alignment: 9
+      pivot: {x: 0.4632353, y: 0.5153846}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5716d6add41a904e92e051c291a8d06
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loup_idle-loup_idle_0081
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 636
+        width: 136
+        height: 130
+      alignment: 9
+      pivot: {x: 0.4632353, y: 0.5153846}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32883de3a23928e4dbe5b6f914705261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loup_idle-loup_idle_0082
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 636
+        width: 136
+        height: 130
+      alignment: 9
+      pivot: {x: 0.4632353, y: 0.5153846}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad991e2cc0fd0b34eb828782207e216a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loup_idle-loup_idle_0083
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 636
+        width: 136
+        height: 130
+      alignment: 9
+      pivot: {x: 0.4632353, y: 0.5153846}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a082b38e71ba0584d9f41d88d9b2a2e7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loup_idle-loup_idle_0084
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 636
+        width: 136
+        height: 130
+      alignment: 9
+      pivot: {x: 0.4632353, y: 0.5153846}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd7b98ac91dc8ff4b9b2a222d0fdbd36
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loup_idle-loup_idle_0085
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 636
+        width: 136
+        height: 130
+      alignment: 9
+      pivot: {x: 0.4632353, y: 0.5153846}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4956a08701511a64486f4390440a9b8c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loup_idle-loup_idle_0086
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 636
+        width: 136
+        height: 130
+      alignment: 9
+      pivot: {x: 0.4632353, y: 0.5153846}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: daf71c0f4b07b59498b6297981132aa6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loup_idle-loup_idle_0087
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 636
+        width: 136
+        height: 130
+      alignment: 9
+      pivot: {x: 0.4632353, y: 0.5153846}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9696ed07ab1d68a46a31e785d04f92c1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loup_idle-loup_idle_0088
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 636
+        width: 136
+        height: 130
+      alignment: 9
+      pivot: {x: 0.4632353, y: 0.5153846}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f882d0100f24f3488ad53288337f539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loup_idle-loup_idle_0089
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 636
+        width: 136
+        height: 130
+      alignment: 9
+      pivot: {x: 0.4632353, y: 0.5153846}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea0147f67e200994a876b204a06b6129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loup_idle-loup_idle_0090
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 636
+        width: 136
+        height: 130
+      alignment: 9
+      pivot: {x: 0.4632353, y: 0.5153846}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f774c94867db270409af9665dadad223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loup_idle-loup_idle_0091
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 636
+        width: 136
+        height: 130
+      alignment: 9
+      pivot: {x: 0.4632353, y: 0.5153846}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f00e771f5a0a9144a5c3f62df3abdb8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PurpleCursor
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 482
+        width: 489
+        height: 496
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86eea203a1dc82b4ba032bc92b395e49
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedCursor
+      rect:
+        serializedVersion: 2
+        x: 1195
+        y: 766
+        width: 487
+        height: 497
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe86a4674f25a724998ae281cc55ebc3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UnlockCursorGreen
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 1764
+        width: 703
+        height: 283
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb424895b0a652349a1786930a48eab8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UnlockCursorPurple
+      rect:
+        serializedVersion: 2
+        x: 1196
+        y: 1480
+        width: 702
+        height: 282
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 205bc46c672d7164da6b69e612fb4d23
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UnlockCursorRed
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1267
+        width: 704
+        height: 281
+      alignment: 9
+      pivot: {x: 0.50071025, y: 0.5017794}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64b3e4e3de3655741a809bba9d05a966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UnlockCursorYellow
+      rect:
+        serializedVersion: 2
+        x: 981
+        y: 484
+        width: 702
+        height: 280
+      alignment: 9
+      pivot: {x: 0.49928775, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71e16b2c2500f4e4fbfc348d02dba773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UnlockSkinDesert
+      rect:
+        serializedVersion: 2
+        x: 981
+        y: 202
+        width: 701
+        height: 280
+      alignment: 9
+      pivot: {x: 0.49928674, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ecf4ea6bf2c2d54c8e867121eb5fb0a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UnlockSkinFire
+      rect:
+        serializedVersion: 2
+        x: 1197
+        y: 1766
+        width: 702
+        height: 281
+      alignment: 9
+      pivot: {x: 0.5007123, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c983faa335ddb1541b9cb20f1f47c89a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UnlockSkinIce
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 980
+        width: 703
+        height: 283
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 209c11a4b239ab644a0f340db6bdd643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowCursor
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1550
+        width: 489
+        height: 497
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afbcc2b5629dc144ca27d98fa38db630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 706a957a9a248174eb9a7868e3e57827
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

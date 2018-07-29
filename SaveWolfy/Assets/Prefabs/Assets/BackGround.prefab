@@ -59,23 +59,24 @@ MonoBehaviour:
   fireBackGround: {fileID: 21300000, guid: 737180189e3af1b4581c3ea356864d6e, type: 3}
   iceBackGround: {fileID: 21300000, guid: 77016d765e1d76643b79447c90e6e765, type: 3}
   desertBackGround: {fileID: 21300000, guid: 81fc66ac68091a14a9e8ffc7da8a5a43, type: 3}
-  baseGround: {fileID: 21300000, guid: d5d3b54928feb0c4d91399d785385939, type: 3}
-  fireGround: {fileID: 21300000, guid: 0ba19d7b69dd47640af00e174c571e21, type: 3}
-  iceGround: {fileID: 21300000, guid: 075f84de02dd6fc4b87138083eb21f58, type: 3}
-  desertGround: {fileID: 21300000, guid: 1c1cee3913cc9774c84e4bb79d9a1fa0, type: 3}
-  baseLeftWall: {fileID: 21300006, guid: 459299ad87278b4468f34605eeeba564, type: 3}
-  fireLeftWall: {fileID: 21300000, guid: b305b909f6c75c840a7766372b9315d9, type: 3}
-  iceLeftWall: {fileID: 21300000, guid: 71bf314d6ad04954a942e10e00d99b2b, type: 3}
-  desertLeftWall: {fileID: 21300000, guid: fa138c22ffc9fcb4cb3dc59810f6e7e1, type: 3}
-  baseRightWall: {fileID: 21300002, guid: 459299ad87278b4468f34605eeeba564, type: 3}
-  fireRightWall: {fileID: 21300000, guid: 2a928397387700848836f6de2fee5ed0, type: 3}
-  iceRightWall: {fileID: 21300000, guid: 5db2dbf25a0a1664f8e70fa1904ebe47, type: 3}
-  desertRightWall: {fileID: 21300000, guid: e6db5c972df87a148b7a75bd6820786d, type: 3}
+  baseGround: {fileID: 21300018, guid: 447833b3d46bea749b5e1739e219dc47, type: 3}
+  fireGround: {fileID: 21300012, guid: 447833b3d46bea749b5e1739e219dc47, type: 3}
+  iceGround: {fileID: 21300020, guid: 447833b3d46bea749b5e1739e219dc47, type: 3}
+  desertGround: {fileID: 21300006, guid: 447833b3d46bea749b5e1739e219dc47, type: 3}
+  baseLeftWall: {fileID: 21300002, guid: 447833b3d46bea749b5e1739e219dc47, type: 3}
+  fireLeftWall: {fileID: 21300014, guid: 447833b3d46bea749b5e1739e219dc47, type: 3}
+  iceLeftWall: {fileID: 21300022, guid: 447833b3d46bea749b5e1739e219dc47, type: 3}
+  desertLeftWall: {fileID: 21300008, guid: 447833b3d46bea749b5e1739e219dc47, type: 3}
+  baseRightWall: {fileID: 21300004, guid: 447833b3d46bea749b5e1739e219dc47, type: 3}
+  fireRightWall: {fileID: 21300016, guid: 447833b3d46bea749b5e1739e219dc47, type: 3}
+  iceRightWall: {fileID: 21300024, guid: 447833b3d46bea749b5e1739e219dc47, type: 3}
+  desertRightWall: {fileID: 21300010, guid: 447833b3d46bea749b5e1739e219dc47, type: 3}
   playerSprite0: {fileID: 0}
   playerSprite1: {fileID: 0}
   playerSprite2: {fileID: 0}
   playerSprite3: {fileID: 0}
   playerSprite4: {fileID: 0}
+  buttonClic: {fileID: 8300000, guid: 424fc0cc134a25243995196cc0c289bc, type: 3}
 --- !u!212 &212653413195383488
 SpriteRenderer:
   m_ObjectHideFlags: 1

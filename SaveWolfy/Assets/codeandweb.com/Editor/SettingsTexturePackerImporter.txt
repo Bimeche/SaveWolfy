@@ -1,0 +1,18 @@
+version: 2
+importPivots: 1
+tpsheetFileNames:
+- Assets/Sprites/BackgroundsSprites.tpsheet
+- Assets/Sprites/CowUISprites.tpsheet
+- Assets/Sprites/ScenerySprites.tpsheet
+- Assets/Sprites/WolfAchievementCursorskinSprites.tpsheet
+textureFileNames:
+- Assets/Sprites/BackgroundsSprites.png
+- Assets/Sprites/CowUISprites.png
+- Assets/Sprites/ScenerySprites.png
+- Assets/Sprites/WolfAchievementCursorskinSprites.png
+normalmapFileNames:
+- 
+- 
+- 
+- 
+enableDebugOutput: 0

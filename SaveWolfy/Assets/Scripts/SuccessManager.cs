@@ -1,5 +1,4 @@
 ﻿using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class SuccessManager : MonoBehaviour {
@@ -18,9 +17,9 @@ public class SuccessManager : MonoBehaviour {
 	public static SuccessManager Instance {
 		get {
 			if (instance == null) {
-				instance = GameObject.FindObjectOfType<SuccessManager> ();
+				instance = FindObjectOfType<SuccessManager> ();
 			}
-			return SuccessManager.instance;
+			return instance;
 		}
 	}
 
