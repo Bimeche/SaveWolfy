@@ -38,7 +38,6 @@ public class Player : MonoBehaviour {
 			//PC
 			Vector2 newPosition = cam.ScreenToWorldPoint(Input.mousePosition);
 			transform.position = newPosition;
-			//Instantiate(playerTrail, transform);
 
 			//mobile
 			/*if (Input.touchCount > 0)

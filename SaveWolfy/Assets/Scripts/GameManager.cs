@@ -70,7 +70,7 @@ public class GameManager : MonoBehaviour
 	// Use this for initialization
 	void Start () {
 		Debug.Log ("Remove!");
-		//PlayerPrefs.DeleteAll ();
+		PlayerPrefs.DeleteAll ();
 		Time.timeScale = 1f;
 		gameEnded = false;
 		SoundManager.instance.PauseMusic(false);
@@ -88,7 +88,6 @@ public class GameManager : MonoBehaviour
 
 	// Update is called once per frame
 	void Update () {
-		Debug.Log ("Haaaa");
 		if (Input.GetKeyDown(KeyCode.I) && Application.isEditor)
 		{
 			playerScore += 200;
@@ -174,7 +173,7 @@ public class GameManager : MonoBehaviour
 			if (PlayerPrefs.GetInt ("Desert") == 0 && playerScore >= 100) {
 				SuccessManager.Instance.UnlockSkin ("Desert");
 			}
-			if (PlayerPrefs.GetInt ("Yellow") == 0 && playerScore >= 1000) {
+			if (PlayerPrefs.GetInt ("Yellow") == 0 && playerScore >= 300) {
 				SuccessManager.Instance.UnlockSkin ("Yellow");
 			}
 		}

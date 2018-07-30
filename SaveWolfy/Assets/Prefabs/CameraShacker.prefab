@@ -143,6 +143,7 @@ MonoBehaviour:
   highScoreSucessFx: {fileID: 0}
   buttonClic: {fileID: 8300000, guid: 424fc0cc134a25243995196cc0c289bc, type: 3}
   successSound: {fileID: 8300000, guid: 25ba0f7002413764984df1a9415f76aa, type: 3}
+  startSound: {fileID: 8300000, guid: 25ba0f7002413764984df1a9415f76aa, type: 3}
 --- !u!114 &114991807251551300
 MonoBehaviour:
   m_ObjectHideFlags: 1

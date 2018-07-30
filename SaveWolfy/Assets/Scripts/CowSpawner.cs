@@ -19,7 +19,6 @@ public class CowSpawner : MonoBehaviour {
 	public void Start () {
 		objectPooler = ObjectPooler.Instance;
 		Invoke("RegularCowSpawn", baseSpawnTime);
-		Debug.Log(spawnZone.xMin + "  " + spawnZone.xMax + "  " + spawnZone.yMin + "  " + spawnZone.yMax);
 	}
 
 	void CowSpawn (){

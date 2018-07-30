@@ -69,7 +69,6 @@ public class DeathScript : MonoBehaviour {
 		Vector3 popPosition = fxPosition * 0.5f;
 		int displayedText = collision.gameObject.GetComponent<CowScript> ().strikeMeter + 1;
 		var textGO = objectPooler.SpawnFromPool ("FloatingText", popPosition, Quaternion.identity);
-		//var go = Instantiate (FloatingTextPrefab, popPosition, Quaternion.identity, transform);
 		textGO.GetComponent<TextMesh> ().characterSize = displayedText * 0.1f;
 		textGO.GetComponent<TextMesh> ().color = new Color (1f, 1f - displayedText* 0.2f, 0f);
 		textGO.GetComponent<TextMesh> ().text = "+" + displayedText.ToString ();

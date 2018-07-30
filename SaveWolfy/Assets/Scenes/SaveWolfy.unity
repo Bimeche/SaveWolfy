@@ -758,6 +758,11 @@ Prefab:
       propertyPath: successSound
       value: 
       objectReference: {fileID: 8300000, guid: ec292aef8f4dbda4882674bf026657b0, type: 3}
+    - target: {fileID: 114371793429374242, guid: ebdc5457d4e613e498ee4595302e29ea,
+        type: 2}
+      propertyPath: startSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 25ba0f7002413764984df1a9415f76aa, type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: ebdc5457d4e613e498ee4595302e29ea, type: 2}
   m_IsPrefabParent: 0
