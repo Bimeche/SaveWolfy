@@ -9,6 +9,9 @@ EditorBuildSettings:
     path: Assets/Scenes/MainMenu.unity
     guid: 8c2c96e6cd80d6b43b26e14dd3b67fb3
   - enabled: 1
+    path: Assets/Scenes/Intro.unity
+    guid: d419d1f94e8c14b48b1d64dcfcb54b1b
+  - enabled: 1
     path: Assets/Scenes/SaveWolfy.unity
     guid: d942eb20c2f86f2439c1845eeda93a1c
   - enabled: 0
