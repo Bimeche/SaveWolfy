@@ -2977,26 +2977,6 @@ Prefab:
       propertyPath: m_RootOrder
       value: 5
       objectReference: {fileID: 0}
-    - target: {fileID: 114263189291587316, guid: 2477b88e7864d884ba3a7a860310de96,
-        type: 2}
-      propertyPath: waveCount
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 114263189291587316, guid: 2477b88e7864d884ba3a7a860310de96,
-        type: 2}
-      propertyPath: baseSpawnTime
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 114263189291587316, guid: 2477b88e7864d884ba3a7a860310de96,
-        type: 2}
-      propertyPath: minimalSpawnTime
-      value: 2.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 114263189291587316, guid: 2477b88e7864d884ba3a7a860310de96,
-        type: 2}
-      propertyPath: regularTimeReduction
-      value: 0.1
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 2477b88e7864d884ba3a7a860310de96, type: 2}
   m_IsPrefabParent: 0

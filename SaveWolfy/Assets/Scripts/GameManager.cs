@@ -69,8 +69,7 @@ public class GameManager : MonoBehaviour
 	}
 	// Use this for initialization
 	void Start () {
-		Debug.Log ("Remove!");
-		PlayerPrefs.DeleteAll ();
+		//PlayerPrefs.DeleteAll ();
 		Time.timeScale = 1f;
 		gameEnded = false;
 		SoundManager.instance.PauseMusic(false);

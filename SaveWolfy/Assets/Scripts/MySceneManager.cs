@@ -12,6 +12,15 @@ public class MySceneManager : MonoBehaviour {
 		SceneManager.LoadScene(sceneName);
 	}
 
+	public void LoadIntro () {
+		if (PlayerPrefs.GetInt ("Intro") == 0) {
+			SceneManager.LoadScene ("Intro");
+			PlayerPrefs.SetInt ("Intro", 1);
+		} else {
+			SceneManager.LoadScene ("SaveWolfy");
+		}
+	}
+
 	public void LeaveGame () {
 		SoundManager.instance.RandomizeSfx (gameStart, gameStart);
 		Application.Quit();
