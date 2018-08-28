@@ -5,6 +5,7 @@ public class SoundManager : MonoBehaviour {
 	public AudioSource efxSource;
 	public AudioSource efxSource2;
 	public AudioSource efxSource3;
+	public AudioSource efxSource4;
 	public AudioSource musicSource;
 	public static SoundManager instance = null;
 
@@ -61,6 +62,20 @@ public class SoundManager : MonoBehaviour {
 	}
 
 	public void RandomizeSfx3 (params AudioClip[] clips) {
+		int randomIndex = Random.Range (0, clips.Length);
+
+		float randomPitch = Random.Range (lowPitchRange, highPitchRange);
+		if (efxSource3)
+		{
+			efxSource3.pitch = randomPitch;
+
+			efxSource3.clip = clips [randomIndex];
+
+			efxSource3.Play ();
+		}
+	}
+
+	public void RandomizeSfx4 (params AudioClip[] clips) {
 		int randomIndex = Random.Range (0, clips.Length);
 
 		float randomPitch = Random.Range (lowPitchRange, highPitchRange);

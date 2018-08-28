@@ -36,11 +36,11 @@ public class Player : MonoBehaviour {
 		{
 			
 			//PC
-			Vector2 newPosition = cam.ScreenToWorldPoint(Input.mousePosition);
-			transform.position = newPosition;
+			/*Vector2 newPosition = cam.ScreenToWorldPoint(Input.mousePosition);
+			transform.position = newPosition;*/
 
 			//mobile
-			/*if (Input.touchCount > 0)
+			if (Input.touchCount > 0)
 			{
 				Touch touch = Input.GetTouch(0);
 
@@ -76,7 +76,7 @@ public class Player : MonoBehaviour {
 					GetComponent<Rigidbody2D> ().simulated = false;
 				break;
 				}
-			}*/
+			}
 
 			yield return null;
 		}

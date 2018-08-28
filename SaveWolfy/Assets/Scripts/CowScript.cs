@@ -82,7 +82,7 @@ public class CowScript : AIManager, IPooledObject{
 
 				if (fxHit) {
 					Destroy (Instantiate (fxHit, collision.contacts [0].point, Quaternion.Euler (new Vector3 (0, 0, -1))).gameObject, 0.5f);
-					SoundManager.instance.RandomizeSfx (cowHit1, cowHit2, cowHit3, AttackHit1, AttackHit2, AttackHit3, AttackHit4, AttackHit5, AttackHit6);
+					SoundManager.instance.RandomizeSfx4 (cowHit1, cowHit2, cowHit3, AttackHit1, AttackHit2, AttackHit3, AttackHit4, AttackHit5, AttackHit6);
 				}
 
 				float magnitude = Mathf.Sqrt (impactSpeed.magnitude) * playerForce;
