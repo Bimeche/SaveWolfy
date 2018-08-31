@@ -860,9 +860,9 @@ PlayerSettings:
   cloudServicesEnabled: {}
   facebookSdkVersion: 7.9.4
   apiCompatibilityLevel: 2
-  cloudProjectId: 
-  projectName: 
-  organizationId: 
+  cloudProjectId: f2c5cd4b-e63e-4f2e-a6c8-1892b8723d56
+  projectName: Save Wolfy
+  organizationId: wolfy-gaang
   cloudEnabled: 0
   enableNativePlatformBackendsForNewInputSystem: 0
   disableOldInputManagerSupport: 0
