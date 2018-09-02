@@ -2,14 +2,19 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-
+using UnityEngine.Advertisements;
 
 public class MySceneManager : MonoBehaviour {
 
 	public AudioClip gameStart;
 
 	public void LoadScene (string sceneName) {
-		SceneManager.LoadScene(sceneName);
+		if (string.Equals(sceneName, "SaveWolfy")) {
+			ShowAd ();
+		}
+		else {
+			SceneManager.LoadScene(sceneName);
+		}
 	}
 
 	public void LoadIntro () {
@@ -24,5 +29,29 @@ public class MySceneManager : MonoBehaviour {
 	public void LeaveGame () {
 		SoundManager.instance.RandomizeSfx (gameStart, gameStart);
 		Application.Quit();
+	}
+
+	public void ShowAd(){
+		if (Advertisement.IsReady ("video")) {
+			Advertisement.Show ("video", new ShowOptions (){ resultCallback = HandleAdResult });
+		} else {
+			SceneManager.LoadScene("SaveWolfy");
+		}
+	}
+
+	private void HandleAdResult(ShowResult result){
+		switch (result) {
+		case ShowResult.Finished:
+			SceneManager.LoadScene("SaveWolfy");
+			break;
+
+		case ShowResult.Skipped:
+			SceneManager.LoadScene("SaveWolfy");
+			break;
+
+		case ShowResult.Failed:
+			SceneManager.LoadScene("SaveWolfy");
+			break;
+		}
 	}
 }
