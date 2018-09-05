@@ -34,6 +34,8 @@ public class BackGround : MonoBehaviour {
 	public GameObject playerSprite3;
 	public GameObject playerSprite4;
 
+	public GameObject removeAdsButton;
+
 	public AudioClip buttonClic;
 
 
@@ -42,6 +44,7 @@ public class BackGround : MonoBehaviour {
 	void Start () {
 		UpdateBackGround ();
 		UpdateCursorSkin ();
+		UpdateButton ();
 	}
 
 	public void ChangeBackGround(int id){
@@ -189,6 +192,14 @@ public class BackGround : MonoBehaviour {
 			playerSprite3.SetActive (false);
 			playerSprite4.SetActive (false);
 			break;
+		}
+	}
+
+	void UpdateButton(){
+		int adsRemoved = PlayerPrefs.GetInt ("AdsRemoved");
+		if (adsRemoved == 1) {
+			removeAdsButton.GetComponent<CanvasGroup> ().alpha = 0;
+			removeAdsButton.GetComponent<CanvasGroup> ().blocksRaycasts = false;
 		}
 	}
 }

@@ -10,7 +10,7 @@ public class MySceneManager : MonoBehaviour {
 
 	public void LoadScene (string sceneName) {
 		if (string.Equals(sceneName, "SaveWolfy")) {
-			if (PlayerPrefs.GetInt ("AdCount") >= 200) {
+			if (PlayerPrefs.GetInt ("AdCount") >= 150) {
 				ShowAd ();
 			}
 			else {
@@ -27,7 +27,7 @@ public class MySceneManager : MonoBehaviour {
 			SceneManager.LoadScene ("Intro");
 			PlayerPrefs.SetInt ("Intro", 1);
 		} else {
-			if (PlayerPrefs.GetInt ("AdCount") >= 200) {
+			if (PlayerPrefs.GetInt ("AdCount") >= 150) {
 				ShowAd ();
 			}
 			else {
@@ -42,7 +42,7 @@ public class MySceneManager : MonoBehaviour {
 	}
 
 	public void ShowAd(){
-		if (Advertisement.IsReady ("video")) {
+		if (Advertisement.IsReady ("video") && PlayerPrefs.GetInt ("AdsRemoved") == 0) {
 			Advertisement.Show ("video", new ShowOptions (){ resultCallback = HandleAdResult });
 			PlayerPrefs.SetInt ("AdCount", 0);
 		} else {
