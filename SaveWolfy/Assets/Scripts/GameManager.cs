@@ -148,6 +148,8 @@ public class GameManager : MonoBehaviour
 
 		finalScore.text = "" + playerScore;
 		PlayerPrefs.SetInt ("TotalScore", PlayerPrefs.GetInt ("TotalScore") + playerScore);
+		PlayerPrefs.SetInt ("AdCount", PlayerPrefs.GetInt ("AdCount") + playerScore);
+
 		if (PlayerPrefs.GetInt ("Ice") == 0 && PlayerPrefs.GetInt ("TotalScore") >= 500) {
 			SuccessManager.Instance.UnlockSkin ("Ice");
 		}

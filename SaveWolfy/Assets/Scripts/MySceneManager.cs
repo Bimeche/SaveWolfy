@@ -10,7 +10,12 @@ public class MySceneManager : MonoBehaviour {
 
 	public void LoadScene (string sceneName) {
 		if (string.Equals(sceneName, "SaveWolfy")) {
-			ShowAd ();
+			if (PlayerPrefs.GetInt ("AdCount") >= 200) {
+				ShowAd ();
+			}
+			else {
+				SceneManager.LoadScene("SaveWolfy");
+			}
 		}
 		else {
 			SceneManager.LoadScene(sceneName);
@@ -22,7 +27,12 @@ public class MySceneManager : MonoBehaviour {
 			SceneManager.LoadScene ("Intro");
 			PlayerPrefs.SetInt ("Intro", 1);
 		} else {
-			SceneManager.LoadScene ("SaveWolfy");
+			if (PlayerPrefs.GetInt ("AdCount") >= 200) {
+				ShowAd ();
+			}
+			else {
+				SceneManager.LoadScene("SaveWolfy");
+			}
 		}
 	}
 
@@ -34,6 +44,7 @@ public class MySceneManager : MonoBehaviour {
 	public void ShowAd(){
 		if (Advertisement.IsReady ("video")) {
 			Advertisement.Show ("video", new ShowOptions (){ resultCallback = HandleAdResult });
+			PlayerPrefs.SetInt ("AdCount", 0);
 		} else {
 			SceneManager.LoadScene("SaveWolfy");
 		}

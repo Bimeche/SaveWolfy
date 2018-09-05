@@ -246,8 +246,8 @@ PlayerSettings:
   AndroidTargetArchitectures: 1
   AndroidSplashScreenScale: 0
   androidSplashScreen: {fileID: 0}
-  AndroidKeystoreName: D:/paull/Documents/SaveWolfyProject/SaveWolfy/user.keystore
-  AndroidKeyaliasName: 
+  AndroidKeystoreName: C:/Users/paull/Desktop/Projet SaveWolfy/Published/keystore/savewolfykeystore.keystore
+  AndroidKeyaliasName: savewolfy
   AndroidBuildApkPerCpuArchitecture: 0
   AndroidTVCompatibility: 1
   AndroidIsGame: 1
