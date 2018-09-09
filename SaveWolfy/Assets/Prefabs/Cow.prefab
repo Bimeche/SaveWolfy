@@ -412,10 +412,10 @@ MonoBehaviour:
   AttackHit4: {fileID: 8300000, guid: 03a33f6c408c08e42bd6b515ff10045a, type: 3}
   AttackHit5: {fileID: 8300000, guid: ebbc3f0dcb9688b42b58c2e6ca4183fd, type: 3}
   AttackHit6: {fileID: 8300000, guid: 42f92c3de199f234786ec738c200cc3e, type: 3}
-  cowDeath1: {fileID: 8300000, guid: 101024dc235e3ea45932304f2ff68933, type: 3}
-  cowDeath2: {fileID: 8300000, guid: 44ada094a4b1f504fa0142729d0dbc1f, type: 3}
-  cowDeath3: {fileID: 8300000, guid: 47937c0c547ad02438e806173e051cc7, type: 3}
-  cowDeath4: {fileID: 8300000, guid: 47937c0c547ad02438e806173e051cc7, type: 3}
+  cowDeath1: {fileID: 8300000, guid: 025b6c40407a0994587f2019b5ae626d, type: 3}
+  cowDeath2: {fileID: 8300000, guid: b5335dbe8d1a8814cbb6340417181358, type: 3}
+  cowDeath3: {fileID: 8300000, guid: 534c1eb11eaa8aa47829fc1563708d08, type: 3}
+  cowDeath4: {fileID: 8300000, guid: 534c1eb11eaa8aa47829fc1563708d08, type: 3}
   cowDeath5: {fileID: 8300000, guid: 9fa5b290b441bfc4491066977fcb1560, type: 3}
   fxHit: {fileID: 4077443831883114, guid: b7b371392cbfb7b4d9dad4830e89dd1e, type: 2}
   fxPosition: {x: 0, y: 0, z: 0}

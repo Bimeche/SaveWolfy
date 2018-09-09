@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
+using UnityEngine.Advertisements;
 
 public class GameManager : MonoBehaviour
 {
@@ -69,7 +70,7 @@ public class GameManager : MonoBehaviour
 	}
 	// Use this for initialization
 	void Start () {
-		//PlayerPrefs.DeleteAll ();
+		PlayerPrefs.DeleteAll ();
 		Time.timeScale = 1f;
 		gameEnded = false;
 		SoundManager.instance.PauseMusic(false);
@@ -83,6 +84,8 @@ public class GameManager : MonoBehaviour
 		highScoreSucessFx.SetActive(false);
 		score.GetComponent<ScoreUpdate> ().Initialize(playerScore);
 		SoundManager.instance.RandomizeSfx3 (startSound, startSound);
+		Advertisement.Initialize ("2770179");
+
 	}
 
 	// Update is called once per frame
