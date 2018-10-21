@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
+using GooglePlayGames;
 
 public class MenuManager : MonoBehaviour {
 	
@@ -86,6 +87,8 @@ public class MenuManager : MonoBehaviour {
 		GameData.ResetValues();
 		CheckData ();
 		SetHighscore ();
+		//GooglePlay Services Initialize
+
 	}
 
 	public void OpenSkinMenu(){
@@ -111,12 +114,19 @@ public class MenuManager : MonoBehaviour {
 
 	public void OpenHighScoreMenu(){
 		SoundManager.instance.RandomizeSfx (buttonClic, buttonClic);
-		mainMenuPanel.GetComponent<CanvasGroup>().alpha = 0;
-		mainMenuPanel.GetComponent<CanvasGroup>().blocksRaycasts = false;
+        Social.localUser.Authenticate((bool success) =>
+        {
+        });
+        if (Social.localUser.authenticated)
+        {
+            Social.ShowLeaderboardUI();
+        }
+            mainMenuPanel.GetComponent<CanvasGroup>().alpha = 0;
+            mainMenuPanel.GetComponent<CanvasGroup>().blocksRaycasts = false;
 
-		highScorePanel.GetComponent<CanvasGroup>().alpha = 1;
-		highScorePanel.GetComponent<CanvasGroup>().blocksRaycasts = true;
-	}
+            highScorePanel.GetComponent<CanvasGroup>().alpha = 1;
+            highScorePanel.GetComponent<CanvasGroup>().blocksRaycasts = true;
+    }
 
 	public void SkinScrollRigth(){
 		SoundManager.instance.RandomizeSfx (buttonClic, buttonClic);
@@ -362,4 +372,13 @@ public class MenuManager : MonoBehaviour {
 	public void SetHighscore(){
 		highScoreText.GetComponent<Text>().text = ((int)PlayerPrefs.GetFloat ("Highscore")).ToString();
 	}
+
+    //Achievements
+    public void OnAchievementClick()
+    {
+        if (Social.localUser.authenticated)
+        {
+            Social.ShowAchievementsUI();
+        }
+    }
 }

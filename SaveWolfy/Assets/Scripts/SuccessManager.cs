@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using UnityEngine;
+using GooglePlayGames;
 
 public class SuccessManager : MonoBehaviour {
 
@@ -35,32 +36,53 @@ public class SuccessManager : MonoBehaviour {
 		successFx.SetActive (true);
 		SoundManager.instance.RandomizeSfx3 (successSound, successSound);
 		switch (name) {
-		case "Fire":			
+		case "Fire":
+            Social.ReportProgress(SWGameServices.achievement_apocalypse_cow, 100.0f, (bool success) =>
+            {
+            });
 			fireImage.SetActive (true);
 			StartCoroutine (Despawn (fireImage));
 			break;
 		case "Ice":
-			iceImage.SetActive (true);
+            Social.ReportProgress(SWGameServices.achievement_white_fang, 100.0f, (bool success) =>
+            {
+            });
+            iceImage.SetActive (true);
 			StartCoroutine (Despawn (iceImage));
 			break;
 		case "Desert":
-			desertImage.SetActive (true);
+            Social.ReportProgress(SWGameServices.achievement_red_cows_redemption, 100.0f, (bool success) =>
+            {
+                });
+            desertImage.SetActive (true);
 			StartCoroutine (Despawn (desertImage));
 			break;
 		case "Green":
-			greenImage.SetActive (true);
+            Social.ReportProgress(SWGameServices.achievement_release_the_cows, 100.0f, (bool success) =>
+            {
+            });
+            greenImage.SetActive (true);
 			StartCoroutine (Despawn (greenImage));
 			break;
 		case "Purple":
-			purpleImage.SetActive (true);
+            Social.ReportProgress(SWGameServices.achievement_purple_rain, 100.0f, (bool success) =>
+            {
+            });
+            purpleImage.SetActive (true);
 			StartCoroutine (Despawn (purpleImage));
 			break;
 		case "Yellow":
-			yellowImage.SetActive (true);
+            Social.ReportProgress(SWGameServices.achievement_why_cant_i_hold_all_these_cows, 100.0f, (bool success) =>
+            {
+            });
+            yellowImage.SetActive (true);
 			StartCoroutine (Despawn (yellowImage));
 			break;
 		case "Red":
-			redImage.SetActive (true);
+            Social.ReportProgress(SWGameServices.achievement_its_a_bomb_a_bomb, 100.0f, (bool success) =>
+            {
+            });
+            redImage.SetActive (true);
 			StartCoroutine (Despawn (redImage));
 			break;
 		default:

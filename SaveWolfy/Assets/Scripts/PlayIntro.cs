@@ -61,7 +61,7 @@ public class PlayIntro : MonoBehaviour {
 			if (skipIntro.GetComponent<CanvasGroup>().alpha == 0)
 				skipIntro.GetComponent<CanvasGroup>().alpha = 1;
 			else
-				SceneManager.LoadScene(2);
+				SceneManager.LoadScene("SaveWolfy");
 		}
 	}
 }

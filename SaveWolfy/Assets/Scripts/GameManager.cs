@@ -4,6 +4,8 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 using UnityEngine.Advertisements;
+using GooglePlayGames;
+using GooglePlayGames.BasicApi.SavedGame;
 
 public class GameManager : MonoBehaviour
 {
@@ -68,9 +70,10 @@ public class GameManager : MonoBehaviour
 			Camera.main.rect = rect;
 		}
 	}
+
 	// Use this for initialization
 	void Start () {
-		PlayerPrefs.DeleteAll ();
+		//PlayerPrefs.DeleteAll ();
 		Time.timeScale = 1f;
 		gameEnded = false;
 		SoundManager.instance.PauseMusic(false);
@@ -85,7 +88,6 @@ public class GameManager : MonoBehaviour
 		score.GetComponent<ScoreUpdate> ().Initialize(playerScore);
 		SoundManager.instance.RandomizeSfx3 (startSound, startSound);
 		Advertisement.Initialize ("2770179");
-
 	}
 
 	// Update is called once per frame
@@ -163,6 +165,9 @@ public class GameManager : MonoBehaviour
 		if (playerScore > PlayerPrefs.GetFloat("Highscore"))
 		{
 			PlayerPrefs.SetFloat ("Highscore", playerScore);
+            Social.ReportScore(playerScore, SWGameServices.leaderboard_hall_of_fame, (bool success) => 
+            {
+            });
 			bestScore.CrossFadeAlpha(1f, 0f, true);
 			scoreToBeat.CrossFadeAlpha(0f, 0f, true);
 
